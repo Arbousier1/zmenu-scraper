@@ -1,0 +1,47 @@
+name: Daily Documentation Scraper
+
+on:
+  schedule:
+    # 每天 UTC 时间 00:00 执行一次 (对应北京时间早上 8:00)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # 添加这个配置，允许你在 GitHub 网页端手动点击按钮运行测试
+
+# 赋予 GitHub Actions 推送代码到仓库的写入权限 (必填)
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 配置 Go 环境
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.21' # 指定 Go 版本
+
+      - name: 初始化 Go 模块并下载依赖
+        run: |
+          # 如果仓库里没有 go.mod，就自动初始化
+          if [ ! -f go.mod ]; then
+            go mod init zmenu-scraper
+          fi
+          # 下载 main.go 里需要的 colly 爬虫依赖
+          go mod tidy
+
+      - name: 运行爬虫程序
+        run: go run main.go
+
+      - name: 提交并推送变更
+        run: |
+          # 配置机器人账号信息
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # 将爬取结果以及 Go 自动生成的配置文件添加到暂存区
+          git add output.txt go.mod go.sum
+          
+          # 检查文件是否有变动。如果有变动，就 commit 并 push；如果没有变动，则跳过，避免报错。
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update scraped docs and go modules" && git push)
