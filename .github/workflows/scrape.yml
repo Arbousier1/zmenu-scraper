@@ -39,6 +39,8 @@ jobs:
           RETRY_MAX_ATTEMPTS: "8"
           RETRY_BACKOFF_MS: "2000"
           RETRY_MAX_WAIT_MS: "30000"
+          RATE_LIMIT_PAGE_RETRIES: "3"
+          RATE_LIMIT_COOLDOWN_SEC: "60"
         run: go run main.go
 
       - name: 提交并推送变更

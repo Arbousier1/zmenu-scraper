@@ -24,6 +24,9 @@ const (
 	defaultRetryAttempts  = 8
 	defaultRetryBackoffMS = 2000
 	defaultRetryMaxWaitMS = 30000
+	defaultRateLimitPageRetries   = 3
+	defaultRateLimitCooldownSec   = 60
+	defaultRateLimitBurstThreshold = 3
 )
 
 var (
@@ -75,17 +78,21 @@ func main() {
 	}
 
 	maxPages := parsePositiveIntEnv("MAX_PAGES", defaultMaxPages)
+	rateLimitPageRetries := parsePositiveIntEnv("RATE_LIMIT_PAGE_RETRIES", defaultRateLimitPageRetries)
+	rateLimitCooldownSec := parsePositiveIntEnv("RATE_LIMIT_COOLDOWN_SEC", defaultRateLimitCooldownSec)
 	f := newFetcher()
 	log.Printf("crawl start: %s, prefix: %s, max pages: %d", startURL, crawlPrefix, maxPages)
 	log.Printf(
-		"fetch config: delay=%s retries=%d backoff=%s max-wait=%s",
+		"fetch config: delay=%s retries=%d backoff=%s max-wait=%s page-429-retries=%d cooldown=%ds",
 		f.requestDelay,
 		f.retryAttempts,
 		f.retryBackoff,
 		f.retryMaxWait,
+		rateLimitPageRetries,
+		rateLimitCooldownSec,
 	)
 
-	pages, err := crawlAllPages(startURL, crawlPrefix, maxPages, f)
+	pages, err := crawlAllPages(startURL, crawlPrefix, maxPages, f, rateLimitPageRetries, time.Duration(rateLimitCooldownSec)*time.Second)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -101,7 +108,14 @@ func main() {
 	log.Printf("scrape finished. pages: %d", len(pages))
 }
 
-func crawlAllPages(startURL, crawlPrefix string, maxPages int, f *fetcher) ([]pageResult, error) {
+func crawlAllPages(
+	startURL,
+	crawlPrefix string,
+	maxPages int,
+	f *fetcher,
+	rateLimitPageRetries int,
+	rateLimitCooldown time.Duration,
+) ([]pageResult, error) {
 	startParsed, _ := url.Parse(startURL)
 	allowedHost := strings.ToLower(startParsed.Hostname())
 	startCanonical, ok := normalizeDocURL(startURL, allowedHost, crawlPrefix)
@@ -117,6 +131,8 @@ func crawlAllPages(startURL, crawlPrefix string, maxPages int, f *fetcher) ([]pa
 		inQueue[rootCanonical] = true
 	}
 	visited := make(map[string]bool)
+	rateLimitedRetries := make(map[string]int)
+	consecutiveRateLimited := 0
 	pages := make([]pageResult, 0, maxPages)
 	failed := make([]string, 0)
 
@@ -127,14 +143,42 @@ func crawlAllPages(startURL, crawlPrefix string, maxPages int, f *fetcher) ([]pa
 		if visited[currentURL] {
 			continue
 		}
-		visited[currentURL] = true
 
 		content, source, err := fetchPageContent(currentURL, f)
 		if err != nil {
+			is429 := hasHTTPStatus(err, http.StatusTooManyRequests)
+			if is429 {
+				consecutiveRateLimited++
+				if rateLimitedRetries[currentURL] < rateLimitPageRetries {
+					rateLimitedRetries[currentURL]++
+					queue = append(queue, currentURL)
+					inQueue[currentURL] = true
+					log.Printf(
+						"rate-limited, defer %s (%d/%d)",
+						currentURL,
+						rateLimitedRetries[currentURL],
+						rateLimitPageRetries,
+					)
+
+					if consecutiveRateLimited >= defaultRateLimitBurstThreshold {
+						log.Printf("too many 429 responses, cooling down for %s", rateLimitCooldown)
+						time.Sleep(rateLimitCooldown)
+						consecutiveRateLimited = 0
+					}
+					continue
+				}
+			} else {
+				consecutiveRateLimited = 0
+			}
+
+			visited[currentURL] = true
 			log.Printf("skip %s: %v", currentURL, err)
 			failed = append(failed, currentURL)
 			continue
 		}
+
+		visited[currentURL] = true
+		consecutiveRateLimited = 0
 		pages = append(pages, pageResult{
 			URL:     currentURL,
 			Source:  source,
@@ -406,6 +450,14 @@ func clampDuration(v, min, max time.Duration) time.Duration {
 		return max
 	}
 	return v
+}
+
+func hasHTTPStatus(err error, code int) bool {
+	statusErr := &httpStatusError{}
+	if errors.As(err, &statusErr) {
+		return statusErr.StatusCode == code
+	}
+	return false
 }
 
 func normalizeDocURL(rawURL, allowedHost, crawlPrefix string) (string, bool) {
