@@ -1,4 +1,4 @@
-标题: Getting Started | GroupeZ Docs
+Title: Getting Started | GroupeZ Docs
 
 Getting StartedOn this pageGetting Started with zMenu
 zMenu is the most powerful and flexible inventory (GUI) plugin for Minecraft servers. It allows you to create beautiful, interactive menus with an extensive configuration system that gives you complete control over every aspect of your inventories.
