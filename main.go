@@ -1,6 +1,7 @@
 package main
 
 import (
+	"errors"
 	"fmt"
 	"io"
 	"log"
@@ -19,6 +20,10 @@ const (
 	defaultMaxPages  = 80
 	fallbackPrefix   = "https://r.jina.ai/http://"
 	browserUA        = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+	defaultRequestDelayMS = 1500
+	defaultRetryAttempts  = 8
+	defaultRetryBackoffMS = 2000
+	defaultRetryMaxWaitMS = 30000
 )
 
 var (
@@ -30,6 +35,27 @@ type pageResult struct {
 	URL     string
 	Source  string
 	Content string
+}
+
+type fetcher struct {
+	client         *http.Client
+	requestDelay   time.Duration
+	retryAttempts  int
+	retryBackoff   time.Duration
+	retryMaxWait   time.Duration
+	lastRequestAt  time.Time
+}
+
+type httpStatusError struct {
+	StatusCode int
+	RetryAfter time.Duration
+}
+
+func (e *httpStatusError) Error() string {
+	if e.RetryAfter > 0 {
+		return fmt.Sprintf("unexpected status: %d (retry-after=%s)", e.StatusCode, e.RetryAfter)
+	}
+	return fmt.Sprintf("unexpected status: %d", e.StatusCode)
 }
 
 func main() {
@@ -49,9 +75,17 @@ func main() {
 	}
 
 	maxPages := parsePositiveIntEnv("MAX_PAGES", defaultMaxPages)
+	f := newFetcher()
 	log.Printf("crawl start: %s, prefix: %s, max pages: %d", startURL, crawlPrefix, maxPages)
+	log.Printf(
+		"fetch config: delay=%s retries=%d backoff=%s max-wait=%s",
+		f.requestDelay,
+		f.retryAttempts,
+		f.retryBackoff,
+		f.retryMaxWait,
+	)
 
-	pages, err := crawlAllPages(startURL, crawlPrefix, maxPages)
+	pages, err := crawlAllPages(startURL, crawlPrefix, maxPages, f)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -67,7 +101,7 @@ func main() {
 	log.Printf("scrape finished. pages: %d", len(pages))
 }
 
-func crawlAllPages(startURL, crawlPrefix string, maxPages int) ([]pageResult, error) {
+func crawlAllPages(startURL, crawlPrefix string, maxPages int, f *fetcher) ([]pageResult, error) {
 	startParsed, _ := url.Parse(startURL)
 	allowedHost := strings.ToLower(startParsed.Hostname())
 	startCanonical, ok := normalizeDocURL(startURL, allowedHost, crawlPrefix)
@@ -95,7 +129,7 @@ func crawlAllPages(startURL, crawlPrefix string, maxPages int) ([]pageResult, er
 		}
 		visited[currentURL] = true
 
-		content, source, err := fetchPageContent(currentURL)
+		content, source, err := fetchPageContent(currentURL, f)
 		if err != nil {
 			log.Printf("skip %s: %v", currentURL, err)
 			failed = append(failed, currentURL)
@@ -127,9 +161,9 @@ func crawlAllPages(startURL, crawlPrefix string, maxPages int) ([]pageResult, er
 	return pages, nil
 }
 
-func fetchPageContent(pageURL string) (string, string, error) {
+func fetchPageContent(pageURL string, f *fetcher) (string, string, error) {
 	fallbackURL := toFallbackURL(pageURL)
-	body, err := fetchText(fallbackURL)
+	body, err := f.fetchText(fallbackURL)
 	if err != nil {
 		return "", "", fmt.Errorf("fallback fetch failed: %w", err)
 	}
@@ -202,8 +236,54 @@ func buildOutput(startURL, crawlPrefix string, pages []pageResult) string {
 	return strings.TrimSpace(sb.String()) + "\n"
 }
 
-func fetchText(rawURL string) (string, error) {
-	client := &http.Client{Timeout: 45 * time.Second}
+func newFetcher() *fetcher {
+	delayMS := parsePositiveIntEnv("REQUEST_DELAY_MS", defaultRequestDelayMS)
+	retries := parsePositiveIntEnv("RETRY_MAX_ATTEMPTS", defaultRetryAttempts)
+	backoffMS := parsePositiveIntEnv("RETRY_BACKOFF_MS", defaultRetryBackoffMS)
+	maxWaitMS := parsePositiveIntEnv("RETRY_MAX_WAIT_MS", defaultRetryMaxWaitMS)
+
+	return &fetcher{
+		client: &http.Client{
+			Timeout: 45 * time.Second,
+		},
+		requestDelay:  time.Duration(delayMS) * time.Millisecond,
+		retryAttempts: retries,
+		retryBackoff:  time.Duration(backoffMS) * time.Millisecond,
+		retryMaxWait:  time.Duration(maxWaitMS) * time.Millisecond,
+	}
+}
+
+func (f *fetcher) fetchText(rawURL string) (string, error) {
+	var lastErr error
+
+	for attempt := 1; attempt <= f.retryAttempts; attempt++ {
+		body, err := f.fetchTextOnce(rawURL)
+		if err == nil {
+			return body, nil
+		}
+		lastErr = err
+
+		shouldRetry, waitFor := f.retryWait(err, attempt)
+		if !shouldRetry {
+			return "", err
+		}
+		log.Printf(
+			"retrying (%d/%d) after %s for %s (%v)",
+			attempt,
+			f.retryAttempts,
+			waitFor,
+			rawURL,
+			err,
+		)
+		time.Sleep(waitFor)
+	}
+
+	return "", lastErr
+}
+
+func (f *fetcher) fetchTextOnce(rawURL string) (string, error) {
+	f.waitForNextRequest()
+
 	req, err := http.NewRequest(http.MethodGet, rawURL, nil)
 	if err != nil {
 		return "", err
@@ -213,14 +293,18 @@ func fetchText(rawURL string) (string, error) {
 	req.Header.Set("Accept", "text/plain, text/html;q=0.9, */*;q=0.8")
 	req.Header.Set("Accept-Language", "en-US,en;q=0.9")
 
-	resp, err := client.Do(req)
+	resp, err := f.client.Do(req)
 	if err != nil {
 		return "", err
 	}
 	defer resp.Body.Close()
 
 	if resp.StatusCode < 200 || resp.StatusCode >= 300 {
-		return "", fmt.Errorf("unexpected status: %d", resp.StatusCode)
+		_, _ = io.Copy(io.Discard, resp.Body)
+		return "", &httpStatusError{
+			StatusCode: resp.StatusCode,
+			RetryAfter: parseRetryAfter(resp.Header.Get("Retry-After")),
+		}
 	}
 
 	body, err := io.ReadAll(resp.Body)
@@ -228,6 +312,94 @@ func fetchText(rawURL string) (string, error) {
 		return "", err
 	}
 	return string(body), nil
+}
+
+func (f *fetcher) waitForNextRequest() {
+	if f.requestDelay <= 0 {
+		return
+	}
+	if !f.lastRequestAt.IsZero() {
+		wait := f.requestDelay - time.Since(f.lastRequestAt)
+		if wait > 0 {
+			time.Sleep(wait)
+		}
+	}
+	f.lastRequestAt = time.Now()
+}
+
+func (f *fetcher) retryWait(err error, attempt int) (bool, time.Duration) {
+	if attempt >= f.retryAttempts {
+		return false, 0
+	}
+
+	wait := f.backoffForAttempt(attempt)
+	statusErr := &httpStatusError{}
+	if errors.As(err, &statusErr) {
+		switch statusErr.StatusCode {
+		case http.StatusTooManyRequests, http.StatusRequestTimeout:
+			if statusErr.RetryAfter > wait {
+				wait = statusErr.RetryAfter
+			}
+			return true, clampDuration(wait, 0, f.retryMaxWait)
+		default:
+			if statusErr.StatusCode >= 500 && statusErr.StatusCode <= 599 {
+				if statusErr.RetryAfter > wait {
+					wait = statusErr.RetryAfter
+				}
+				return true, clampDuration(wait, 0, f.retryMaxWait)
+			}
+			return false, 0
+		}
+	}
+
+	// Network errors are usually transient in CI, so retry with backoff.
+	return true, clampDuration(wait, 0, f.retryMaxWait)
+}
+
+func (f *fetcher) backoffForAttempt(attempt int) time.Duration {
+	wait := f.retryBackoff
+	for i := 1; i < attempt; i++ {
+		wait *= 2
+		if wait >= f.retryMaxWait {
+			return f.retryMaxWait
+		}
+	}
+	if wait <= 0 {
+		return time.Second
+	}
+	return wait
+}
+
+func parseRetryAfter(raw string) time.Duration {
+	raw = strings.TrimSpace(raw)
+	if raw == "" {
+		return 0
+	}
+
+	if seconds, err := strconv.Atoi(raw); err == nil {
+		if seconds <= 0 {
+			return 0
+		}
+		return time.Duration(seconds) * time.Second
+	}
+
+	if when, err := http.ParseTime(raw); err == nil {
+		wait := time.Until(when)
+		if wait > 0 {
+			return wait
+		}
+	}
+	return 0
+}
+
+func clampDuration(v, min, max time.Duration) time.Duration {
+	if v < min {
+		return min
+	}
+	if max > 0 && v > max {
+		return max
+	}
+	return v
 }
 
 func normalizeDocURL(rawURL, allowedHost, crawlPrefix string) (string, bool) {

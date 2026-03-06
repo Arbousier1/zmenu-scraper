@@ -35,6 +35,10 @@ jobs:
         env:
           TARGET_URL: https://docs.groupez.dev/zmenu/getting-started
           MAX_PAGES: "200"
+          REQUEST_DELAY_MS: "1500"
+          RETRY_MAX_ATTEMPTS: "8"
+          RETRY_BACKOFF_MS: "2000"
+          RETRY_MAX_WAIT_MS: "30000"
         run: go run main.go
 
       - name: 提交并推送变更
