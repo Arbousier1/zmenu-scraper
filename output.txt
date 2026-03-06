@@ -1,0 +1,85 @@
+标题: Getting Started | GroupeZ Docs
+
+Getting StartedOn this pageGetting Started with zMenu
+zMenu is the most powerful and flexible inventory (GUI) plugin for Minecraft servers. It allows you to create beautiful, interactive menus with an extensive configuration system that gives you complete control over every aspect of your inventories.
+What is zMenu?​
+zMenu is a premium-quality inventory plugin that enables server administrators to create custom GUIs (Graphical User Interfaces) for their Minecraft servers. Whether you need a simple server selector, a complex shop system, or an interactive quest menu, zMenu provides all the tools you need.
+Key Features​
+Highly Customizable Inventories​
+
+Create inventories of any size (9 to 54 slots)
+Multi-page support with automatic pagination
+Custom titles with placeholder support
+Fill items for empty slots
+Matrix-based layout system for easy design
+
+Powerful Button System​
+
+9 built-in button types: NONE, INVENTORY, BACK, NEXT, PREVIOUS, HOME, JUMP, MAIN_MENU, SWITCH
+Custom click actions for each mouse button
+View and click requirements
+Player head support with custom textures
+Dynamic item updates
+
+Extensive Action System​
+
+28+ action types including messages, sounds, commands, teleportation, and more
+Execute actions as player, console, or with OP permissions
+Chain multiple actions together
+Conditional actions with requirements
+
+Advanced Features​
+
+Pattern System: Create reusable button templates
+Player Data: Store and retrieve player-specific data
+Global Placeholders: Define values used across all inventories
+PlaceholderAPI Support: Full integration with PAPI
+MiniMessage Support: Modern text formatting for Paper servers
+Anti-Dupe System: Built-in protection against item duplication exploits
+Database Support: MySQL, MariaDB, and SQLite for data persistence
+
+Developer Friendly​
+
+Clean, well-documented API
+Custom button type registration
+Custom action type registration
+Event system for inventory interactions
+
+Why Choose zMenu?​
+FeaturezMenuOther PluginsButton Types9+ built-inLimitedAction Types28+BasicMulti-page SupportNativeOften requires workaroundsPattern SystemYesNoPlayer Data StorageYesRarelyMiniMessage SupportYesRarelyDatabase SupportMySQL/MariaDB/SQLiteUsually file-based onlyAPI QualityComprehensiveOften minimalActive DevelopmentYesVariesFreeYesOften paid
+How It Works​
+zMenu uses YAML configuration files to define your inventories. Here's a simplified overview:
+
+Inventories are defined in the inventories/ folder
+Each inventory contains buttons (items that players can interact with)
+Buttons can have actions that execute when clicked
+Requirements control who can see or click buttons
+Patterns allow you to reuse button configurations
+
+Simple Example​
+# inventories/my_menu.ymlname: "&6My First Menu"size: 27items:  welcome-button:    slot: 13    item:      material: DIAMOND      name: "&bWelcome!"      lore:        - "&7Click me to receive a message"    actions:      - type: message        messages:          - "&aHello, %player%!"          - "&7Thanks for using zMenu!"
+This creates a simple 27-slot inventory with a diamond in the center that sends a message when clicked.
+Supported Minecraft Versions​
+zMenu supports Minecraft versions 1.19 to 1.21+ and works with:
+
+Spigot
+Paper (recommended)
+Purpur
+Pufferfish
+Folia
+
+Next Steps​
+Ready to get started? Follow these steps:
+
+Install zMenu on your server
+Learn about the configuration system
+Create your first inventory
+Explore button types and actions
+
+Getting Help​
+
+Discord: Join our Discord server for support
+Modrinth: Download from Modrinth
+GitHub: Report issues on GitHub
+Dev Builds: Get development versions in the #builds channel on Discord
+Edit this pageNextInstalling zMenuWhat is zMenu?Key FeaturesHighly Customizable InventoriesPowerful Button SystemExtensive Action SystemAdvanced FeaturesDeveloper FriendlyWhy Choose zMenu?How It WorksSimple ExampleSupported Minecraft VersionsNext StepsGetting Help
