@@ -32,6 +32,8 @@ jobs:
           go mod tidy
 
       - name: 运行爬虫程序
+        env:
+          TARGET_URL: https://docs.groupez.dev/zmenu/getting-started
         run: go run main.go
 
       - name: 提交并推送变更
