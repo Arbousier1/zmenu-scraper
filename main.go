@@ -337,14 +337,20 @@ func (f *fetcher) retryWait(err error, attempt int) (bool, time.Duration) {
 	if errors.As(err, &statusErr) {
 		switch statusErr.StatusCode {
 		case http.StatusTooManyRequests, http.StatusRequestTimeout:
-			if statusErr.RetryAfter > wait {
-				wait = statusErr.RetryAfter
+			if statusErr.RetryAfter > 0 {
+				if statusErr.RetryAfter > wait {
+					wait = statusErr.RetryAfter
+				}
+				return true, wait
 			}
 			return true, clampDuration(wait, 0, f.retryMaxWait)
 		default:
 			if statusErr.StatusCode >= 500 && statusErr.StatusCode <= 599 {
-				if statusErr.RetryAfter > wait {
-					wait = statusErr.RetryAfter
+				if statusErr.RetryAfter > 0 {
+					if statusErr.RetryAfter > wait {
+						wait = statusErr.RetryAfter
+					}
+					return true, wait
 				}
 				return true, clampDuration(wait, 0, f.retryMaxWait)
 			}
