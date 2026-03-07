@@ -1,7 +1,7 @@
 Start URL: https://docs.groupez.dev/zmenu/getting-started
 Crawl Prefix: /zmenu/
 Pages: 41
-Generated At: 2026-03-06T14:15:53Z
+Generated At: 2026-03-07T00:58:26Z
 
 ================================================================================
 Page 1/41
@@ -12,7 +12,7 @@ Title: Getting Started | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/getting-started
 
-Published Time: Thu, 05 Mar 2026 10:45:39 GMT
+Published Time: Fri, 06 Mar 2026 21:00:56 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -180,7 +180,7 @@ Title: Actions | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/actions
 
-Published Time: Thu, 05 Mar 2026 10:45:39 GMT
+Published Time: Fri, 06 Mar 2026 21:00:56 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -840,8 +840,6 @@ Title: Button Configuration | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/button
 
-Published Time: Thu, 05 Mar 2026 10:45:40 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -1181,7 +1179,7 @@ Place the item in the player's inventory instead of displaying it in the menu.
 
 This feature requires [zMenu+](https://docs.groupez.dev/zmenu/zmenu-plus) to work.
 
-`items:  reward-item:    slot: 0    player-inventory: true    item:      material: DIAMOND_SWORD      name: "&6&lReward Sword"      enchantments:        - type: SHARPNESS          level: 5`
+`items:  reward-item:    slot: 0    player-inventory: true    item:      material: DIAMOND_SWORD      name: "&6&lReward Sword"      enchantments:        - SHARPNESS,5`
 
 When `player-inventory` is `true`, the item will be placed directly in the player's inventory at the corresponding slot instead of being displayed in the GUI.
 
@@ -1279,7 +1277,7 @@ You can specify different actions for different click types:
 Complete Example[​](http://docs.groupez.dev/zmenu/configurations/buttons/button#complete-example "Direct link to Complete Example")
 -----------------------------------------------------------------------------------------------------------------------------------
 
-`items:  shop-item:    slot: 13    type: NONE    item:      material: DIAMOND_SWORD      name: "&6&lDiamond Sword"      lore:        - "&8&m─────────────────"        - ""        - "&7A powerful sword!"        - ""        - "&7Price: &a$500"        - "&7Your balance: &e$%vault_eco_balance%"        - ""        - "&8&m─────────────────"        - ""        - "&e▸ Click to purchase"      enchantments:        - type: SHARPNESS          level: 5      flags:        - HIDE_ENCHANTS      glow: true    click-requirement:      requirements:        - type: placeholder          placeholder: "%vault_eco_balance%"          action: SUPERIOR_OR_EQUAL          value: 500          deny:            - type: message              messages:                - "&cYou need $500 to buy this!"            - type: sound              sound: ENTITY_VILLAGER_NO      success:        - type: console-command          commands:            - "eco take %player% 500"            - "give %player% diamond_sword{Enchantments:[{id:sharpness,lvl:5}]} 1"        - type: message          messages:            - "&aPurchase successful!"            - "&7You bought a &6Diamond Sword&7!"        - type: sound          sound: ENTITY_PLAYER_LEVELUP        - type: close`
+`items:  shop-item:    slot: 13    type: NONE    item:      material: DIAMOND_SWORD      name: "&6&lDiamond Sword"      lore:        - "&8&m─────────────────"        - ""        - "&7A powerful sword!"        - ""        - "&7Price: &a$500"        - "&7Your balance: &e$%vault_eco_balance%"        - ""        - "&8&m─────────────────"        - ""        - "&e▸ Click to purchase"      enchantments:        - SHARPNESS,5      flags:        - HIDE_ENCHANTS      glow: true    click-requirement:      requirements:        - type: placeholder          placeholder: "%vault_eco_balance%"          action: SUPERIOR_OR_EQUAL          value: 500          deny:            - type: message              messages:                - "&cYou need $500 to buy this!"            - type: sound              sound: ENTITY_VILLAGER_NO      success:        - type: console-command          commands:            - "eco take %player% 500"            - "give %player% diamond_sword{Enchantments:[{id:sharpness,lvl:5}]} 1"        - type: message          messages:            - "&aPurchase successful!"            - "&7You bought a &6Diamond Sword&7!"        - type: sound          sound: ENTITY_PLAYER_LEVELUP        - type: close`
 
 stop-on-empty[​](http://docs.groupez.dev/zmenu/configurations/buttons/button#stop-on-empty "Direct link to stop-on-empty")
 --------------------------------------------------------------------------------------------------------------------------
@@ -1362,8 +1360,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/informati
 Title: Informations | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/informations
-
-Published Time: Thu, 05 Mar 2026 10:45:38 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -1571,8 +1567,6 @@ Title: Creating an Inventory | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/inventories/create-inventory
 
-Published Time: Thu, 05 Mar 2026 10:45:39 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -1734,8 +1728,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/installation
 Title: Installing zMenu | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/installation
-
-Published Time: Thu, 05 Mar 2026 10:45:39 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -1926,8 +1918,6 @@ Title: INPUT Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/input
 
-Published Time: Thu, 05 Mar 2026 10:45:40 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -2014,8 +2004,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/dialogues
 Title: Dialogues | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/dialogues
-
-Published Time: Thu, 05 Mar 2026 10:45:39 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -2321,8 +2309,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/patterns
 Title: Patterns | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/patterns
-
-Published Time: Thu, 05 Mar 2026 10:45:38 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -2676,8 +2662,6 @@ Title: Player Data | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/player-data
 
-Published Time: Thu, 05 Mar 2026 10:45:38 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -2836,8 +2820,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/requireme
 Title: Requirements | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/requirements
-
-Published Time: Thu, 05 Mar 2026 10:45:38 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -3266,8 +3248,6 @@ Title: NONE Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/none
 
-Published Time: Thu, 05 Mar 2026 10:45:40 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -3369,8 +3349,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/items/com
 Title: Components | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/items/components
-
-Published Time: Thu, 05 Mar 2026 10:45:39 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -4463,8 +4441,6 @@ Title: Item Configuration | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/items/item
 
-Published Time: Thu, 05 Mar 2026 10:45:39 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -4687,7 +4663,7 @@ Get head textures from sites like [minecraft-heads.com](https://minecraft-heads.
 
 Add enchantments to the item.
 
-`item:  material: DIAMOND_SWORD  enchantments:    - type: SHARPNESS      level: 5    - type: UNBREAKING      level: 3    - type: FIRE_ASPECT      level: 2`
+`item:  material: DIAMOND_SWORD  enchantments:    - SHARPNESS,5    - UNBREAKING,3    - FIRE_ASPECT,2`
 
 Common enchantment types:
 
@@ -4702,7 +4678,7 @@ Common enchantment types:
 
 Hide certain item attributes using item flags.
 
-`item:  material: DIAMOND_SWORD  enchantments:    - type: SHARPNESS      level: 5  flags:    - HIDE_ENCHANTS    - HIDE_ATTRIBUTES`
+`item:  material: DIAMOND_SWORD  enchantments:    - SHARPNESS,5  flags:    - HIDE_ENCHANTS    - HIDE_ATTRIBUTES`
 
 **Available Flags:**
 
@@ -4747,7 +4723,7 @@ Or with a custom texture URL:
 
 ### Enchanted Tool[​](http://docs.groupez.dev/zmenu/configurations/items/item#enchanted-tool "Direct link to Enchanted Tool")
 
-`item:  material: DIAMOND_PICKAXE  name: "&a&lMiner's Dream"  lore:    - "&7The ultimate mining tool"    - ""    - "&7Efficiency V"    - "&7Fortune III"    - "&7Unbreaking III"  enchantments:    - type: EFFICIENCY      level: 5    - type: FORTUNE      level: 3    - type: UNBREAKING      level: 3  flags:    - HIDE_ENCHANTS  glow: true`
+`item:  material: DIAMOND_PICKAXE  name: "&a&lMiner's Dream"  lore:    - "&7The ultimate mining tool"    - ""    - "&7Efficiency V"    - "&7Fortune III"    - "&7Unbreaking III"  enchantments:    - EFFICIENCY,5    - FORTUNE,3    - UNBREAKING,3  flags:    - HIDE_ENCHANTS  glow: true`
 
 ### Dynamic Item with Placeholders[​](http://docs.groupez.dev/zmenu/configurations/items/item#dynamic-item-with-placeholders "Direct link to Dynamic Item with Placeholders")
 
@@ -4827,8 +4803,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/zmenu-plus
 Title: zMenu+ | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/zmenu-plus
-
-Published Time: Thu, 05 Mar 2026 10:45:40 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -4966,8 +4940,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/commands-
 Title: Commands & Permissions | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/commands-permissions
-
-Published Time: Thu, 05 Mar 2026 10:45:39 GMT
 
 Markdown Content:
 This page lists all available commands and permissions in zMenu.
@@ -5165,8 +5137,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/placehold
 Title: Placeholders | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/placeholders
-
-Published Time: Thu, 05 Mar 2026 10:45:38 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -5435,8 +5405,6 @@ Title: Inventory Configuration | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/inventories/inventory
 
-Published Time: Thu, 05 Mar 2026 10:45:39 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -5590,6 +5558,10 @@ This feature **requires**[PacketEvents](https://github.com/retrooper/packetevent
 **Complete example:**
 
 `name: "&6Loading..."size: 27title-animation:  titles:    - "&6&l⏳ Loading."    - "&6&l⏳ Loading.."    - "&6&l⏳ Loading..."    - "&a&l✓ Welcome!"  cycles: 1  initial-delay: 0  interval: 500  time-unit: MILLISECONDS  show-items-after-animation: trueitems:  content:    slot: 13    item:      material: NETHER_STAR      name: "&eMenu Content"`
+
+**Example**
+
+![Image 1: Description](https://img.groupez.dev/zmenu/title-animation.gif)
 
 * * *
 
@@ -5825,7 +5797,7 @@ Title: Config.yml | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/config-yml
 
-Published Time: Thu, 05 Mar 2026 10:45:39 GMT
+Published Time: Fri, 06 Mar 2026 21:00:54 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -6154,8 +6126,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/supported-plugins
 Title: Supported Plugins | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/supported-plugins
-
-Published Time: Thu, 05 Mar 2026 10:45:40 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -6788,6 +6758,8 @@ Title: Global Placeholders | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/global-placeholders
 
+Published Time: Fri, 06 Mar 2026 21:00:54 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -6939,105 +6911,15 @@ Title: SWITCH Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/switch
 
-Published Time: Thu, 05 Mar 2026 10:45:39 GMT
-
 Markdown Content:
-SWITCH Button | GroupeZ Docs
-===============
-
-[Skip to main content](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#__docusaurus_skipToContent_fallback)
-
-[![Image 1: GroupeZ Logo](http://docs.groupez.dev/img/logo.svg)![Image 2: GroupeZ Logo](http://docs.groupez.dev/img/logo.svg) **GroupeZ Wiki**](http://docs.groupez.dev/)
-
-[Plugins](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#)
-*   [zAntiAutoClick](http://docs.groupez.dev/zantiautoclick/introduction)
-*   [zAuctionHouse](http://docs.groupez.dev/zauctionhouse/introduction)
-*   [zCookieCliker](http://docs.groupez.dev/zcookiecliker/introduction)
-*   [zCrate](http://docs.groupez.dev/zcrate/introduction)
-*   [zDrawer](http://docs.groupez.dev/zdrawer/introduction)
-*   [zEssentials](http://docs.groupez.dev/zessentials/introduction)
-*   [zHead](http://docs.groupez.dev/zhead/introduction)
-*   [zItems](http://docs.groupez.dev/zitems/introduction)
-*   [zItemStacker](http://docs.groupez.dev/zitemstacker/introduction)
-*   [zJobs](http://docs.groupez.dev/zjobs/introduction)
-*   [zKoth](http://docs.groupez.dev/zkoth/introduction)
-*   [zMenu](http://docs.groupez.dev/zmenu/getting-started)
-*   [zQuests](http://docs.groupez.dev/zquests/getting-started)
-*   [zShop](http://docs.groupez.dev/zshop/introduction)
-*   [zSpawner](http://docs.groupez.dev/zspawner/introduction)
-*   [zTextGenerator](http://docs.groupez.dev/ztextgenerator/introduction)
-*   [zVault](http://docs.groupez.dev/zvault/introduction)
-*   [zVoteParty](http://docs.groupez.dev/zvoteparty/introduction)
-
-[Projets](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#)
-*   [SuperiorSkyBlock-zMenu](http://docs.groupez.dev/superiorskyblock-zmenu/introduction)
-*   [CurrenciesAPI](http://docs.groupez.dev/currenciesapi/introduction)
-*   [Sarah](http://docs.groupez.dev/sarah/introduction)
-*   [groupez.dev](http://docs.groupez.dev/groupez-dev/introduction)
-*   [serveur-minecraft-vote.fr](http://docs.groupez.dev/serveur-minecraft-vote/introduction)
-
-[Discord](https://discord.groupez.dev/)[GitHub](https://github.com/GroupeZ-dev)
-
-[English](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#)
-*   [English](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch)
-*   [Français](http://docs.groupez.dev/fr/zmenu/configurations/buttons/types/switch)
-
-*   [Getting Started](http://docs.groupez.dev/zmenu/getting-started)
-*   [Installing zMenu](http://docs.groupez.dev/zmenu/installation)
-*   [Supported Plugins](http://docs.groupez.dev/zmenu/supported-plugins)
-*   [zMenu+](http://docs.groupez.dev/zmenu/zmenu-plus)
-*   [Configurations](http://docs.groupez.dev/zmenu/configurations/informations) 
-    *   [Informations](http://docs.groupez.dev/zmenu/configurations/informations)
-    *   [Commands & Permissions](http://docs.groupez.dev/zmenu/configurations/commands-permissions)
-    *   [Placeholders](http://docs.groupez.dev/zmenu/configurations/placeholders)
-    *   [Inventories](http://docs.groupez.dev/zmenu/configurations/inventories/inventory) 
-    *   [Items](http://docs.groupez.dev/zmenu/configurations/items/item) 
-    *   [Buttons](http://docs.groupez.dev/zmenu/configurations/buttons/button) 
-        *   [Button Configuration](http://docs.groupez.dev/zmenu/configurations/buttons/button)
-        *   [Button Types](http://docs.groupez.dev/zmenu/configurations/buttons/types/none) 
-            *   [NONE Button](http://docs.groupez.dev/zmenu/configurations/buttons/types/none)
-            *   [INVENTORY Button](http://docs.groupez.dev/zmenu/configurations/buttons/types/inventory)
-            *   [BACK Button](http://docs.groupez.dev/zmenu/configurations/buttons/types/back)
-            *   [NEXT Button](http://docs.groupez.dev/zmenu/configurations/buttons/types/next)
-            *   [PREVIOUS Button](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous)
-            *   [HOME Button](http://docs.groupez.dev/zmenu/configurations/buttons/types/home)
-            *   [JUMP Button](http://docs.groupez.dev/zmenu/configurations/buttons/types/jump)
-            *   [MAIN_MENU Button](http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu)
-            *   [SWITCH Button](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch)
-            *   [PAGINATION Button](http://docs.groupez.dev/zmenu/configurations/buttons/types/pagination)
-            *   [DYNAMIC_PAGINATION Button](http://docs.groupez.dev/zmenu/configurations/buttons/types/dynamic-pagination)
-            *   [INPUT Button](http://docs.groupez.dev/zmenu/configurations/buttons/types/input)
-
-        *   [Actions](http://docs.groupez.dev/zmenu/configurations/buttons/actions)
-
-    *   [Requirements](http://docs.groupez.dev/zmenu/configurations/requirements)
-    *   [Global Placeholders](http://docs.groupez.dev/zmenu/configurations/global-placeholders)
-    *   [Patterns](http://docs.groupez.dev/zmenu/configurations/patterns)
-    *   [Player Data](http://docs.groupez.dev/zmenu/configurations/player-data)
-    *   [Dialogues](http://docs.groupez.dev/zmenu/configurations/dialogues)
-    *   [Custom Commands](http://docs.groupez.dev/zmenu/configurations/custom-commands)
-    *   [Config.yml](http://docs.groupez.dev/zmenu/configurations/config-yml)
-
-*   [Development](http://docs.groupez.dev/zmenu/development/api-introduction) 
-    *   [API Introduction](http://docs.groupez.dev/zmenu/development/api-introduction)
-    *   [Inventory API](http://docs.groupez.dev/zmenu/development/api-inventory)
-    *   [Custom Buttons](http://docs.groupez.dev/zmenu/development/api-buttons)
-    *   [Paginate Button](http://docs.groupez.dev/zmenu/development/api-paginate-button)
-    *   [MenuItemStack](http://docs.groupez.dev/zmenu/development/api-menu-item-stack)
-    *   [Custom Actions](http://docs.groupez.dev/zmenu/development/api-actions)
-    *   [Player Data API](http://docs.groupez.dev/zmenu/development/api-player-data)
-    *   [Events](http://docs.groupez.dev/zmenu/development/api-events)
-
-*   [](http://docs.groupez.dev/)
+*   [](https://docs.groupez.dev/)
 *   Configurations
 *   Buttons
 *   Button Types
 *   SWITCH Button
 
-On this page
-
 SWITCH Button Type
-==================
+------------------
 
 The `SWITCH` button type displays different items based on a placeholder value. This allows you to create dynamic buttons that change appearance based on player data or other conditions.
 
@@ -7117,23 +6999,18 @@ Best Practices[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/s
 4.   **Include default state** for new players
 5.   **Use clear visual distinction** between states
 
-Related Features[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#related-features "Direct link to Related Features")
------------------------------------------------------------------------------------------------------------------------------------------
-
-*   [Player Data](http://docs.groupez.dev/zmenu/configurations/player-data) - Store player-specific values
-*   [Placeholders](http://docs.groupez.dev/zmenu/configurations/placeholders) - Dynamic values
-*   [Actions](http://docs.groupez.dev/zmenu/configurations/buttons/actions) - Execute on click
+*   [Player Data](https://docs.groupez.dev/zmenu/configurations/player-data) - Store player-specific values
+*   [Placeholders](https://docs.groupez.dev/zmenu/configurations/placeholders) - Dynamic values
+*   [Actions](https://docs.groupez.dev/zmenu/configurations/buttons/actions) - Execute on click
 
 Next Steps[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#next-steps "Direct link to Next Steps")
 -----------------------------------------------------------------------------------------------------------------------
 
-*   Learn about [Player Data](http://docs.groupez.dev/zmenu/configurations/player-data) for storing states
-*   See all available [Actions](http://docs.groupez.dev/zmenu/configurations/buttons/actions)
-*   View other [Button Types](http://docs.groupez.dev/zmenu/configurations/buttons/types/none)
+*   Learn about [Player Data](https://docs.groupez.dev/zmenu/configurations/player-data) for storing states
+*   See all available [Actions](https://docs.groupez.dev/zmenu/configurations/buttons/actions)
+*   View other [Button Types](https://docs.groupez.dev/zmenu/configurations/buttons/types/none)
 
-[Edit this page](https://github.com/GroupeZ-dev/groupez-wiki/edit/main/plugins/zmenu/docs/configurations/buttons/types/switch.md)
-
-[Previous MAIN_MENU Button](http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu)[Next PAGINATION Button](http://docs.groupez.dev/zmenu/configurations/buttons/types/pagination)
+[](https://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu)[](https://docs.groupez.dev/zmenu/configurations/buttons/types/pagination)
 
 *   [Usage](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#usage)
 *   [Properties](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#properties)
@@ -7152,8 +7029,6 @@ Next Steps[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/switc
 *   [Best Practices](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#best-practices)
 *   [Related Features](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#related-features)
 *   [Next Steps](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#next-steps)
-
-Copyright © 2026[GroupeZ](https://groupez.dev/)|Build[#loading...](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#)|-
 
 ================================================================================
 Page 26/41
@@ -7297,7 +7172,7 @@ Title: INVENTORY Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/inventory
 
-Published Time: Thu, 05 Mar 2026 10:45:40 GMT
+Published Time: Fri, 06 Mar 2026 21:00:56 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -7550,8 +7425,6 @@ Title: API Introduction | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-introduction
 
-Published Time: Thu, 05 Mar 2026 10:45:39 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Development
@@ -7760,6 +7633,103 @@ Next Steps[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/pagin
 
 ================================================================================
 Page 31/41
+URL: https://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu
+Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu
+================================================================================
+Title: MAIN_MENU Button | GroupeZ Docs
+
+URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu
+
+Markdown Content:
+The `MAIN_MENU` button type opens the inventory configured as the main menu in `config.yml`.
+
+Configuration[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu#configuration "Direct link to Configuration")
+----------------------------------------------------------------------------------------------------------------------------------
+
+First, set the main menu in your `config.yml`:
+
+`# config.ymlmain-menu: "main"  # Name of the main menu inventory`
+
+Usage[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu#usage "Direct link to Usage")
+----------------------------------------------------------------------------------------------------------
+
+`items:  main-menu:    type: MAIN_MENU    slot: 49    item:      material: NETHER_STAR      name: "&6&lMain Menu"      lore:        - "&7Return to the main menu"`
+
+Difference from HOME[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu#difference-from-home "Direct link to Difference from HOME")
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+| Button | Behavior |
+| --- | --- |
+| `HOME` | Returns to the first inventory the player opened in their session |
+| `MAIN_MENU` | Always opens the specific inventory configured in config.yml |
+
+**Example scenario:**
+
+*   Player opens Shop menu directly via `/zm open shop`
+*   Player navigates: Shop → Swords → Diamond Sword Details
+*   `HOME` would return to Shop (first opened)
+*   `MAIN_MENU` would open the configured main menu (e.g., "main")
+
+Examples[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu#examples "Direct link to Examples")
+-------------------------------------------------------------------------------------------------------------------
+
+### Basic Main Menu Button[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu#basic-main-menu-button "Direct link to Basic Main Menu Button")
+
+`items:  main-menu:    type: MAIN_MENU    slot: 49    item:      material: NETHER_STAR      name: "&6&lMain Menu"    sound: UI_BUTTON_CLICK`
+
+### Styled Main Menu Button[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu#styled-main-menu-button "Direct link to Styled Main Menu Button")
+
+`items:  main-menu:    type: MAIN_MENU    slot: 49    item:      material: PLAYER_HEAD      url: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzVhMzFjNjQ1MzNlNTRhZmFjZjA0YzNhMTY3YzM4YjBhYjIzMjI3NjdmYjE2MWVmMTU5MjI5YTI4ZmJiN2EifX0="      name: "&6&l⌂ Main Menu"      lore:        - "&7Go to the server's main menu"        - ""        - "&e▸ Click to open"    sound: BLOCK_NOTE_BLOCK_CHIME`
+
+### In a Navigation Bar[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu#in-a-navigation-bar "Direct link to In a Navigation Bar")
+
+`items:  back:    type: BACK    slot: 45    is-permanent: true    item:      material: ARROW      name: "&c&lBack"  previous:    type: PREVIOUS    slot: 47    is-permanent: true    item:      material: ARROW      name: "&7Previous"  main-menu:    type: MAIN_MENU    slot: 49    is-permanent: true    item:      material: NETHER_STAR      name: "&6&lMain Menu"  next:    type: NEXT    slot: 51    is-permanent: true    item:      material: ARROW      name: "&7Next"  close:    slot: 53    is-permanent: true    close-inventory: true    item:      material: BARRIER      name: "&c&lClose"`
+
+`items:  main-menu:    type: MAIN_MENU    slot: 49    is-permanent: true    item:      material: NETHER_STAR      name: "&6&lMain Menu"      lore:        - "&7Return to main menu"    sound: UI_BUTTON_CLICK`
+
+When to Use[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu#when-to-use "Direct link to When to Use")
+----------------------------------------------------------------------------------------------------------------------------
+
+Use `MAIN_MENU` buttons when:
+
+*   You have a central hub menu players should access from anywhere
+*   Players may open sub-menus directly (via commands)
+*   You want consistent navigation across all menus
+*   Your server has a primary menu that everything branches from
+
+Best Practices[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu#best-practices "Direct link to Best Practices")
+-------------------------------------------------------------------------------------------------------------------------------------
+
+1.   **Configure main-menu** in config.yml first
+2.   **Use consistently** across all sub-menus
+3.   **Place centrally** - slot 49 is common
+4.   **Use distinctive icon** - Nether star works well
+5.   **Add to patterns** - Include in a navigation pattern for consistency
+
+Creating a Main Menu Pattern[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu#creating-a-main-menu-pattern "Direct link to Creating a Main Menu Pattern")
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Create a reusable navigation bar with main menu:
+
+`# patterns/navigation.ymlname: "navigation"size: 54items:  back:    type: BACK    slot: 45    is-permanent: true    item:      material: ARROW      name: "&c&lBack"    sound: UI_BUTTON_CLICK  main-menu:    type: MAIN_MENU    slot: 49    is-permanent: true    item:      material: NETHER_STAR      name: "&6&lMain Menu"    sound: UI_BUTTON_CLICK  close:    slot: 53    is-permanent: true    close-inventory: true    item:      material: BARRIER      name: "&c&lClose"    sound: UI_BUTTON_CLICK`
+
+Then use it in your inventories:
+
+`# inventories/shop.ymlname: "&6Shop"size: 54patterns:  - "navigation"items:  # Your shop items...`
+
+*   [HOME](https://docs.groupez.dev/zmenu/configurations/buttons/types/home) - Return to first opened inventory
+*   [BACK](https://docs.groupez.dev/zmenu/configurations/buttons/types/back) - Go back one step
+*   [INVENTORY](https://docs.groupez.dev/zmenu/configurations/buttons/types/inventory) - Open specific inventory
+
+Next Steps[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu#next-steps "Direct link to Next Steps")
+-------------------------------------------------------------------------------------------------------------------------
+
+*   Learn about the [SWITCH](https://docs.groupez.dev/zmenu/configurations/buttons/types/switch) button type
+*   Create [Patterns](https://docs.groupez.dev/zmenu/configurations/patterns) for reusable navigation
+*   View all [Button Types](https://docs.groupez.dev/zmenu/configurations/buttons/types/none)
+
+================================================================================
+Page 32/41
 URL: https://docs.groupez.dev/zmenu/configurations/buttons/types/home
 Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/types/home
 ================================================================================
@@ -7870,7 +7840,96 @@ Next Steps[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/home#
 *   [Next Steps](http://docs.groupez.dev/zmenu/configurations/buttons/types/home#next-steps)
 
 ================================================================================
-Page 32/41
+Page 33/41
+URL: https://docs.groupez.dev/zmenu/configurations/buttons/types/previous
+Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/types/previous
+================================================================================
+Title: PREVIOUS Button | GroupeZ Docs
+
+URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/previous
+
+Markdown Content:
+*   [](https://docs.groupez.dev/)
+*   Configurations
+*   Buttons
+*   Button Types
+*   PREVIOUS Button
+
+PREVIOUS Button Type
+--------------------
+
+The `PREVIOUS` button type navigates to the previous page in a paginated inventory.
+
+Usage[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#usage "Direct link to Usage")
+----------------------------------------------------------------------------------------------------------
+
+`items:  previous:    type: PREVIOUS    slot: 45    item:      material: ARROW      name: "&c&l← Previous Page"      lore:        - "&7Go to page %zmenu_player_previous_page%"`
+
+Properties[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#properties "Direct link to Properties")
+-------------------------------------------------------------------------------------------------------------------------
+
+| Property | Description |
+| --- | --- |
+| `slot` / `slots` | Position in inventory |
+| `item` | Visual appearance |
+| `sound` | Sound on click |
+| `is-permanent` | Show on all pages (recommended) |
+
+Examples[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#examples "Direct link to Examples")
+-------------------------------------------------------------------------------------------------------------------
+
+### Basic Previous Button[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#basic-previous-button "Direct link to Basic Previous Button")
+
+`items:  previous:    type: PREVIOUS    slot: 45    is-permanent: true    item:      material: ARROW      name: "&c&l← Previous"    sound: UI_BUTTON_CLICK`
+
+### Styled Previous Button[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#styled-previous-button "Direct link to Styled Previous Button")
+
+`items:  previous:    type: PREVIOUS    slot: 45    is-permanent: true    item:      material: PLAYER_HEAD      url: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ2OWUwNmU1ZGFkZmQ4NGU1ZjNkMWMyMTA2M2YyNTUzYjJmYTk0NWVlMWQ0ZDcxNTJmZGM1NDI1YmMxMmE5In19"      name: "&c&l← Previous Page"      lore:        - "&7Current: &f%page%"        - "&7Go to: &f%zmenu_player_previous_page%"    sound: ITEM_BOOK_PAGE_TURN`
+
+### Hide When On First Page[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#hide-when-on-first-page "Direct link to Hide When On First Page")
+
+`items:  previous:    type: PREVIOUS    slot: 45    is-permanent: true    view-requirement:      requirements:        - type: placeholder          placeholder: "%zmenu_player_page%"          action: SUPERIOR          value: 1    item:      material: ARROW      name: "&c&l← Previous"    else:      item:        material: GRAY_STAINED_GLASS_PANE        name: "&8"`
+
+### Complete Navigation Bar[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#complete-navigation-bar "Direct link to Complete Navigation Bar")
+
+`items:  nav-left-border:    slots:      - 45      - 46    is-permanent: true    item:      material: BLACK_STAINED_GLASS_PANE      name: "&8"  previous:    type: PREVIOUS    slot: 47    is-permanent: true    item:      material: ARROW      name: "&c&l← Previous"    sound: UI_BUTTON_CLICK  back:    type: BACK    slot: 48    is-permanent: true    item:      material: DARK_OAK_DOOR      name: "&7&lBack"    sound: UI_BUTTON_CLICK  page-info:    slot: 49    is-permanent: true    item:      material: BOOK      name: "&6&lPage %page% of %maxPage%"      lore:        - ""        - "&7Use arrows to navigate"  home:    type: HOME    slot: 50    is-permanent: true    item:      material: NETHER_STAR      name: "&e&lHome"    sound: UI_BUTTON_CLICK  next:    type: NEXT    slot: 51    is-permanent: true    item:      material: ARROW      name: "&a&lNext →"    sound: UI_BUTTON_CLICK  nav-right-border:    slots:      - 52      - 53    is-permanent: true    item:      material: BLACK_STAINED_GLASS_PANE      name: "&8"`
+
+Best Practices[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#best-practices "Direct link to Best Practices")
+-------------------------------------------------------------------------------------------------------------------------------------
+
+1.   **Always use `is-permanent: true`** for navigation buttons
+2.   **Pair with NEXT** button for complete navigation
+3.   **Add page counter** between navigation buttons
+4.   **Use consistent positioning** across all paginated menus
+5.   **Provide audio feedback** with sounds
+
+*   [NEXT](https://docs.groupez.dev/zmenu/configurations/buttons/types/next) - Navigate to next page
+*   [JUMP](https://docs.groupez.dev/zmenu/configurations/buttons/types/jump) - Jump to specific page
+*   [BACK](https://docs.groupez.dev/zmenu/configurations/buttons/types/back) - Return to previous inventory
+
+Next Steps[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#next-steps "Direct link to Next Steps")
+-------------------------------------------------------------------------------------------------------------------------
+
+*   See the [NEXT](https://docs.groupez.dev/zmenu/configurations/buttons/types/next) button type
+*   Learn about [JUMP](https://docs.groupez.dev/zmenu/configurations/buttons/types/jump) buttons
+*   View all [Button Types](https://docs.groupez.dev/zmenu/configurations/buttons/types/none)
+
+[](https://docs.groupez.dev/zmenu/configurations/buttons/types/next)[](https://docs.groupez.dev/zmenu/configurations/buttons/types/home)
+
+*   [Usage](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#usage)
+*   [Properties](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#properties)
+*   [Examples](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#examples)
+    *   [Basic Previous Button](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#basic-previous-button)
+    *   [Styled Previous Button](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#styled-previous-button)
+    *   [Hide When On First Page](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#hide-when-on-first-page)
+    *   [Complete Navigation Bar](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#complete-navigation-bar)
+
+*   [Best Practices](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#best-practices)
+*   [Related Button Types](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#related-button-types)
+*   [Next Steps](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#next-steps)
+
+================================================================================
+Page 34/41
 URL: https://docs.groupez.dev/zmenu/configurations/buttons/types/jump
 Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/types/jump
 ================================================================================
@@ -7995,289 +8054,6 @@ Next Steps[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/jump#
 *   [Next Steps](http://docs.groupez.dev/zmenu/configurations/buttons/types/jump#next-steps)
 
 ================================================================================
-Page 33/41
-URL: https://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu
-Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu
-================================================================================
-Title: MAIN_MENU Button | GroupeZ Docs
-
-URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu
-
-Markdown Content:
-The `MAIN_MENU` button type opens the inventory configured as the main menu in `config.yml`.
-
-Configuration[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu#configuration "Direct link to Configuration")
-----------------------------------------------------------------------------------------------------------------------------------
-
-First, set the main menu in your `config.yml`:
-
-`# config.ymlmain-menu: "main"  # Name of the main menu inventory`
-
-Usage[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu#usage "Direct link to Usage")
-----------------------------------------------------------------------------------------------------------
-
-`items:  main-menu:    type: MAIN_MENU    slot: 49    item:      material: NETHER_STAR      name: "&6&lMain Menu"      lore:        - "&7Return to the main menu"`
-
-Difference from HOME[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu#difference-from-home "Direct link to Difference from HOME")
--------------------------------------------------------------------------------------------------------------------------------------------------------
-
-| Button | Behavior |
-| --- | --- |
-| `HOME` | Returns to the first inventory the player opened in their session |
-| `MAIN_MENU` | Always opens the specific inventory configured in config.yml |
-
-**Example scenario:**
-
-*   Player opens Shop menu directly via `/zm open shop`
-*   Player navigates: Shop → Swords → Diamond Sword Details
-*   `HOME` would return to Shop (first opened)
-*   `MAIN_MENU` would open the configured main menu (e.g., "main")
-
-Examples[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu#examples "Direct link to Examples")
--------------------------------------------------------------------------------------------------------------------
-
-### Basic Main Menu Button[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu#basic-main-menu-button "Direct link to Basic Main Menu Button")
-
-`items:  main-menu:    type: MAIN_MENU    slot: 49    item:      material: NETHER_STAR      name: "&6&lMain Menu"    sound: UI_BUTTON_CLICK`
-
-### Styled Main Menu Button[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu#styled-main-menu-button "Direct link to Styled Main Menu Button")
-
-`items:  main-menu:    type: MAIN_MENU    slot: 49    item:      material: PLAYER_HEAD      url: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzVhMzFjNjQ1MzNlNTRhZmFjZjA0YzNhMTY3YzM4YjBhYjIzMjI3NjdmYjE2MWVmMTU5MjI5YTI4ZmJiN2EifX0="      name: "&6&l⌂ Main Menu"      lore:        - "&7Go to the server's main menu"        - ""        - "&e▸ Click to open"    sound: BLOCK_NOTE_BLOCK_CHIME`
-
-### In a Navigation Bar[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu#in-a-navigation-bar "Direct link to In a Navigation Bar")
-
-`items:  back:    type: BACK    slot: 45    is-permanent: true    item:      material: ARROW      name: "&c&lBack"  previous:    type: PREVIOUS    slot: 47    is-permanent: true    item:      material: ARROW      name: "&7Previous"  main-menu:    type: MAIN_MENU    slot: 49    is-permanent: true    item:      material: NETHER_STAR      name: "&6&lMain Menu"  next:    type: NEXT    slot: 51    is-permanent: true    item:      material: ARROW      name: "&7Next"  close:    slot: 53    is-permanent: true    close-inventory: true    item:      material: BARRIER      name: "&c&lClose"`
-
-`items:  main-menu:    type: MAIN_MENU    slot: 49    is-permanent: true    item:      material: NETHER_STAR      name: "&6&lMain Menu"      lore:        - "&7Return to main menu"    sound: UI_BUTTON_CLICK`
-
-When to Use[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu#when-to-use "Direct link to When to Use")
-----------------------------------------------------------------------------------------------------------------------------
-
-Use `MAIN_MENU` buttons when:
-
-*   You have a central hub menu players should access from anywhere
-*   Players may open sub-menus directly (via commands)
-*   You want consistent navigation across all menus
-*   Your server has a primary menu that everything branches from
-
-Best Practices[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu#best-practices "Direct link to Best Practices")
--------------------------------------------------------------------------------------------------------------------------------------
-
-1.   **Configure main-menu** in config.yml first
-2.   **Use consistently** across all sub-menus
-3.   **Place centrally** - slot 49 is common
-4.   **Use distinctive icon** - Nether star works well
-5.   **Add to patterns** - Include in a navigation pattern for consistency
-
-Creating a Main Menu Pattern[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu#creating-a-main-menu-pattern "Direct link to Creating a Main Menu Pattern")
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Create a reusable navigation bar with main menu:
-
-`# patterns/navigation.ymlname: "navigation"size: 54items:  back:    type: BACK    slot: 45    is-permanent: true    item:      material: ARROW      name: "&c&lBack"    sound: UI_BUTTON_CLICK  main-menu:    type: MAIN_MENU    slot: 49    is-permanent: true    item:      material: NETHER_STAR      name: "&6&lMain Menu"    sound: UI_BUTTON_CLICK  close:    slot: 53    is-permanent: true    close-inventory: true    item:      material: BARRIER      name: "&c&lClose"    sound: UI_BUTTON_CLICK`
-
-Then use it in your inventories:
-
-`# inventories/shop.ymlname: "&6Shop"size: 54patterns:  - "navigation"items:  # Your shop items...`
-
-*   [HOME](https://docs.groupez.dev/zmenu/configurations/buttons/types/home) - Return to first opened inventory
-*   [BACK](https://docs.groupez.dev/zmenu/configurations/buttons/types/back) - Go back one step
-*   [INVENTORY](https://docs.groupez.dev/zmenu/configurations/buttons/types/inventory) - Open specific inventory
-
-Next Steps[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu#next-steps "Direct link to Next Steps")
--------------------------------------------------------------------------------------------------------------------------
-
-*   Learn about the [SWITCH](https://docs.groupez.dev/zmenu/configurations/buttons/types/switch) button type
-*   Create [Patterns](https://docs.groupez.dev/zmenu/configurations/patterns) for reusable navigation
-*   View all [Button Types](https://docs.groupez.dev/zmenu/configurations/buttons/types/none)
-
-================================================================================
-Page 34/41
-URL: https://docs.groupez.dev/zmenu/configurations/buttons/types/previous
-Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/types/previous
-================================================================================
-Title: PREVIOUS Button | GroupeZ Docs
-
-URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/previous
-
-Published Time: Thu, 05 Mar 2026 10:45:38 GMT
-
-Markdown Content:
-PREVIOUS Button | GroupeZ Docs
-===============
-
-[Skip to main content](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#__docusaurus_skipToContent_fallback)
-
-[![Image 1: GroupeZ Logo](http://docs.groupez.dev/img/logo.svg)![Image 2: GroupeZ Logo](http://docs.groupez.dev/img/logo.svg) **GroupeZ Wiki**](http://docs.groupez.dev/)
-
-[Plugins](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#)
-*   [zAntiAutoClick](http://docs.groupez.dev/zantiautoclick/introduction)
-*   [zAuctionHouse](http://docs.groupez.dev/zauctionhouse/introduction)
-*   [zCookieCliker](http://docs.groupez.dev/zcookiecliker/introduction)
-*   [zCrate](http://docs.groupez.dev/zcrate/introduction)
-*   [zDrawer](http://docs.groupez.dev/zdrawer/introduction)
-*   [zEssentials](http://docs.groupez.dev/zessentials/introduction)
-*   [zHead](http://docs.groupez.dev/zhead/introduction)
-*   [zItems](http://docs.groupez.dev/zitems/introduction)
-*   [zItemStacker](http://docs.groupez.dev/zitemstacker/introduction)
-*   [zJobs](http://docs.groupez.dev/zjobs/introduction)
-*   [zKoth](http://docs.groupez.dev/zkoth/introduction)
-*   [zMenu](http://docs.groupez.dev/zmenu/getting-started)
-*   [zQuests](http://docs.groupez.dev/zquests/getting-started)
-*   [zShop](http://docs.groupez.dev/zshop/introduction)
-*   [zSpawner](http://docs.groupez.dev/zspawner/introduction)
-*   [zTextGenerator](http://docs.groupez.dev/ztextgenerator/introduction)
-*   [zVault](http://docs.groupez.dev/zvault/introduction)
-*   [zVoteParty](http://docs.groupez.dev/zvoteparty/introduction)
-
-[Projets](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#)
-*   [SuperiorSkyBlock-zMenu](http://docs.groupez.dev/superiorskyblock-zmenu/introduction)
-*   [CurrenciesAPI](http://docs.groupez.dev/currenciesapi/introduction)
-*   [Sarah](http://docs.groupez.dev/sarah/introduction)
-*   [groupez.dev](http://docs.groupez.dev/groupez-dev/introduction)
-*   [serveur-minecraft-vote.fr](http://docs.groupez.dev/serveur-minecraft-vote/introduction)
-
-[Discord](https://discord.groupez.dev/)[GitHub](https://github.com/GroupeZ-dev)
-
-[English](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#)
-*   [English](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous)
-*   [Français](http://docs.groupez.dev/fr/zmenu/configurations/buttons/types/previous)
-
-*   [Getting Started](http://docs.groupez.dev/zmenu/getting-started)
-*   [Installing zMenu](http://docs.groupez.dev/zmenu/installation)
-*   [Supported Plugins](http://docs.groupez.dev/zmenu/supported-plugins)
-*   [zMenu+](http://docs.groupez.dev/zmenu/zmenu-plus)
-*   [Configurations](http://docs.groupez.dev/zmenu/configurations/informations) 
-    *   [Informations](http://docs.groupez.dev/zmenu/configurations/informations)
-    *   [Commands & Permissions](http://docs.groupez.dev/zmenu/configurations/commands-permissions)
-    *   [Placeholders](http://docs.groupez.dev/zmenu/configurations/placeholders)
-    *   [Inventories](http://docs.groupez.dev/zmenu/configurations/inventories/inventory) 
-    *   [Items](http://docs.groupez.dev/zmenu/configurations/items/item) 
-    *   [Buttons](http://docs.groupez.dev/zmenu/configurations/buttons/button) 
-        *   [Button Configuration](http://docs.groupez.dev/zmenu/configurations/buttons/button)
-        *   [Button Types](http://docs.groupez.dev/zmenu/configurations/buttons/types/none) 
-            *   [NONE Button](http://docs.groupez.dev/zmenu/configurations/buttons/types/none)
-            *   [INVENTORY Button](http://docs.groupez.dev/zmenu/configurations/buttons/types/inventory)
-            *   [BACK Button](http://docs.groupez.dev/zmenu/configurations/buttons/types/back)
-            *   [NEXT Button](http://docs.groupez.dev/zmenu/configurations/buttons/types/next)
-            *   [PREVIOUS Button](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous)
-            *   [HOME Button](http://docs.groupez.dev/zmenu/configurations/buttons/types/home)
-            *   [JUMP Button](http://docs.groupez.dev/zmenu/configurations/buttons/types/jump)
-            *   [MAIN_MENU Button](http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu)
-            *   [SWITCH Button](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch)
-            *   [PAGINATION Button](http://docs.groupez.dev/zmenu/configurations/buttons/types/pagination)
-            *   [DYNAMIC_PAGINATION Button](http://docs.groupez.dev/zmenu/configurations/buttons/types/dynamic-pagination)
-            *   [INPUT Button](http://docs.groupez.dev/zmenu/configurations/buttons/types/input)
-
-        *   [Actions](http://docs.groupez.dev/zmenu/configurations/buttons/actions)
-
-    *   [Requirements](http://docs.groupez.dev/zmenu/configurations/requirements)
-    *   [Global Placeholders](http://docs.groupez.dev/zmenu/configurations/global-placeholders)
-    *   [Patterns](http://docs.groupez.dev/zmenu/configurations/patterns)
-    *   [Player Data](http://docs.groupez.dev/zmenu/configurations/player-data)
-    *   [Dialogues](http://docs.groupez.dev/zmenu/configurations/dialogues)
-    *   [Custom Commands](http://docs.groupez.dev/zmenu/configurations/custom-commands)
-    *   [Config.yml](http://docs.groupez.dev/zmenu/configurations/config-yml)
-
-*   [Development](http://docs.groupez.dev/zmenu/development/api-introduction) 
-    *   [API Introduction](http://docs.groupez.dev/zmenu/development/api-introduction)
-    *   [Inventory API](http://docs.groupez.dev/zmenu/development/api-inventory)
-    *   [Custom Buttons](http://docs.groupez.dev/zmenu/development/api-buttons)
-    *   [Paginate Button](http://docs.groupez.dev/zmenu/development/api-paginate-button)
-    *   [MenuItemStack](http://docs.groupez.dev/zmenu/development/api-menu-item-stack)
-    *   [Custom Actions](http://docs.groupez.dev/zmenu/development/api-actions)
-    *   [Player Data API](http://docs.groupez.dev/zmenu/development/api-player-data)
-    *   [Events](http://docs.groupez.dev/zmenu/development/api-events)
-
-*   [](http://docs.groupez.dev/)
-*   Configurations
-*   Buttons
-*   Button Types
-*   PREVIOUS Button
-
-On this page
-
-PREVIOUS Button Type
-====================
-
-The `PREVIOUS` button type navigates to the previous page in a paginated inventory.
-
-Usage[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#usage "Direct link to Usage")
-----------------------------------------------------------------------------------------------------------
-
-`items:  previous:    type: PREVIOUS    slot: 45    item:      material: ARROW      name: "&c&l← Previous Page"      lore:        - "&7Go to page %zmenu_player_previous_page%"`
-
-Properties[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#properties "Direct link to Properties")
--------------------------------------------------------------------------------------------------------------------------
-
-| Property | Description |
-| --- | --- |
-| `slot` / `slots` | Position in inventory |
-| `item` | Visual appearance |
-| `sound` | Sound on click |
-| `is-permanent` | Show on all pages (recommended) |
-
-Examples[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#examples "Direct link to Examples")
--------------------------------------------------------------------------------------------------------------------
-
-### Basic Previous Button[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#basic-previous-button "Direct link to Basic Previous Button")
-
-`items:  previous:    type: PREVIOUS    slot: 45    is-permanent: true    item:      material: ARROW      name: "&c&l← Previous"    sound: UI_BUTTON_CLICK`
-
-### Styled Previous Button[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#styled-previous-button "Direct link to Styled Previous Button")
-
-`items:  previous:    type: PREVIOUS    slot: 45    is-permanent: true    item:      material: PLAYER_HEAD      url: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ2OWUwNmU1ZGFkZmQ4NGU1ZjNkMWMyMTA2M2YyNTUzYjJmYTk0NWVlMWQ0ZDcxNTJmZGM1NDI1YmMxMmE5In19"      name: "&c&l← Previous Page"      lore:        - "&7Current: &f%page%"        - "&7Go to: &f%zmenu_player_previous_page%"    sound: ITEM_BOOK_PAGE_TURN`
-
-### Hide When On First Page[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#hide-when-on-first-page "Direct link to Hide When On First Page")
-
-`items:  previous:    type: PREVIOUS    slot: 45    is-permanent: true    view-requirement:      requirements:        - type: placeholder          placeholder: "%zmenu_player_page%"          action: SUPERIOR          value: 1    item:      material: ARROW      name: "&c&l← Previous"    else:      item:        material: GRAY_STAINED_GLASS_PANE        name: "&8"`
-
-### Complete Navigation Bar[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#complete-navigation-bar "Direct link to Complete Navigation Bar")
-
-`items:  nav-left-border:    slots:      - 45      - 46    is-permanent: true    item:      material: BLACK_STAINED_GLASS_PANE      name: "&8"  previous:    type: PREVIOUS    slot: 47    is-permanent: true    item:      material: ARROW      name: "&c&l← Previous"    sound: UI_BUTTON_CLICK  back:    type: BACK    slot: 48    is-permanent: true    item:      material: DARK_OAK_DOOR      name: "&7&lBack"    sound: UI_BUTTON_CLICK  page-info:    slot: 49    is-permanent: true    item:      material: BOOK      name: "&6&lPage %page% of %maxPage%"      lore:        - ""        - "&7Use arrows to navigate"  home:    type: HOME    slot: 50    is-permanent: true    item:      material: NETHER_STAR      name: "&e&lHome"    sound: UI_BUTTON_CLICK  next:    type: NEXT    slot: 51    is-permanent: true    item:      material: ARROW      name: "&a&lNext →"    sound: UI_BUTTON_CLICK  nav-right-border:    slots:      - 52      - 53    is-permanent: true    item:      material: BLACK_STAINED_GLASS_PANE      name: "&8"`
-
-Best Practices[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#best-practices "Direct link to Best Practices")
--------------------------------------------------------------------------------------------------------------------------------------
-
-1.   **Always use `is-permanent: true`** for navigation buttons
-2.   **Pair with NEXT** button for complete navigation
-3.   **Add page counter** between navigation buttons
-4.   **Use consistent positioning** across all paginated menus
-5.   **Provide audio feedback** with sounds
-
-Related Button Types[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#related-button-types "Direct link to Related Button Types")
--------------------------------------------------------------------------------------------------------------------------------------------------------
-
-*   [NEXT](http://docs.groupez.dev/zmenu/configurations/buttons/types/next) - Navigate to next page
-*   [JUMP](http://docs.groupez.dev/zmenu/configurations/buttons/types/jump) - Jump to specific page
-*   [BACK](http://docs.groupez.dev/zmenu/configurations/buttons/types/back) - Return to previous inventory
-
-Next Steps[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#next-steps "Direct link to Next Steps")
--------------------------------------------------------------------------------------------------------------------------
-
-*   See the [NEXT](http://docs.groupez.dev/zmenu/configurations/buttons/types/next) button type
-*   Learn about [JUMP](http://docs.groupez.dev/zmenu/configurations/buttons/types/jump) buttons
-*   View all [Button Types](http://docs.groupez.dev/zmenu/configurations/buttons/types/none)
-
-[Edit this page](https://github.com/GroupeZ-dev/groupez-wiki/edit/main/plugins/zmenu/docs/configurations/buttons/types/previous.md)
-
-[Previous NEXT Button](http://docs.groupez.dev/zmenu/configurations/buttons/types/next)[Next HOME Button](http://docs.groupez.dev/zmenu/configurations/buttons/types/home)
-
-*   [Usage](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#usage)
-*   [Properties](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#properties)
-*   [Examples](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#examples)
-    *   [Basic Previous Button](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#basic-previous-button)
-    *   [Styled Previous Button](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#styled-previous-button)
-    *   [Hide When On First Page](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#hide-when-on-first-page)
-    *   [Complete Navigation Bar](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#complete-navigation-bar)
-
-*   [Best Practices](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#best-practices)
-*   [Related Button Types](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#related-button-types)
-*   [Next Steps](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#next-steps)
-
-Copyright © 2026[GroupeZ](https://groupez.dev/)|Build[#loading...](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#)|-
-
-================================================================================
 Page 35/41
 URL: https://docs.groupez.dev/zmenu/development/api-actions
 Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-actions
@@ -8286,86 +8062,13 @@ Title: Custom Actions | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-actions
 
-Published Time: Thu, 05 Mar 2026 10:45:39 GMT
-
 Markdown Content:
-Custom Actions | GroupeZ Docs
-===============
-
-[Skip to main content](http://docs.groupez.dev/zmenu/development/api-actions#__docusaurus_skipToContent_fallback)
-
-[![Image 1: GroupeZ Logo](http://docs.groupez.dev/img/logo.svg)![Image 2: GroupeZ Logo](http://docs.groupez.dev/img/logo.svg) **GroupeZ Wiki**](http://docs.groupez.dev/)
-
-[Plugins](http://docs.groupez.dev/zmenu/development/api-actions#)
-*   [zAntiAutoClick](http://docs.groupez.dev/zantiautoclick/introduction)
-*   [zAuctionHouse](http://docs.groupez.dev/zauctionhouse/introduction)
-*   [zCookieCliker](http://docs.groupez.dev/zcookiecliker/introduction)
-*   [zCrate](http://docs.groupez.dev/zcrate/introduction)
-*   [zDrawer](http://docs.groupez.dev/zdrawer/introduction)
-*   [zEssentials](http://docs.groupez.dev/zessentials/introduction)
-*   [zHead](http://docs.groupez.dev/zhead/introduction)
-*   [zItems](http://docs.groupez.dev/zitems/introduction)
-*   [zItemStacker](http://docs.groupez.dev/zitemstacker/introduction)
-*   [zJobs](http://docs.groupez.dev/zjobs/introduction)
-*   [zKoth](http://docs.groupez.dev/zkoth/introduction)
-*   [zMenu](http://docs.groupez.dev/zmenu/getting-started)
-*   [zQuests](http://docs.groupez.dev/zquests/getting-started)
-*   [zShop](http://docs.groupez.dev/zshop/introduction)
-*   [zSpawner](http://docs.groupez.dev/zspawner/introduction)
-*   [zTextGenerator](http://docs.groupez.dev/ztextgenerator/introduction)
-*   [zVault](http://docs.groupez.dev/zvault/introduction)
-*   [zVoteParty](http://docs.groupez.dev/zvoteparty/introduction)
-
-[Projets](http://docs.groupez.dev/zmenu/development/api-actions#)
-*   [SuperiorSkyBlock-zMenu](http://docs.groupez.dev/superiorskyblock-zmenu/introduction)
-*   [CurrenciesAPI](http://docs.groupez.dev/currenciesapi/introduction)
-*   [Sarah](http://docs.groupez.dev/sarah/introduction)
-*   [groupez.dev](http://docs.groupez.dev/groupez-dev/introduction)
-*   [serveur-minecraft-vote.fr](http://docs.groupez.dev/serveur-minecraft-vote/introduction)
-
-[Discord](https://discord.groupez.dev/)[GitHub](https://github.com/GroupeZ-dev)
-
-[English](http://docs.groupez.dev/zmenu/development/api-actions#)
-*   [English](http://docs.groupez.dev/zmenu/development/api-actions)
-*   [Français](http://docs.groupez.dev/fr/zmenu/development/api-actions)
-
-*   [Getting Started](http://docs.groupez.dev/zmenu/getting-started)
-*   [Installing zMenu](http://docs.groupez.dev/zmenu/installation)
-*   [Supported Plugins](http://docs.groupez.dev/zmenu/supported-plugins)
-*   [zMenu+](http://docs.groupez.dev/zmenu/zmenu-plus)
-*   [Configurations](http://docs.groupez.dev/zmenu/configurations/informations) 
-    *   [Informations](http://docs.groupez.dev/zmenu/configurations/informations)
-    *   [Commands & Permissions](http://docs.groupez.dev/zmenu/configurations/commands-permissions)
-    *   [Placeholders](http://docs.groupez.dev/zmenu/configurations/placeholders)
-    *   [Inventories](http://docs.groupez.dev/zmenu/configurations/inventories/inventory) 
-    *   [Items](http://docs.groupez.dev/zmenu/configurations/items/item) 
-    *   [Buttons](http://docs.groupez.dev/zmenu/configurations/buttons/button) 
-    *   [Requirements](http://docs.groupez.dev/zmenu/configurations/requirements)
-    *   [Global Placeholders](http://docs.groupez.dev/zmenu/configurations/global-placeholders)
-    *   [Patterns](http://docs.groupez.dev/zmenu/configurations/patterns)
-    *   [Player Data](http://docs.groupez.dev/zmenu/configurations/player-data)
-    *   [Dialogues](http://docs.groupez.dev/zmenu/configurations/dialogues)
-    *   [Custom Commands](http://docs.groupez.dev/zmenu/configurations/custom-commands)
-    *   [Config.yml](http://docs.groupez.dev/zmenu/configurations/config-yml)
-
-*   [Development](http://docs.groupez.dev/zmenu/development/api-introduction) 
-    *   [API Introduction](http://docs.groupez.dev/zmenu/development/api-introduction)
-    *   [Inventory API](http://docs.groupez.dev/zmenu/development/api-inventory)
-    *   [Custom Buttons](http://docs.groupez.dev/zmenu/development/api-buttons)
-    *   [Paginate Button](http://docs.groupez.dev/zmenu/development/api-paginate-button)
-    *   [MenuItemStack](http://docs.groupez.dev/zmenu/development/api-menu-item-stack)
-    *   [Custom Actions](http://docs.groupez.dev/zmenu/development/api-actions)
-    *   [Player Data API](http://docs.groupez.dev/zmenu/development/api-player-data)
-    *   [Events](http://docs.groupez.dev/zmenu/development/api-events)
-
-*   [](http://docs.groupez.dev/)
+*   [](https://docs.groupez.dev/)
 *   Development
 *   Custom Actions
 
-On this page
-
 Custom Actions
-==============
+--------------
 
 Learn how to create and register custom action types in zMenu.
 
@@ -8465,13 +8168,11 @@ Best Practices[​](http://docs.groupez.dev/zmenu/development/api-actions#best-p
 Next Steps[​](http://docs.groupez.dev/zmenu/development/api-actions#next-steps "Direct link to Next Steps")
 -----------------------------------------------------------------------------------------------------------
 
-*   Work with [Player Data](http://docs.groupez.dev/zmenu/development/api-player-data)
-*   Listen to [Events](http://docs.groupez.dev/zmenu/development/api-events)
-*   Review the [API Introduction](http://docs.groupez.dev/zmenu/development/api-introduction)
+*   Work with [Player Data](https://docs.groupez.dev/zmenu/development/api-player-data)
+*   Listen to [Events](https://docs.groupez.dev/zmenu/development/api-events)
+*   Review the [API Introduction](https://docs.groupez.dev/zmenu/development/api-introduction)
 
-[Edit this page](https://github.com/GroupeZ-dev/groupez-wiki/edit/main/plugins/zmenu/docs/development/api-actions.md)
-
-[Previous MenuItemStack](http://docs.groupez.dev/zmenu/development/api-menu-item-stack)[Next Player Data API](http://docs.groupez.dev/zmenu/development/api-player-data)
+[](https://docs.groupez.dev/zmenu/development/api-menu-item-stack)[](https://docs.groupez.dev/zmenu/development/api-player-data)
 
 *   [Overview](http://docs.groupez.dev/zmenu/development/api-actions#overview)
 *   [Creating an Action Loader](http://docs.groupez.dev/zmenu/development/api-actions#creating-an-action-loader)
@@ -8497,8 +8198,6 @@ Next Steps[​](http://docs.groupez.dev/zmenu/development/api-actions#next-steps
 *   [Best Practices](http://docs.groupez.dev/zmenu/development/api-actions#best-practices)
 *   [Next Steps](http://docs.groupez.dev/zmenu/development/api-actions#next-steps)
 
-Copyright © 2026[GroupeZ](https://groupez.dev/)|Build[#loading...](http://docs.groupez.dev/zmenu/development/api-actions#)|-
-
 ================================================================================
 Page 36/41
 URL: https://docs.groupez.dev/zmenu/development/api-buttons
@@ -8507,6 +8206,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-buttons
 Title: Custom Buttons | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-buttons
+
+Published Time: Fri, 06 Mar 2026 21:00:55 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -8643,8 +8344,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-events
 Title: Events | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-events
-
-Published Time: Thu, 05 Mar 2026 10:45:39 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -8816,8 +8515,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-inventor
 Title: Inventory API | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-inventory
-
-Published Time: Thu, 05 Mar 2026 10:45:39 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -8997,14 +8694,178 @@ Next Steps[​](http://docs.groupez.dev/zmenu/development/api-inventory#next-ste
 
 ================================================================================
 Page 39/41
+URL: https://docs.groupez.dev/zmenu/development/api-player-data
+Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-player-data
+================================================================================
+Title: Player Data API | GroupeZ Docs
+
+URL Source: http://docs.groupez.dev/zmenu/development/api-player-data
+
+Markdown Content:
+*   [](https://docs.groupez.dev/)
+*   Development
+*   Player Data API
+
+Player Data API
+---------------
+
+Learn how to work with zMenu's player data storage system programmatically.
+
+Overview[​](http://docs.groupez.dev/zmenu/development/api-player-data#overview "Direct link to Overview")
+---------------------------------------------------------------------------------------------------------
+
+zMenu provides a built-in data storage system that persists player-specific values. This data is:
+
+*   Stored in a database (SQLite, MySQL, or MariaDB)
+*   Accessible via placeholders (`%zmenu_player_value_<key>%`)
+*   Persistent across server restarts
+*   Available through the API
+
+DataManager[​](http://docs.groupez.dev/zmenu/development/api-player-data#datamanager "Direct link to DataManager")
+------------------------------------------------------------------------------------------------------------------
+
+Get the data manager to work with player data:
+
+`DataManager dataManager = menuPlugin.getDataManager();`
+
+Reading Data[​](http://docs.groupez.dev/zmenu/development/api-player-data#reading-data "Direct link to Reading Data")
+---------------------------------------------------------------------------------------------------------------------
+
+### Get a Single Value[​](http://docs.groupez.dev/zmenu/development/api-player-data#get-a-single-value "Direct link to Get a Single Value")
+
+`// Returns Optional<String>Optional<String> value = dataManager.getData(player, "coins");// Check and use the valueif (value.isPresent()) {    int coins = Integer.parseInt(value.get());    player.sendMessage("You have " + coins + " coins");} else {    player.sendMessage("No coins data found");}`
+
+### Get with Default Value[​](http://docs.groupez.dev/zmenu/development/api-player-data#get-with-default-value "Direct link to Get with Default Value")
+
+`String coins = dataManager.getData(player, "coins").orElse("0");int coinAmount = Integer.parseInt(coins);`
+
+### Get by UUID[​](http://docs.groupez.dev/zmenu/development/api-player-data#get-by-uuid "Direct link to Get by UUID")
+
+`UUID uuid = player.getUniqueId();Optional<String> value = dataManager.getData(uuid, "coins");`
+
+### Check If Data Exists[​](http://docs.groupez.dev/zmenu/development/api-player-data#check-if-data-exists "Direct link to Check If Data Exists")
+
+`boolean hasCoins = dataManager.getData(player, "coins").isPresent();`
+
+Writing Data[​](http://docs.groupez.dev/zmenu/development/api-player-data#writing-data "Direct link to Writing Data")
+---------------------------------------------------------------------------------------------------------------------
+
+### Set a Value[​](http://docs.groupez.dev/zmenu/development/api-player-data#set-a-value "Direct link to Set a Value")
+
+`// Set a string valuedataManager.setData(player, "coins", "100");// Set a numeric value (as string)dataManager.setData(player, "level", String.valueOf(5));// Set a boolean (as string)dataManager.setData(player, "premium", "true");`
+
+### Add to a Numeric Value[​](http://docs.groupez.dev/zmenu/development/api-player-data#add-to-a-numeric-value "Direct link to Add to a Numeric Value")
+
+`// Add 50 to the current valuedataManager.addData(player, "coins", 50);`
+
+### Subtract from a Value[​](http://docs.groupez.dev/zmenu/development/api-player-data#subtract-from-a-value "Direct link to Subtract from a Value")
+
+`// Subtract by adding a negative valuedataManager.addData(player, "coins", -25);`
+
+### Remove Data[​](http://docs.groupez.dev/zmenu/development/api-player-data#remove-data "Direct link to Remove Data")
+
+`// Remove a specific key for a playerdataManager.removeData(player, "coins");`
+
+Bulk Operations[​](http://docs.groupez.dev/zmenu/development/api-player-data#bulk-operations "Direct link to Bulk Operations")
+------------------------------------------------------------------------------------------------------------------------------
+
+### Get All Keys for a Player[​](http://docs.groupez.dev/zmenu/development/api-player-data#get-all-keys-for-a-player "Direct link to Get All Keys for a Player")
+
+`// This functionality depends on implementation// Generally, you would track your own keysList<String> knownKeys = Arrays.asList("coins", "level", "premium", "last-login");for (String key : knownKeys) {    dataManager.getData(player, key).ifPresent(value -> {        player.sendMessage(key + ": " + value);    });}`
+
+Complete Example: Currency System[​](http://docs.groupez.dev/zmenu/development/api-player-data#complete-example-currency-system "Direct link to Complete Example: Currency System")
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+`package com.example.currency;import fr.maxlego08.menu.api.MenuPlugin;import fr.maxlego08.menu.api.DataManager;import org.bukkit.entity.Player;public class CurrencyManager {    private final DataManager dataManager;    private static final String COINS_KEY = "coins";    public CurrencyManager(MenuPlugin menuPlugin) {        this.dataManager = menuPlugin.getDataManager();    }    public int getCoins(Player player) {        return dataManager.getData(player, COINS_KEY)            .map(Integer::parseInt)            .orElse(0);    }    public void setCoins(Player player, int amount) {        dataManager.setData(player, COINS_KEY, String.valueOf(Math.max(0, amount)));    }    public void addCoins(Player player, int amount) {        int current = getCoins(player);        setCoins(player, current + amount);    }    public boolean removeCoins(Player player, int amount) {        int current = getCoins(player);        if (current >= amount) {            setCoins(player, current - amount);            return true;        }        return false;    }    public boolean hasCoins(Player player, int amount) {        return getCoins(player) >= amount;    }}`
+
+### Usage[​](http://docs.groupez.dev/zmenu/development/api-player-data#usage "Direct link to Usage")
+
+`CurrencyManager currency = new CurrencyManager(menuPlugin);// Check balanceint balance = currency.getCoins(player);player.sendMessage("Balance: " + balance);// Add coinscurrency.addCoins(player, 100);player.sendMessage("Added 100 coins!");// Remove coins (with check)if (currency.removeCoins(player, 50)) {    player.sendMessage("Spent 50 coins");} else {    player.sendMessage("Not enough coins!");}`
+
+Complete Example: Statistics Tracker[​](http://docs.groupez.dev/zmenu/development/api-player-data#complete-example-statistics-tracker "Direct link to Complete Example: Statistics Tracker")
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+`package com.example.stats;import fr.maxlego08.menu.api.MenuPlugin;import fr.maxlego08.menu.api.DataManager;import org.bukkit.entity.Player;public class StatsTracker {    private final DataManager dataManager;    public StatsTracker(MenuPlugin menuPlugin) {        this.dataManager = menuPlugin.getDataManager();    }    // Kills    public int getKills(Player player) {        return getIntValue(player, "kills");    }    public void incrementKills(Player player) {        dataManager.addData(player, "kills", 1);    }    // Deaths    public int getDeaths(Player player) {        return getIntValue(player, "deaths");    }    public void incrementDeaths(Player player) {        dataManager.addData(player, "deaths", 1);    }    // K/D Ratio    public double getKDRatio(Player player) {        int kills = getKills(player);        int deaths = getDeaths(player);        if (deaths == 0) return kills;        return (double) kills / deaths;    }    // Playtime (in minutes)    public long getPlaytime(Player player) {        return getLongValue(player, "playtime");    }    public void addPlaytime(Player player, long minutes) {        long current = getPlaytime(player);        dataManager.setData(player, "playtime", String.valueOf(current + minutes));    }    // Helper methods    private int getIntValue(Player player, String key) {        return dataManager.getData(player, key)            .map(Integer::parseInt)            .orElse(0);    }    private long getLongValue(Player player, String key) {        return dataManager.getData(player, key)            .map(Long::parseLong)            .orElse(0L);    }}`
+
+Complete Example: Daily Rewards System[​](http://docs.groupez.dev/zmenu/development/api-player-data#complete-example-daily-rewards-system "Direct link to Complete Example: Daily Rewards System")
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+`package com.example.rewards;import fr.maxlego08.menu.api.MenuPlugin;import fr.maxlego08.menu.api.DataManager;import org.bukkit.entity.Player;public class DailyRewardsManager {    private final DataManager dataManager;    private static final long DAY_IN_MILLIS = 24 * 60 * 60 * 1000;    public DailyRewardsManager(MenuPlugin menuPlugin) {        this.dataManager = menuPlugin.getDataManager();    }    public boolean canClaimDaily(Player player) {        long lastClaim = getLastClaimTime(player);        long now = System.currentTimeMillis();        return (now - lastClaim) >= DAY_IN_MILLIS;    }    public long getTimeUntilNextClaim(Player player) {        long lastClaim = getLastClaimTime(player);        long now = System.currentTimeMillis();        long nextClaim = lastClaim + DAY_IN_MILLIS;        return Math.max(0, nextClaim - now);    }    public void claimDaily(Player player) {        dataManager.setData(player, "daily-last-claim",            String.valueOf(System.currentTimeMillis()));        incrementStreak(player);    }    public int getStreak(Player player) {        return dataManager.getData(player, "daily-streak")            .map(Integer::parseInt)            .orElse(0);    }    private void incrementStreak(Player player) {        dataManager.addData(player, "daily-streak", 1);    }    public void resetStreak(Player player) {        dataManager.setData(player, "daily-streak", "0");    }    private long getLastClaimTime(Player player) {        return dataManager.getData(player, "daily-last-claim")            .map(Long::parseLong)            .orElse(0L);    }    // Format time remaining    public String formatTimeRemaining(Player player) {        long millis = getTimeUntilNextClaim(player);        long hours = millis / (60 * 60 * 1000);        long minutes = (millis % (60 * 60 * 1000)) / (60 * 1000);        return String.format("%dh %dm", hours, minutes);    }}`
+
+Working with Complex Data[​](http://docs.groupez.dev/zmenu/development/api-player-data#working-with-complex-data "Direct link to Working with Complex Data")
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+For complex data structures, serialize to JSON:
+
+`import com.google.gson.Gson;public class ComplexDataManager {    private final DataManager dataManager;    private final Gson gson = new Gson();    public ComplexDataManager(MenuPlugin menuPlugin) {        this.dataManager = menuPlugin.getDataManager();    }    // Save a list    public void saveStringList(Player player, String key, List<String> list) {        String json = gson.toJson(list);        dataManager.setData(player, key, json);    }    // Load a list    public List<String> loadStringList(Player player, String key) {        return dataManager.getData(player, key)            .map(json -> gson.fromJson(json,                new TypeToken<List<String>>(){}.getType()))            .orElse(new ArrayList<>());    }    // Save custom object    public void savePlayerStats(Player player, PlayerStats stats) {        String json = gson.toJson(stats);        dataManager.setData(player, "player-stats", json);    }    // Load custom object    public PlayerStats loadPlayerStats(Player player) {        return dataManager.getData(player, "player-stats")            .map(json -> gson.fromJson(json, PlayerStats.class))            .orElse(new PlayerStats());    }}// Example data classpublic class PlayerStats {    public int kills = 0;    public int deaths = 0;    public long playtime = 0;    public List<String> achievements = new ArrayList<>();}`
+
+Using Data in Inventories[​](http://docs.groupez.dev/zmenu/development/api-player-data#using-data-in-inventories "Direct link to Using Data in Inventories")
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+The data you set is automatically available as placeholders:
+
+`items:  stats-display:    slot: 4    item:      material: PLAYER_HEAD      playerHead: "%player%"      name: "&6&l%player%'s Stats"      lore:        - "&7Coins: &e%zmenu_player_value_coins%"        - "&7Kills: &a%zmenu_player_value_kills%"        - "&7Deaths: &c%zmenu_player_value_deaths%"        - "&7Streak: &b%zmenu_player_value_daily-streak%"`
+
+Best Practices[​](http://docs.groupez.dev/zmenu/development/api-player-data#best-practices "Direct link to Best Practices")
+---------------------------------------------------------------------------------------------------------------------------
+
+1.   **Use consistent key names** - Establish a naming convention
+2.   **Handle missing data** - Always use `orElse()` for defaults
+3.   **Validate numeric parsing** - Wrap in try-catch for safety
+4.   **Don't overwrite important data** - Check before setting
+5.   **Use appropriate data types** - Store as strings, parse when needed
+6.   **Clean up unused data** - Remove keys no longer needed
+
+Key Naming Conventions[​](http://docs.groupez.dev/zmenu/development/api-player-data#key-naming-conventions "Direct link to Key Naming Conventions")
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+`// Good naming conventions"coins"              // Simple, clear"daily-streak"       // Kebab-case for multi-word"quest-tutorial-1"   // Include identifiers"stats-kills"        // Prefix with category// Avoid"c"                  // Too short"playerCoinsData"    // CamelCase (use kebab)"x1y2z3"            // Meaningless`
+
+Next Steps[​](http://docs.groupez.dev/zmenu/development/api-player-data#next-steps "Direct link to Next Steps")
+---------------------------------------------------------------------------------------------------------------
+
+*   Listen to [Events](https://docs.groupez.dev/zmenu/development/api-events)
+*   Create [Custom Buttons](https://docs.groupez.dev/zmenu/development/api-buttons) that use player data
+*   Create [Custom Actions](https://docs.groupez.dev/zmenu/development/api-actions) that modify player data
+
+[](https://docs.groupez.dev/zmenu/development/api-actions)[](https://docs.groupez.dev/zmenu/development/api-events)
+
+*   [Overview](http://docs.groupez.dev/zmenu/development/api-player-data#overview)
+*   [DataManager](http://docs.groupez.dev/zmenu/development/api-player-data#datamanager)
+*   [Reading Data](http://docs.groupez.dev/zmenu/development/api-player-data#reading-data)
+    *   [Get a Single Value](http://docs.groupez.dev/zmenu/development/api-player-data#get-a-single-value)
+    *   [Get with Default Value](http://docs.groupez.dev/zmenu/development/api-player-data#get-with-default-value)
+    *   [Get by UUID](http://docs.groupez.dev/zmenu/development/api-player-data#get-by-uuid)
+    *   [Check If Data Exists](http://docs.groupez.dev/zmenu/development/api-player-data#check-if-data-exists)
+
+*   [Writing Data](http://docs.groupez.dev/zmenu/development/api-player-data#writing-data)
+    *   [Set a Value](http://docs.groupez.dev/zmenu/development/api-player-data#set-a-value)
+    *   [Add to a Numeric Value](http://docs.groupez.dev/zmenu/development/api-player-data#add-to-a-numeric-value)
+    *   [Subtract from a Value](http://docs.groupez.dev/zmenu/development/api-player-data#subtract-from-a-value)
+    *   [Remove Data](http://docs.groupez.dev/zmenu/development/api-player-data#remove-data)
+
+*   [Bulk Operations](http://docs.groupez.dev/zmenu/development/api-player-data#bulk-operations)
+    *   [Get All Keys for a Player](http://docs.groupez.dev/zmenu/development/api-player-data#get-all-keys-for-a-player)
+
+*   [Complete Example: Currency System](http://docs.groupez.dev/zmenu/development/api-player-data#complete-example-currency-system)
+    *   [Usage](http://docs.groupez.dev/zmenu/development/api-player-data#usage)
+
+*   [Complete Example: Statistics Tracker](http://docs.groupez.dev/zmenu/development/api-player-data#complete-example-statistics-tracker)
+*   [Complete Example: Daily Rewards System](http://docs.groupez.dev/zmenu/development/api-player-data#complete-example-daily-rewards-system)
+*   [Working with Complex Data](http://docs.groupez.dev/zmenu/development/api-player-data#working-with-complex-data)
+*   [Using Data in Inventories](http://docs.groupez.dev/zmenu/development/api-player-data#using-data-in-inventories)
+*   [Best Practices](http://docs.groupez.dev/zmenu/development/api-player-data#best-practices)
+*   [Key Naming Conventions](http://docs.groupez.dev/zmenu/development/api-player-data#key-naming-conventions)
+*   [Next Steps](http://docs.groupez.dev/zmenu/development/api-player-data#next-steps)
+
+================================================================================
+Page 40/41
 URL: https://docs.groupez.dev/zmenu/development/api-menu-item-stack
 Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-menu-item-stack
 ================================================================================
 Title: MenuItemStack | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-menu-item-stack
-
-Published Time: Thu, 05 Mar 2026 10:45:39 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -9167,15 +9028,13 @@ Next Steps[​](http://docs.groupez.dev/zmenu/development/api-menu-item-stack#ne
 *   [Next Steps](http://docs.groupez.dev/zmenu/development/api-menu-item-stack#next-steps)
 
 ================================================================================
-Page 40/41
+Page 41/41
 URL: https://docs.groupez.dev/zmenu/development/api-paginate-button
 Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-paginate-button
 ================================================================================
 Title: Paginate Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-paginate-button
-
-Published Time: Thu, 05 Mar 2026 10:45:39 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -9307,171 +9166,3 @@ Next Steps[​](http://docs.groupez.dev/zmenu/development/api-paginate-button#ne
 *   [Handling Empty States](http://docs.groupez.dev/zmenu/development/api-paginate-button#handling-empty-states)
 *   [Best Practices](http://docs.groupez.dev/zmenu/development/api-paginate-button#best-practices)
 *   [Next Steps](http://docs.groupez.dev/zmenu/development/api-paginate-button#next-steps)
-
-================================================================================
-Page 41/41
-URL: https://docs.groupez.dev/zmenu/development/api-player-data
-Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-player-data
-================================================================================
-Title: Player Data API | GroupeZ Docs
-
-URL Source: http://docs.groupez.dev/zmenu/development/api-player-data
-
-Published Time: Thu, 05 Mar 2026 10:45:39 GMT
-
-Markdown Content:
-*   [](https://docs.groupez.dev/)
-*   Development
-*   Player Data API
-
-Player Data API
----------------
-
-Learn how to work with zMenu's player data storage system programmatically.
-
-Overview[​](http://docs.groupez.dev/zmenu/development/api-player-data#overview "Direct link to Overview")
----------------------------------------------------------------------------------------------------------
-
-zMenu provides a built-in data storage system that persists player-specific values. This data is:
-
-*   Stored in a database (SQLite, MySQL, or MariaDB)
-*   Accessible via placeholders (`%zmenu_player_value_<key>%`)
-*   Persistent across server restarts
-*   Available through the API
-
-DataManager[​](http://docs.groupez.dev/zmenu/development/api-player-data#datamanager "Direct link to DataManager")
-------------------------------------------------------------------------------------------------------------------
-
-Get the data manager to work with player data:
-
-`DataManager dataManager = menuPlugin.getDataManager();`
-
-Reading Data[​](http://docs.groupez.dev/zmenu/development/api-player-data#reading-data "Direct link to Reading Data")
----------------------------------------------------------------------------------------------------------------------
-
-### Get a Single Value[​](http://docs.groupez.dev/zmenu/development/api-player-data#get-a-single-value "Direct link to Get a Single Value")
-
-`// Returns Optional<String>Optional<String> value = dataManager.getData(player, "coins");// Check and use the valueif (value.isPresent()) {    int coins = Integer.parseInt(value.get());    player.sendMessage("You have " + coins + " coins");} else {    player.sendMessage("No coins data found");}`
-
-### Get with Default Value[​](http://docs.groupez.dev/zmenu/development/api-player-data#get-with-default-value "Direct link to Get with Default Value")
-
-`String coins = dataManager.getData(player, "coins").orElse("0");int coinAmount = Integer.parseInt(coins);`
-
-### Get by UUID[​](http://docs.groupez.dev/zmenu/development/api-player-data#get-by-uuid "Direct link to Get by UUID")
-
-`UUID uuid = player.getUniqueId();Optional<String> value = dataManager.getData(uuid, "coins");`
-
-### Check If Data Exists[​](http://docs.groupez.dev/zmenu/development/api-player-data#check-if-data-exists "Direct link to Check If Data Exists")
-
-`boolean hasCoins = dataManager.getData(player, "coins").isPresent();`
-
-Writing Data[​](http://docs.groupez.dev/zmenu/development/api-player-data#writing-data "Direct link to Writing Data")
----------------------------------------------------------------------------------------------------------------------
-
-### Set a Value[​](http://docs.groupez.dev/zmenu/development/api-player-data#set-a-value "Direct link to Set a Value")
-
-`// Set a string valuedataManager.setData(player, "coins", "100");// Set a numeric value (as string)dataManager.setData(player, "level", String.valueOf(5));// Set a boolean (as string)dataManager.setData(player, "premium", "true");`
-
-### Add to a Numeric Value[​](http://docs.groupez.dev/zmenu/development/api-player-data#add-to-a-numeric-value "Direct link to Add to a Numeric Value")
-
-`// Add 50 to the current valuedataManager.addData(player, "coins", 50);`
-
-### Subtract from a Value[​](http://docs.groupez.dev/zmenu/development/api-player-data#subtract-from-a-value "Direct link to Subtract from a Value")
-
-`// Subtract by adding a negative valuedataManager.addData(player, "coins", -25);`
-
-### Remove Data[​](http://docs.groupez.dev/zmenu/development/api-player-data#remove-data "Direct link to Remove Data")
-
-`// Remove a specific key for a playerdataManager.removeData(player, "coins");`
-
-Bulk Operations[​](http://docs.groupez.dev/zmenu/development/api-player-data#bulk-operations "Direct link to Bulk Operations")
-------------------------------------------------------------------------------------------------------------------------------
-
-### Get All Keys for a Player[​](http://docs.groupez.dev/zmenu/development/api-player-data#get-all-keys-for-a-player "Direct link to Get All Keys for a Player")
-
-`// This functionality depends on implementation// Generally, you would track your own keysList<String> knownKeys = Arrays.asList("coins", "level", "premium", "last-login");for (String key : knownKeys) {    dataManager.getData(player, key).ifPresent(value -> {        player.sendMessage(key + ": " + value);    });}`
-
-Complete Example: Currency System[​](http://docs.groupez.dev/zmenu/development/api-player-data#complete-example-currency-system "Direct link to Complete Example: Currency System")
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-`package com.example.currency;import fr.maxlego08.menu.api.MenuPlugin;import fr.maxlego08.menu.api.DataManager;import org.bukkit.entity.Player;public class CurrencyManager {    private final DataManager dataManager;    private static final String COINS_KEY = "coins";    public CurrencyManager(MenuPlugin menuPlugin) {        this.dataManager = menuPlugin.getDataManager();    }    public int getCoins(Player player) {        return dataManager.getData(player, COINS_KEY)            .map(Integer::parseInt)            .orElse(0);    }    public void setCoins(Player player, int amount) {        dataManager.setData(player, COINS_KEY, String.valueOf(Math.max(0, amount)));    }    public void addCoins(Player player, int amount) {        int current = getCoins(player);        setCoins(player, current + amount);    }    public boolean removeCoins(Player player, int amount) {        int current = getCoins(player);        if (current >= amount) {            setCoins(player, current - amount);            return true;        }        return false;    }    public boolean hasCoins(Player player, int amount) {        return getCoins(player) >= amount;    }}`
-
-### Usage[​](http://docs.groupez.dev/zmenu/development/api-player-data#usage "Direct link to Usage")
-
-`CurrencyManager currency = new CurrencyManager(menuPlugin);// Check balanceint balance = currency.getCoins(player);player.sendMessage("Balance: " + balance);// Add coinscurrency.addCoins(player, 100);player.sendMessage("Added 100 coins!");// Remove coins (with check)if (currency.removeCoins(player, 50)) {    player.sendMessage("Spent 50 coins");} else {    player.sendMessage("Not enough coins!");}`
-
-Complete Example: Statistics Tracker[​](http://docs.groupez.dev/zmenu/development/api-player-data#complete-example-statistics-tracker "Direct link to Complete Example: Statistics Tracker")
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-`package com.example.stats;import fr.maxlego08.menu.api.MenuPlugin;import fr.maxlego08.menu.api.DataManager;import org.bukkit.entity.Player;public class StatsTracker {    private final DataManager dataManager;    public StatsTracker(MenuPlugin menuPlugin) {        this.dataManager = menuPlugin.getDataManager();    }    // Kills    public int getKills(Player player) {        return getIntValue(player, "kills");    }    public void incrementKills(Player player) {        dataManager.addData(player, "kills", 1);    }    // Deaths    public int getDeaths(Player player) {        return getIntValue(player, "deaths");    }    public void incrementDeaths(Player player) {        dataManager.addData(player, "deaths", 1);    }    // K/D Ratio    public double getKDRatio(Player player) {        int kills = getKills(player);        int deaths = getDeaths(player);        if (deaths == 0) return kills;        return (double) kills / deaths;    }    // Playtime (in minutes)    public long getPlaytime(Player player) {        return getLongValue(player, "playtime");    }    public void addPlaytime(Player player, long minutes) {        long current = getPlaytime(player);        dataManager.setData(player, "playtime", String.valueOf(current + minutes));    }    // Helper methods    private int getIntValue(Player player, String key) {        return dataManager.getData(player, key)            .map(Integer::parseInt)            .orElse(0);    }    private long getLongValue(Player player, String key) {        return dataManager.getData(player, key)            .map(Long::parseLong)            .orElse(0L);    }}`
-
-Complete Example: Daily Rewards System[​](http://docs.groupez.dev/zmenu/development/api-player-data#complete-example-daily-rewards-system "Direct link to Complete Example: Daily Rewards System")
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-`package com.example.rewards;import fr.maxlego08.menu.api.MenuPlugin;import fr.maxlego08.menu.api.DataManager;import org.bukkit.entity.Player;public class DailyRewardsManager {    private final DataManager dataManager;    private static final long DAY_IN_MILLIS = 24 * 60 * 60 * 1000;    public DailyRewardsManager(MenuPlugin menuPlugin) {        this.dataManager = menuPlugin.getDataManager();    }    public boolean canClaimDaily(Player player) {        long lastClaim = getLastClaimTime(player);        long now = System.currentTimeMillis();        return (now - lastClaim) >= DAY_IN_MILLIS;    }    public long getTimeUntilNextClaim(Player player) {        long lastClaim = getLastClaimTime(player);        long now = System.currentTimeMillis();        long nextClaim = lastClaim + DAY_IN_MILLIS;        return Math.max(0, nextClaim - now);    }    public void claimDaily(Player player) {        dataManager.setData(player, "daily-last-claim",            String.valueOf(System.currentTimeMillis()));        incrementStreak(player);    }    public int getStreak(Player player) {        return dataManager.getData(player, "daily-streak")            .map(Integer::parseInt)            .orElse(0);    }    private void incrementStreak(Player player) {        dataManager.addData(player, "daily-streak", 1);    }    public void resetStreak(Player player) {        dataManager.setData(player, "daily-streak", "0");    }    private long getLastClaimTime(Player player) {        return dataManager.getData(player, "daily-last-claim")            .map(Long::parseLong)            .orElse(0L);    }    // Format time remaining    public String formatTimeRemaining(Player player) {        long millis = getTimeUntilNextClaim(player);        long hours = millis / (60 * 60 * 1000);        long minutes = (millis % (60 * 60 * 1000)) / (60 * 1000);        return String.format("%dh %dm", hours, minutes);    }}`
-
-Working with Complex Data[​](http://docs.groupez.dev/zmenu/development/api-player-data#working-with-complex-data "Direct link to Working with Complex Data")
-------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-For complex data structures, serialize to JSON:
-
-`import com.google.gson.Gson;public class ComplexDataManager {    private final DataManager dataManager;    private final Gson gson = new Gson();    public ComplexDataManager(MenuPlugin menuPlugin) {        this.dataManager = menuPlugin.getDataManager();    }    // Save a list    public void saveStringList(Player player, String key, List<String> list) {        String json = gson.toJson(list);        dataManager.setData(player, key, json);    }    // Load a list    public List<String> loadStringList(Player player, String key) {        return dataManager.getData(player, key)            .map(json -> gson.fromJson(json,                new TypeToken<List<String>>(){}.getType()))            .orElse(new ArrayList<>());    }    // Save custom object    public void savePlayerStats(Player player, PlayerStats stats) {        String json = gson.toJson(stats);        dataManager.setData(player, "player-stats", json);    }    // Load custom object    public PlayerStats loadPlayerStats(Player player) {        return dataManager.getData(player, "player-stats")            .map(json -> gson.fromJson(json, PlayerStats.class))            .orElse(new PlayerStats());    }}// Example data classpublic class PlayerStats {    public int kills = 0;    public int deaths = 0;    public long playtime = 0;    public List<String> achievements = new ArrayList<>();}`
-
-Using Data in Inventories[​](http://docs.groupez.dev/zmenu/development/api-player-data#using-data-in-inventories "Direct link to Using Data in Inventories")
-------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-The data you set is automatically available as placeholders:
-
-`items:  stats-display:    slot: 4    item:      material: PLAYER_HEAD      playerHead: "%player%"      name: "&6&l%player%'s Stats"      lore:        - "&7Coins: &e%zmenu_player_value_coins%"        - "&7Kills: &a%zmenu_player_value_kills%"        - "&7Deaths: &c%zmenu_player_value_deaths%"        - "&7Streak: &b%zmenu_player_value_daily-streak%"`
-
-Best Practices[​](http://docs.groupez.dev/zmenu/development/api-player-data#best-practices "Direct link to Best Practices")
----------------------------------------------------------------------------------------------------------------------------
-
-1.   **Use consistent key names** - Establish a naming convention
-2.   **Handle missing data** - Always use `orElse()` for defaults
-3.   **Validate numeric parsing** - Wrap in try-catch for safety
-4.   **Don't overwrite important data** - Check before setting
-5.   **Use appropriate data types** - Store as strings, parse when needed
-6.   **Clean up unused data** - Remove keys no longer needed
-
-Key Naming Conventions[​](http://docs.groupez.dev/zmenu/development/api-player-data#key-naming-conventions "Direct link to Key Naming Conventions")
----------------------------------------------------------------------------------------------------------------------------------------------------
-
-`// Good naming conventions"coins"              // Simple, clear"daily-streak"       // Kebab-case for multi-word"quest-tutorial-1"   // Include identifiers"stats-kills"        // Prefix with category// Avoid"c"                  // Too short"playerCoinsData"    // CamelCase (use kebab)"x1y2z3"            // Meaningless`
-
-Next Steps[​](http://docs.groupez.dev/zmenu/development/api-player-data#next-steps "Direct link to Next Steps")
----------------------------------------------------------------------------------------------------------------
-
-*   Listen to [Events](https://docs.groupez.dev/zmenu/development/api-events)
-*   Create [Custom Buttons](https://docs.groupez.dev/zmenu/development/api-buttons) that use player data
-*   Create [Custom Actions](https://docs.groupez.dev/zmenu/development/api-actions) that modify player data
-
-[](https://docs.groupez.dev/zmenu/development/api-actions)[](https://docs.groupez.dev/zmenu/development/api-events)
-
-*   [Overview](http://docs.groupez.dev/zmenu/development/api-player-data#overview)
-*   [DataManager](http://docs.groupez.dev/zmenu/development/api-player-data#datamanager)
-*   [Reading Data](http://docs.groupez.dev/zmenu/development/api-player-data#reading-data)
-    *   [Get a Single Value](http://docs.groupez.dev/zmenu/development/api-player-data#get-a-single-value)
-    *   [Get with Default Value](http://docs.groupez.dev/zmenu/development/api-player-data#get-with-default-value)
-    *   [Get by UUID](http://docs.groupez.dev/zmenu/development/api-player-data#get-by-uuid)
-    *   [Check If Data Exists](http://docs.groupez.dev/zmenu/development/api-player-data#check-if-data-exists)
-
-*   [Writing Data](http://docs.groupez.dev/zmenu/development/api-player-data#writing-data)
-    *   [Set a Value](http://docs.groupez.dev/zmenu/development/api-player-data#set-a-value)
-    *   [Add to a Numeric Value](http://docs.groupez.dev/zmenu/development/api-player-data#add-to-a-numeric-value)
-    *   [Subtract from a Value](http://docs.groupez.dev/zmenu/development/api-player-data#subtract-from-a-value)
-    *   [Remove Data](http://docs.groupez.dev/zmenu/development/api-player-data#remove-data)
-
-*   [Bulk Operations](http://docs.groupez.dev/zmenu/development/api-player-data#bulk-operations)
-    *   [Get All Keys for a Player](http://docs.groupez.dev/zmenu/development/api-player-data#get-all-keys-for-a-player)
-
-*   [Complete Example: Currency System](http://docs.groupez.dev/zmenu/development/api-player-data#complete-example-currency-system)
-    *   [Usage](http://docs.groupez.dev/zmenu/development/api-player-data#usage)
-
-*   [Complete Example: Statistics Tracker](http://docs.groupez.dev/zmenu/development/api-player-data#complete-example-statistics-tracker)
-*   [Complete Example: Daily Rewards System](http://docs.groupez.dev/zmenu/development/api-player-data#complete-example-daily-rewards-system)
-*   [Working with Complex Data](http://docs.groupez.dev/zmenu/development/api-player-data#working-with-complex-data)
-*   [Using Data in Inventories](http://docs.groupez.dev/zmenu/development/api-player-data#using-data-in-inventories)
-*   [Best Practices](http://docs.groupez.dev/zmenu/development/api-player-data#best-practices)
-*   [Key Naming Conventions](http://docs.groupez.dev/zmenu/development/api-player-data#key-naming-conventions)
-*   [Next Steps](http://docs.groupez.dev/zmenu/development/api-player-data#next-steps)
