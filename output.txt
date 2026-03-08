@@ -1,7 +1,7 @@
 Start URL: https://docs.groupez.dev/zmenu/getting-started
 Crawl Prefix: /zmenu/
 Pages: 41
-Generated At: 2026-03-07T00:58:26Z
+Generated At: 2026-03-08T01:02:16Z
 
 ================================================================================
 Page 1/41
@@ -11,8 +11,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/getting-started
 Title: Getting Started | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/getting-started
-
-Published Time: Fri, 06 Mar 2026 21:00:56 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -179,8 +177,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/a
 Title: Actions | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/actions
-
-Published Time: Fri, 06 Mar 2026 21:00:56 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -2821,6 +2817,8 @@ Title: Requirements | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/requirements
 
+Published Time: Fri, 06 Mar 2026 21:00:54 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -3349,6 +3347,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/items/com
 Title: Components | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/items/components
+
+Published Time: Fri, 06 Mar 2026 21:00:55 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -4804,6 +4804,8 @@ Title: zMenu+ | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/zmenu-plus
 
+Published Time: Fri, 06 Mar 2026 21:00:56 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   zMenu+
@@ -5797,8 +5799,6 @@ Title: Config.yml | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/config-yml
 
-Published Time: Fri, 06 Mar 2026 21:00:54 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -6126,6 +6126,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/supported-plugins
 Title: Supported Plugins | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/supported-plugins
+
+Published Time: Fri, 06 Mar 2026 21:00:56 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -6757,8 +6759,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/global-pl
 Title: Global Placeholders | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/global-placeholders
-
-Published Time: Fri, 06 Mar 2026 21:00:54 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -8700,6 +8700,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-player-d
 Title: Player Data API | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-player-data
+
+Published Time: Fri, 06 Mar 2026 21:00:56 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
