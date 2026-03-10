@@ -1,7 +1,7 @@
 Start URL: https://docs.groupez.dev/zmenu/getting-started
 Crawl Prefix: /zmenu/
 Pages: 41
-Generated At: 2026-03-09T01:03:15Z
+Generated At: 2026-03-10T00:57:19Z
 
 ================================================================================
 Page 1/41
@@ -178,7 +178,7 @@ Title: Actions | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/actions
 
-Published Time: Fri, 06 Mar 2026 21:00:56 GMT
+Published Time: Mon, 09 Mar 2026 10:53:30 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -195,6 +195,37 @@ Basic Usage[​](http://docs.groupez.dev/zmenu/configurations/buttons/actions#ba
 ---------------------------------------------------------------------------------------------------------------------
 
 `items:  my-button:    slot: 0    item:      material: DIAMOND    actions:      - type: message        messages:          - "&aHello, %player%!"      - type: sound        sound: UI_BUTTON_CLICK`
+
+Common Options[​](http://docs.groupez.dev/zmenu/configurations/buttons/actions#common-options "Direct link to Common Options")
+------------------------------------------------------------------------------------------------------------------------------
+
+All actions support the following optional parameters:
+
+### delay[​](http://docs.groupez.dev/zmenu/configurations/buttons/actions#delay "Direct link to delay")
+
+Add a delay (in ticks) before the action is executed. 20 ticks = 1 second.
+
+`actions:  - type: refresh    delay: 10  # Wait 10 ticks before refreshing`
+
+* * *
+
+### chance[​](http://docs.groupez.dev/zmenu/configurations/buttons/actions#chance "Direct link to chance")
+
+Set a percentage chance for the action to execute. Combined with `deny-chance-actions` to define fallback actions when the chance fails.
+
+`actions:  - type: console-command    commands:      - "give %player% diamond 1"    chance: 50  # 50% chance to execute    deny-chance-actions:  # Actions to execute if chance fails      - type: message        messages:          - "&cNo luck this time!"`
+
+**Options:**
+
+| Option | Type | Description |
+| --- | --- | --- |
+| `delay` | Integer | Delay in ticks before execution (20 ticks = 1 second) |
+| `chance` | Integer | Percentage chance (0-100) for the action to execute |
+| `deny-chance-actions` | List | Actions to execute if the chance check fails |
+
+**Example with both options:**
+
+`actions:  - type: refresh    delay: 20  # Wait 1 second    chance: 75  # 75% chance    deny-chance-actions:      - type: message        messages:          - "&cThe refresh failed!"`
 
 Message Actions[​](http://docs.groupez.dev/zmenu/configurations/buttons/actions#message-actions "Direct link to Message Actions")
 ---------------------------------------------------------------------------------------------------------------------------------
@@ -725,6 +756,16 @@ Actions can also be used in `deny` and `success` blocks of requirements:
 Quick Reference Table[​](http://docs.groupez.dev/zmenu/configurations/buttons/actions#quick-reference-table "Direct link to Quick Reference Table")
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
+### Common Options (all actions)[​](http://docs.groupez.dev/zmenu/configurations/buttons/actions#common-options-all-actions "Direct link to Common Options (all actions)")
+
+| Option | Description |
+| --- | --- |
+| `delay` | Delay in ticks before execution |
+| `chance` | Percentage chance to execute |
+| `deny-chance-actions` | Fallback actions if chance fails |
+
+### Action Types[​](http://docs.groupez.dev/zmenu/configurations/buttons/actions#action-types "Direct link to Action Types")
+
 | Action | Description |
 | --- | --- |
 | `message` | Send message to player |
@@ -767,6 +808,10 @@ Next Steps[​](http://docs.groupez.dev/zmenu/configurations/buttons/actions#nex
 [](https://docs.groupez.dev/zmenu/configurations/buttons/types/input)[](https://docs.groupez.dev/zmenu/configurations/requirements)
 
 *   [Basic Usage](http://docs.groupez.dev/zmenu/configurations/buttons/actions#basic-usage)
+*   [Common Options](http://docs.groupez.dev/zmenu/configurations/buttons/actions#common-options)
+    *   [delay](http://docs.groupez.dev/zmenu/configurations/buttons/actions#delay)
+    *   [chance](http://docs.groupez.dev/zmenu/configurations/buttons/actions#chance)
+
 *   [Message Actions](http://docs.groupez.dev/zmenu/configurations/buttons/actions#message-actions)
     *   [message-to](http://docs.groupez.dev/zmenu/configurations/buttons/actions#message-to)
     *   [broadcast](http://docs.groupez.dev/zmenu/configurations/buttons/actions#broadcast)
@@ -827,6 +872,9 @@ Next Steps[​](http://docs.groupez.dev/zmenu/configurations/buttons/actions#nex
 *   [Action Order](http://docs.groupez.dev/zmenu/configurations/buttons/actions#action-order)
 *   [Using Actions in Requirements](http://docs.groupez.dev/zmenu/configurations/buttons/actions#using-actions-in-requirements)
 *   [Quick Reference Table](http://docs.groupez.dev/zmenu/configurations/buttons/actions#quick-reference-table)
+    *   [Common Options (all actions)](http://docs.groupez.dev/zmenu/configurations/buttons/actions#common-options-all-actions)
+    *   [Action Types](http://docs.groupez.dev/zmenu/configurations/buttons/actions#action-types)
+
 *   [Next Steps](http://docs.groupez.dev/zmenu/configurations/buttons/actions#next-steps)
 
 ================================================================================
@@ -1565,8 +1613,6 @@ Title: Creating an Inventory | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/inventories/create-inventory
 
-Published Time: Fri, 06 Mar 2026 21:00:54 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -1728,8 +1774,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/installation
 Title: Installing zMenu | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/installation
-
-Published Time: Fri, 06 Mar 2026 21:00:56 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -2664,8 +2708,6 @@ Title: Player Data | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/player-data
 
-Published Time: Fri, 06 Mar 2026 21:00:54 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -2824,8 +2866,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/requireme
 Title: Requirements | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/requirements
-
-Published Time: Fri, 06 Mar 2026 21:00:54 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -3356,7 +3396,7 @@ Title: Components | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/items/components
 
-Published Time: Fri, 06 Mar 2026 21:00:55 GMT
+Published Time: Mon, 09 Mar 2026 10:53:29 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -4949,6 +4989,8 @@ Title: Commands & Permissions | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/commands-permissions
 
+Published Time: Mon, 09 Mar 2026 10:53:30 GMT
+
 Markdown Content:
 This page lists all available commands and permissions in zMenu.
 
@@ -5413,7 +5455,7 @@ Title: Inventory Configuration | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/inventories/inventory
 
-Published Time: Fri, 06 Mar 2026 21:00:55 GMT
+Published Time: Mon, 09 Mar 2026 10:53:30 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -6135,6 +6177,8 @@ Title: Supported Plugins | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/supported-plugins
 
+Published Time: Mon, 09 Mar 2026 10:53:31 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Supported Plugins
@@ -6462,6 +6506,8 @@ Title: DYNAMIC_PAGINATION Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/dynamic-pagination
 
+Published Time: Mon, 09 Mar 2026 10:53:32 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -6532,8 +6578,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/custom-co
 Title: Custom Commands | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/custom-commands
-
-Published Time: Fri, 06 Mar 2026 21:00:54 GMT
 
 Markdown Content:
 zMenu allows you to create custom commands that open your inventories. Instead of using `/zm open shop`, players can simply type `/shop`.
@@ -6767,6 +6811,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/global-pl
 Title: Global Placeholders | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/global-placeholders
+
+Published Time: Mon, 09 Mar 2026 10:53:30 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -7047,7 +7093,7 @@ Title: BACK Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/back
 
-Published Time: Fri, 06 Mar 2026 21:00:56 GMT
+Published Time: Mon, 09 Mar 2026 10:53:32 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -7433,8 +7479,6 @@ Title: API Introduction | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-introduction
 
-Published Time: Fri, 06 Mar 2026 21:00:55 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Development
@@ -7580,6 +7624,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/t
 Title: PAGINATION Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/pagination
+
+Published Time: Mon, 09 Mar 2026 10:53:30 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -8072,8 +8118,6 @@ Title: Custom Actions | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-actions
 
-Published Time: Fri, 06 Mar 2026 21:00:55 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Development
@@ -8218,8 +8262,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-buttons
 Title: Custom Buttons | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-buttons
-
-Published Time: Fri, 06 Mar 2026 21:00:55 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -8713,6 +8755,8 @@ Title: Player Data API | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-player-data
 
+Published Time: Mon, 09 Mar 2026 10:53:31 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Development
@@ -9048,7 +9092,7 @@ Title: Paginate Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-paginate-button
 
-Published Time: Fri, 06 Mar 2026 21:00:56 GMT
+Published Time: Mon, 09 Mar 2026 10:53:30 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
