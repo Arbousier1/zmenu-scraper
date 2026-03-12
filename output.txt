@@ -1,7 +1,7 @@
 Start URL: https://docs.groupez.dev/zmenu/getting-started
 Crawl Prefix: /zmenu/
 Pages: 41
-Generated At: 2026-03-11T00:58:05Z
+Generated At: 2026-03-12T00:54:58Z
 
 ================================================================================
 Page 1/41
@@ -11,8 +11,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/getting-started
 Title: Getting Started | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/getting-started
-
-Published Time: Mon, 09 Mar 2026 10:53:31 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -179,6 +177,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/a
 Title: Actions | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/actions
+
+Published Time: Mon, 09 Mar 2026 10:53:30 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -885,6 +885,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/b
 Title: Button Configuration | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/button
+
+Published Time: Mon, 09 Mar 2026 10:53:31 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -2710,6 +2712,8 @@ Title: Player Data | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/player-data
 
+Published Time: Mon, 09 Mar 2026 10:53:29 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -2868,6 +2872,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/requireme
 Title: Requirements | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/requirements
+
+Published Time: Mon, 09 Mar 2026 10:53:29 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -4489,6 +4495,8 @@ Title: Item Configuration | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/items/item
 
+Published Time: Mon, 09 Mar 2026 10:53:30 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -5185,8 +5193,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/placehold
 Title: Placeholders | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/placeholders
-
-Published Time: Mon, 09 Mar 2026 10:53:29 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -7684,6 +7690,8 @@ Title: MAIN_MENU Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu
 
+Published Time: Mon, 09 Mar 2026 10:53:31 GMT
+
 Markdown Content:
 The `MAIN_MENU` button type opens the inventory configured as the main menu in `config.yml`.
 
@@ -8105,6 +8113,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-actions
 Title: Custom Actions | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-actions
+
+Published Time: Mon, 09 Mar 2026 10:53:30 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -8743,8 +8753,6 @@ Title: Player Data API | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-player-data
 
-Published Time: Mon, 09 Mar 2026 10:53:31 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Development
@@ -8910,8 +8918,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-menu-ite
 Title: MenuItemStack | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-menu-item-stack
-
-Published Time: Mon, 09 Mar 2026 10:53:30 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -9081,6 +9087,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-paginate
 Title: Paginate Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-paginate-button
+
+Published Time: Mon, 09 Mar 2026 10:53:30 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
