@@ -1,7 +1,7 @@
 Start URL: https://docs.groupez.dev/zmenu/getting-started
 Crawl Prefix: /zmenu/
 Pages: 41
-Generated At: 2026-03-14T01:01:19Z
+Generated At: 2026-03-15T01:10:35Z
 
 ================================================================================
 Page 1/41
@@ -159,6 +159,7 @@ Title: 403 - Access Forbidden | GroupeZ Docs
 URL Source: http://docs.groupez.dev/zmenu
 
 Warning: Target URL returned error 403: Forbidden
+Warning: This page maybe not yet fully loaded, consider explicitly specify a timeout.
 
 Markdown Content:
 403
@@ -177,8 +178,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/a
 Title: Actions | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/actions
-
-Published Time: Mon, 09 Mar 2026 10:53:30 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -1615,6 +1614,8 @@ Title: Creating an Inventory | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/inventories/create-inventory
 
+Published Time: Mon, 09 Mar 2026 10:53:30 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -1967,6 +1968,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/t
 Title: INPUT Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/input
+
+Published Time: Mon, 09 Mar 2026 10:53:32 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -2359,8 +2362,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/patterns
 Title: Patterns | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/patterns
-
-Published Time: Mon, 09 Mar 2026 10:53:29 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -3304,6 +3305,8 @@ Title: NONE Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/none
 
+Published Time: Mon, 09 Mar 2026 10:53:29 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -3405,6 +3408,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/items/com
 Title: Components | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/items/components
+
+Published Time: Mon, 09 Mar 2026 10:53:29 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -4496,6 +4501,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/items/ite
 Title: Item Configuration | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/items/item
+
+Published Time: Mon, 09 Mar 2026 10:53:30 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -5855,6 +5862,8 @@ Title: Config.yml | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/config-yml
 
+Published Time: Mon, 09 Mar 2026 10:53:29 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -6581,6 +6590,8 @@ Title: Custom Commands | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/custom-commands
 
+Published Time: Mon, 09 Mar 2026 10:53:29 GMT
+
 Markdown Content:
 zMenu allows you to create custom commands that open your inventories. Instead of using `/zm open shop`, players can simply type `/shop`.
 
@@ -7092,8 +7103,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/t
 Title: BACK Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/back
-
-Published Time: Mon, 09 Mar 2026 10:53:32 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -7991,8 +8000,6 @@ Title: JUMP Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/jump
 
-Published Time: Mon, 09 Mar 2026 10:53:32 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -8117,8 +8124,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-actions
 Title: Custom Actions | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-actions
-
-Published Time: Mon, 09 Mar 2026 10:53:30 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -8265,8 +8270,6 @@ Title: Custom Buttons | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-buttons
 
-Published Time: Mon, 09 Mar 2026 10:53:30 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Development
@@ -8402,8 +8405,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-events
 Title: Events | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-events
-
-Published Time: Mon, 09 Mar 2026 10:53:30 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
