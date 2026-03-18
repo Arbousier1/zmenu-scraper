@@ -1,7 +1,7 @@
 Start URL: https://docs.groupez.dev/zmenu/getting-started
 Crawl Prefix: /zmenu/
 Pages: 41
-Generated At: 2026-03-17T01:03:04Z
+Generated At: 2026-03-18T01:06:29Z
 
 ================================================================================
 Page 1/41
@@ -178,7 +178,7 @@ Title: Actions | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/actions
 
-Published Time: Mon, 09 Mar 2026 10:53:30 GMT
+Published Time: Tue, 17 Mar 2026 13:20:24 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -886,7 +886,7 @@ Title: Button Configuration | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/button
 
-Published Time: Mon, 09 Mar 2026 10:53:31 GMT
+Published Time: Tue, 17 Mar 2026 13:20:25 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -1702,7 +1702,7 @@ Step 8: Add Requirements (Optional)[​](http://docs.groupez.dev/zmenu/configura
 
 Restrict who can click a button:
 
-`items:  vip-area:    slot: 16    item:      material: DIAMOND_BLOCK      name: "&b&lVIP Area"      lore:        - "&7Exclusive VIP teleport"    click-requirement:      requirements:        - type: permission          permission: "server.vip"          deny:            - type: message              messages:                - "&cYou need VIP rank to use this!"            - type: sound              sound: ENTITY_VILLAGER_NO      success:        - type: player-command          commands:            - "warp vip"`
+`items:  vip-area:    slot: 16    item:      material: DIAMOND_BLOCK      name: "&b&lVIP Area"      lore:        - "&7Exclusive VIP teleport"    click-requirement:      vip-check:        clicks:          - ALL        requirements:          - type: permission            permission: "server.vip"            deny:              - type: message                messages:                  - "&cYou need VIP rank to use this!"              - type: sound                sound: ENTITY_VILLAGER_NO        success:          - type: player-command            commands:              - "warp vip"`
 
 Understanding Slot Numbers[​](http://docs.groupez.dev/zmenu/configurations/inventories/create-inventory#understanding-slot-numbers "Direct link to Understanding Slot Numbers")
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -1983,7 +1983,7 @@ The `INPUT` button type allows you to capture text input from players. When clic
 Usage[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/input#usage "Direct link to Usage")
 -------------------------------------------------------------------------------------------------------
 
-`items:  input-button:    type: INPUT    slot: 13    input-message: "&eEnter your nickname:"    input-cancel: "cancel"    item:      material: NAME_TAG      name: "&a&lChange Nickname"`
+`items:  input-button:    type: INPUT    slot: 13    inputType: TEXT    conditions:      regex: "^[a-zA-Z0-9]*$"    success-actions:      - type: message        messages: ["&aValid input: %input%"]    error-actions:      - type: message        messages: ["&cInvalid input! Only alphanumeric characters allowed."]    item:      material: NAME_TAG      name: "&a&lEnter Text"`
 
 Configuration[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/input#configuration "Direct link to Configuration")
 -------------------------------------------------------------------------------------------------------------------------------
@@ -1991,9 +1991,12 @@ Configuration[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/in
 | Property | Description | Required |
 | --- | --- | --- |
 | `type` | Must be `INPUT` | Yes |
-| `slot` | Button position | Yes |
-| `input-message` | Message shown to player when waiting for input | Yes |
-| `input-cancel` | Word to type to cancel (default: "cancel") | No |
+| `inputType` | Type of input (`TEXT`, `NUMBER`, `LONG`, `DECIMAL`) | No (Default: `TEXT`) |
+| `conditions.regex` | Regex to validate input | No |
+| `conditions.min` | Minimum value/length | No (Default: 0) |
+| `conditions.max` | Maximum value/length | No (Default: 0) |
+| `success-actions` | Actions to execute on valid input | No |
+| `error-actions` | Actions to execute on invalid input | No |
 | `item` | Visual appearance | Yes |
 
 Example[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/input#example "Direct link to Example")
@@ -2001,15 +2004,11 @@ Example[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/input#ex
 
 ### Nickname Changer[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/input#nickname-changer "Direct link to Nickname Changer")
 
-`size: 27name: "&8Change Nickname"items:  change-nick:    type: INPUT    slot: 13    input-message:      - "&7"      - "&e&lEnter your new nickname"      - "&7Type your desired nickname in chat"      - "&7Type &ccancel &7to abort"      - "&7"    input-cancel: "cancel"    item:      material: NAME_TAG      name: "&a&lChange Nickname"      lore:        - "&7Click to change your display name"    actions:      - type: console-command        commands:          - "nick %player% %input%"      - type: message        messages:          - "&aYour nickname has been changed to &e%input%"  back:    type: BACK    slot: 22    item:      material: ARROW      name: "&c&lBack"`
-
-### Search Function[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/input#search-function "Direct link to Search Function")
-
-`items:  search:    type: INPUT    slot: 4    input-message: "&eEnter search term:"    input-cancel: "cancel"    item:      material: COMPASS      name: "&e&lSearch"      lore:        - "&7Click to search"    actions:      - type: inventory        inventory: "search_results"        arguments:          query: "%input%"`
+`size: 27name: "&8Change Nickname"items:  change-nick:    type: INPUT    slot: 13    inputType: TEXT    conditions:      min: 3      max: 16      regex: "^[a-zA-Z0-9_]*$"    success-actions:      - type: console-command        commands:          - "nick %player% %input%"      - type: message        messages:          - "&aYour nickname has been changed to &e%input%"    error-actions:      - type: message        messages:          - "&cInvalid nickname! Must be 3-16 alphanumeric characters."    item:      material: NAME_TAG      name: "&a&lChange Nickname"      lore:        - "&7Click to change your display name"  back:    type: BACK    slot: 22    item:      material: ARROW      name: "&c&lBack"`
 
 ### Amount Input[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/input#amount-input "Direct link to Amount Input")
 
-`items:  set-amount:    type: INPUT    slot: 13    input-message:      - "&eEnter the amount to purchase:"      - "&7(1-64)"    input-cancel: "cancel"    item:      material: HOPPER      name: "&6&lSet Amount"      lore:        - "&7Current: &e%amount%"        - "&7Click to change"    click-requirement:      requirements:        - type: regex          input: "%input%"          regex: "^[1-9][0-9]?$|^64$"          deny:            - type: message              messages:                - "&cPlease enter a number between 1 and 64"      success:        - type: data          key: "amount"          value: "%input%"        - type: refresh`
+`items:  set-amount:    type: INPUT    slot: 13    inputType: NUMBER    conditions:      min: 1      max: 64    success-actions:      - type: data        key: "amount"        value: "%input%"      - type: message        messages: ["&aAmount set to %input%"]      - type: refresh    error-actions:      - type: message        messages: ["&cPlease enter a number between 1 and 64"]    item:      material: HOPPER      name: "&6&lSet Amount"      lore:        - "&7Current: &e%amount%"        - "&7Click to change"`
 
 Placeholders[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/input#placeholders "Direct link to Placeholders")
 ----------------------------------------------------------------------------------------------------------------------------
@@ -2022,8 +2021,8 @@ Notes[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/input#note
 -------------------------------------------------------------------------------------------------------
 
 *   The inventory will close when the player needs to type
-*   Use `input-cancel` to allow players to abort the input
-*   Validate input using `click-requirement` with regex
+*   Validate input using `conditions` with regex, min, or max values
+*   Use `%input%` in your actions to access the player's text
 
 Next Steps[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/input#next-steps "Direct link to Next Steps")
 ----------------------------------------------------------------------------------------------------------------------
@@ -2037,7 +2036,6 @@ Next Steps[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/input
 *   [Configuration](http://docs.groupez.dev/zmenu/configurations/buttons/types/input#configuration)
 *   [Example](http://docs.groupez.dev/zmenu/configurations/buttons/types/input#example)
     *   [Nickname Changer](http://docs.groupez.dev/zmenu/configurations/buttons/types/input#nickname-changer)
-    *   [Search Function](http://docs.groupez.dev/zmenu/configurations/buttons/types/input#search-function)
     *   [Amount Input](http://docs.groupez.dev/zmenu/configurations/buttons/types/input#amount-input)
 
 *   [Placeholders](http://docs.groupez.dev/zmenu/configurations/buttons/types/input#placeholders)
@@ -2052,8 +2050,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/dialogues
 Title: Dialogues | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/dialogues
-
-Published Time: Mon, 09 Mar 2026 10:53:29 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -2359,8 +2355,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/patterns
 Title: Patterns | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/patterns
-
-Published Time: Mon, 09 Mar 2026 10:53:29 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -2771,7 +2765,7 @@ Examples[​](http://docs.groupez.dev/zmenu/configurations/player-data#examples 
 
 ### Coins/Currency System[​](http://docs.groupez.dev/zmenu/configurations/player-data#coinscurrency-system "Direct link to Coins/Currency System")
 
-`# Display coinsitems:  coin-display:    slot: 4    item:      material: GOLD_NUGGET      name: "&6&lYour Coins"      lore:        - "&7Balance: &e%zmenu_player_value_coins%"  # Add coins button  add-coins:    slot: 11    item:      material: GOLD_INGOT      name: "&a&l+100 Coins"    actions:      - type: data        action: ADD        key: "coins"        value: "100"      - type: message        messages:          - "&a+100 coins!"      - type: refresh  # Spend coins  spend-coins:    slot: 15    item:      material: DIAMOND      name: "&b&lBuy Diamond"      lore:        - "&7Cost: &e50 coins"    click-requirement:      requirements:        - type: placeholder          placeholder: "%zmenu_player_value_coins%"          action: SUPERIOR_OR_EQUAL          value: 50          deny:            - type: message              messages:                - "&cYou need 50 coins!"      success:        - type: data          action: SUBTRACT          key: "coins"          value: "50"        - type: console-command          commands:            - "give %player% diamond 1"        - type: refresh`
+`# Display coinsitems:  coin-display:    slot: 4    item:      material: GOLD_NUGGET      name: "&6&lYour Coins"      lore:        - "&7Balance: &e%zmenu_player_value_coins%"  # Add coins button  add-coins:    slot: 11    item:      material: GOLD_INGOT      name: "&a&l+100 Coins"    actions:      - type: data        action: ADD        key: "coins"        value: "100"      - type: message        messages:          - "&a+100 coins!"      - type: refresh  # Spend coins  spend-coins:    slot: 15    item:      material: DIAMOND      name: "&b&lBuy Diamond"      lore:        - "&7Cost: &e50 coins"    click-requirement:      purchase:        clicks:          - ALL        requirements:          - type: placeholder            placeholder: "%zmenu_player_value_coins%"            action: SUPERIOR_OR_EQUAL            value: 50            deny:              - type: message                messages:                  - "&cYou need 50 coins!"        success:          - type: data            action: SUBTRACT            key: "coins"            value: "50"          - type: console-command            commands:              - "give %player% diamond 1"          - type: refresh`
 
 ### Toggle Setting[​](http://docs.groupez.dev/zmenu/configurations/player-data#toggle-setting "Direct link to Toggle Setting")
 
@@ -2779,7 +2773,7 @@ Examples[​](http://docs.groupez.dev/zmenu/configurations/player-data#examples 
 
 ### Daily Reward System[​](http://docs.groupez.dev/zmenu/configurations/player-data#daily-reward-system "Direct link to Daily Reward System")
 
-`items:  daily-reward:    slot: 22    item:      material: CHEST      name: "&e&lDaily Reward"      lore:        - "&7Claim your daily reward!"        - ""        - "&7Last claim: &f%zmenu_player_value_last_daily%"    click-requirement:      requirements:        - type: placeholder          placeholder: "%zmenu_math_%zmenu_time_unix_timestamp%-%zmenu_player_value_last_daily%%"          action: SUPERIOR_OR_EQUAL          value: 86400  # 24 hours in seconds          deny:            - type: message              messages:                - "&cYou already claimed today's reward!"      success:        - type: data          action: SET          key: "last_daily"          value: "%zmenu_time_unix_timestamp%"        - type: console-command          commands:            - "give %player% diamond 5"        - type: data          action: ADD          key: "daily_streak"          value: "1"        - type: message          messages:            - "&aDaily reward claimed!"            - "&7Streak: &e%zmenu_player_value_daily_streak%"        - type: sound          sound: ENTITY_PLAYER_LEVELUP`
+`items:  # Daily reward system  daily-reward:    slot: 22    item:      material: CHEST      name: "&e&lDaily Reward"      lore:        - "&7Claim your daily reward!"        - ""        - "&7Last claim: &f%zmenu_player_value_last_daily%"    click-requirement:      claim:        clicks:          - ALL        requirements:          - type: placeholder            placeholder: "%zmenu_math_%zmenu_time_unix_timestamp%-%zmenu_player_value_last_daily%%"            action: SUPERIOR_OR_EQUAL            value: 86400  # 24 hours in seconds            deny:              - type: message                messages:                  - "&cYou already claimed today's reward!"        success:          - type: data            action: SET            key: "last_daily"            value: "%zmenu_time_unix_timestamp%"          - type: console-command            commands:              - "give %player% diamond 5"          - type: data            action: ADD            key: "daily_streak"            value: "1"          - type: message            messages:              - "&aDaily reward claimed!"              - "&7Streak: &e%zmenu_player_value_daily_streak%"          - type: sound            sound: ENTITY_PLAYER_LEVELUP`
 
 ### Progress Tracking[​](http://docs.groupez.dev/zmenu/configurations/player-data#progress-tracking "Direct link to Progress Tracking")
 
@@ -2873,8 +2867,6 @@ Title: Requirements | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/requirements
 
-Published Time: Mon, 09 Mar 2026 10:53:29 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -2893,26 +2885,23 @@ A requirement checks a condition (permission, placeholder value, item in invento
 *   If **all** requirements are met, the `success` actions are executed
 *   If **any** requirement fails, the `deny` actions of that requirement are executed
 
-`click-requirement:  vip-requirement:    click:      - ALL    requirements:      - type: permission        permission: "server.vip"        deny:          - type: message            messages:              - "&cYou need VIP to use this!"    success:      - type: message        messages:          - "&aWelcome, VIP!"`
+`click-requirement:  vip-requirement:    clicks:      - ALL    requirements:      - type: permission        permission: "server.vip"`
 
-* * *
+deny:
 
-Where to Use Requirements[​](http://docs.groupez.dev/zmenu/configurations/requirements#where-to-use-requirements "Direct link to Where to Use Requirements")
-------------------------------------------------------------------------------------------------------------------------------------------------------------
+*   type: message messages:
+    *   "&cYou need VIP to use this!" success:
 
-Requirements can be used in three contexts:
+*   type: message messages:
+    *   "&aWelcome, VIP!"
 
-### view-requirement (Buttons)[​](http://docs.groupez.dev/zmenu/configurations/requirements#view-requirement-buttons "Direct link to view-requirement (Buttons)")
-
-Controls whether a button is **visible**. If the requirements are not met, the button is hidden entirely.
-
-`items:  vip-only:    slot: 0    view-requirement:      requirements:        - type: permission          permission: "server.vip"    item:      material: DIAMOND      name: "&b&lVIP Item"`
+`---## Where to Use RequirementsRequirements can be used in three contexts:### view-requirement (Buttons)Controls whether a button is **visible**. If the requirements are not met, the button is hidden entirely.```yamlitems:  vip-only:    slot: 0    view-requirement:      requirements:        - type: permission          permission: "server.vip"    item:      material: DIAMOND      name: "&b&lVIP Item"`
 
 ### click-requirement (Buttons)[​](http://docs.groupez.dev/zmenu/configurations/requirements#click-requirement-buttons "Direct link to click-requirement (Buttons)")
 
 Controls whether a button can be **clicked**. The button remains visible, but the click is denied if conditions are not met.
 
-`items:  purchase:    slot: 0    click-requirement:      <requirement_name>:        requirements:          - type: placeholder            placeholder: "%vault_eco_balance%"            action: SUPERIOR_OR_EQUAL            value: 100            deny:              - type: message                messages:                  - "&cYou need $100 to purchase this!"              - type: sound                sound: ENTITY_VILLAGER_NO        success:          - type: currency-withdraw            amount: 100          - type: message            messages:              - "&aPurchase successful!"    item:      material: GOLD_INGOT      name: "&e&lPurchase - $100"`
+`items:  purchase:    slot: 0    click-requirement:      purchase:        clicks:          - ALL        requirements:          - type: placeholder            placeholder: "%vault_eco_balance%"            action: SUPERIOR_OR_EQUAL            value: 100            deny:              - type: message                messages:                  - "&cYou need $100 to purchase this!"              - type: sound                sound: ENTITY_VILLAGER_NO        success:          - type: currency-withdraw            amount: 100          - type: message            messages:              - "&aPurchase successful!"    item:      material: GOLD_INGOT      name: "&e&lPurchase - $100"`
 
 ### view-requirement / open-requirement (Inventories)[​](http://docs.groupez.dev/zmenu/configurations/requirements#view-requirement--open-requirement-inventories "Direct link to view-requirement / open-requirement (Inventories)")
 
@@ -2954,6 +2943,7 @@ Compares a placeholder value against a target. This is the most versatile requir
 | `placeholder` | String | The placeholder to evaluate |
 | `action` | String | The comparison operator |
 | `value` | Number/String | The value to compare against |
+| `target` | String | (Optional) Evaluate the placeholder for this player (by name) |
 
 #### String comparison[​](http://docs.groupez.dev/zmenu/configurations/requirements#string-comparison "Direct link to String comparison")
 
@@ -3008,16 +2998,17 @@ This requirement only checks the balance. To actually withdraw money on success,
 
 Checks if the player has a specific item in their inventory.
 
-`requirements:  - type: item    item:      material: DIAMOND      amount: 5`
+`requirements:  - type: item    item:      material: DIAMOND      amount: 5    verification: SIMILAR`
 
 | Key | Type | Description |
 | --- | --- | --- |
 | `item.material` | String | The Minecraft material name |
-| `item.amount` | Number | The minimum quantity required |
+| `amount` | Number | The minimum quantity required |
+| `verification` | String | (Optional) Verification type: `SIMILAR`, `EXACT`, `MATERIAL`, `AIR`, `AMOUNT` (Default: `SIMILAR`) |
 
 You can also check for items with specific properties:
 
-`requirements:  - type: item    item:      material: DIAMOND_SWORD      name: "&6Legendary Blade"      amount: 1`
+`requirements:  - type: item    item:      material: DIAMOND_SWORD      name: "&6Legendary Blade"    amount: 1`
 
 * * *
 
@@ -3035,14 +3026,13 @@ Checks if the player belongs to a specific LuckPerms group. Requires [LuckPerms]
 
 ### job[​](http://docs.groupez.dev/zmenu/configurations/requirements#job "Direct link to job")
 
-Checks if the player has reached a specific job level. Requires [Jobs Reborn](https://www.spigotmc.org/resources/jobs-reborn.4216/).
+Checks if the player has a specific job. Requires [Jobs Reborn](https://www.spigotmc.org/resources/jobs-reborn.4216/).
 
-`requirements:  - type: job    job: Miner    level: 10`
+`requirements:  - type: job    job: Miner`
 
 | Key | Type | Description |
 | --- | --- | --- |
 | `job` | String | The job name |
-| `level` | Number | The minimum level required |
 
 * * *
 
@@ -3059,7 +3049,7 @@ Checks if a value matches a regular expression pattern. Commonly used with the `
 
 **Example: Validate numeric input between 1 and 64:**
 
-`items:  set-amount:    type: INPUT    slot: 13    input-message:      - "&eEnter the amount to purchase:"      - "&7(1-64)"    input-cancel: "cancel"    item:      material: HOPPER      name: "&6&lSet Amount"    click-requirement:      requirements:        - type: regex          input: "%input%"          regex: "^[1-9][0-9]?$|^64$"          deny:            - type: message              messages:                - "&cPlease enter a number between 1 and 64"      success:        - type: data          key: "amount"          value: "%input%"        - type: refresh`
+`items:  set-amount:    type: INPUT    slot: 13    inputType: NUMBER    conditions:      min: 1      max: 64    success-actions:      - type: data        key: "amount"        value: "%input%"      - type: refresh    item:      material: HOPPER      name: "&6&lSet Amount"    click-requirement:      check:        clicks:          - ALL        requirements:          - type: regex            input: "%input%"            regex: "^[1-9][0-9]?$|^64$"            deny:             - type: message               messages:                 - "&cPlease enter a number between 1 and 64"      success:        - type: data          key: "amount"          value: "%input%"        - type: refresh`
 
 * * *
 
@@ -3067,11 +3057,11 @@ Checks if a value matches a regular expression pattern. Commonly used with the `
 
 Checks the player's name.
 
-`requirements:  - type: player-name    name: "Notch"`
+`requirements:  - type: player-name    player-name: "Notch"`
 
 | Key | Type | Description |
 | --- | --- | --- |
-| `name` | String | The player name to check |
+| `player-name` | String | The player name to check (also supports `playerName` or `playername`) |
 
 * * *
 
@@ -3148,7 +3138,7 @@ Actions executed when **this specific requirement** is not met. Defined inside e
 
 Actions executed when **all requirements** are met. Defined at the requirement block level (outside the `requirements` list).
 
-`click-requirement:  requirements:    - type: placeholder      placeholder: "%vault_eco_balance%"      action: SUPERIOR_OR_EQUAL      value: 500      deny:        - type: message          messages:            - "&cYou need $500!"  success:    - type: currency-withdraw      amount: 500    - type: console-command      commands:        - "give %player% diamond_sword 1"    - type: message      messages:        - "&aPurchase successful!"    - type: sound      sound: ENTITY_PLAYER_LEVELUP`
+`click-requirement:  purchase:    clicks:      - ALL    requirements:      - type: placeholder        placeholder: "%vault_eco_balance%"        action: SUPERIOR_OR_EQUAL        value: 500        deny:          - type: message            messages:              - "&cYou need $500!"  success:    - type: currency-withdraw      amount: 500    - type: console-command      commands:        - "give %player% diamond_sword 1"    - type: message      messages:        - "&aPurchase successful!"    - type: sound      sound: ENTITY_PLAYER_LEVELUP`
 
 All [action types](https://docs.groupez.dev/zmenu/configurations/buttons/actions) can be used in both `deny` and `success` blocks.
 
@@ -3159,7 +3149,7 @@ Multiple Requirements[​](http://docs.groupez.dev/zmenu/configurations/requirem
 
 You can combine multiple requirements. **All** requirements must be met for the condition to pass. If any single requirement fails, its `deny` actions are executed.
 
-`click-requirement:  requirements:    - type: permission      permission: "server.vip"      deny:        - type: message          messages:            - "&cYou need VIP rank!"    - type: placeholder      placeholder: "%vault_eco_balance%"      action: SUPERIOR_OR_EQUAL      value: 1000      deny:        - type: message          messages:            - "&cYou need $1000!"    - type: item      item:        material: DIAMOND        amount: 5      deny:        - type: message          messages:            - "&cYou need 5 diamonds!"  success:    - type: message      messages:        - "&aAll conditions met!"`
+`click-requirement:  default:    clicks:      - ALL    requirements:      - type: permission        permission: "server.vip"        deny:          - type: message            messages:              - "&cYou need VIP rank!"      - type: placeholder        placeholder: "%vault_eco_balance%"        action: SUPERIOR_OR_EQUAL        value: 1000        deny:          - type: message            messages:              - "&cYou need $1000!"      - type: item        item:          material: DIAMOND          amount: 5        deny:          - type: message            messages:              - "&cYou need 5 diamonds!"    success:      - type: message        messages:          - "&aAll conditions met!"`
 
 In this example, the player must have the VIP permission **AND** $1000 **AND** 5 diamonds. If any condition fails, the corresponding deny message is shown.
 
@@ -3180,7 +3170,7 @@ If the player has `vip.access`, they see a diamond block. Otherwise, they see a 
 
 You can chain multiple `else` blocks to create a state machine with several visual states. Each `else` can have its own `view-requirement`:
 
-`items:  reward:    slot: 0    # State 1: Already claimed    view-requirement:      requirements:        - type: placeholder          placeholder: "%zmenu_player_value_claimed%"          value: "true"          action: EQUAL_TO    item:      material: MINECART      name: "&a&lReward Claimed"      lore:        - "&7You already claimed this reward"    else:      # State 2: Not enough level      view-requirement:        requirements:          - type: placeholder            placeholder: "%player_level%"            value: "10"            action: LOWER      item:        material: BARRIER        name: "&c&lLocked"        lore:          - "&7Requires level 10"      else:        # State 3: Ready to claim        item:          material: CHEST          name: "&e&lClaim Reward"          lore:            - "&7Click to claim!"        click-requirement:          requirements:            - type: placeholder              placeholder: "%player_level%"              value: "10"              action: SUPERIOR_OR_EQUAL          success:            - type: data              action: SET              key: "claimed"              value: "true"            - type: console-command              commands:                - "give %player% diamond 10"            - type: sound              sound: ENTITY_PLAYER_LEVELUP`
+`items:  reward:    slot: 0    # State 1: Already claimed    view-requirement:      requirements:        - type: placeholder          placeholder: "%zmenu_player_value_claimed%"          value: "true"          action: EQUAL_TO    item:      material: MINECART      name: "&a&lReward Claimed"      lore:        - "&7You already claimed this reward"    else:      # State 2: Not enough level      view-requirement:        requirements:          - type: placeholder            placeholder: "%player_level%"            value: "10"            action: LOWER      item:        material: BARRIER        name: "&c&lLocked"        lore:          - "&7Requires level 10"      else:        # State 3: Ready to claim        item:          material: CHEST          name: "&e&lClaim Reward"          lore:            - "&7Click to claim!"        click-requirement:          claim:            clicks:              - ALL            requirements:              - type: placeholder                placeholder: "%player_level%"                value: "10"                action: SUPERIOR_OR_EQUAL          success:            - type: data              action: SET              key: "claimed"              value: "true"            - type: console-command              commands:                - "give %player% diamond 10"            - type: sound              sound: ENTITY_PLAYER_LEVELUP`
 
 The system evaluates each `view-requirement` from top to bottom:
 
@@ -3219,13 +3209,13 @@ Complete Examples[​](http://docs.groupez.dev/zmenu/configurations/requirements
 
 A button that sells an item only if the player can afford it:
 
-`items:  shop-sword:    slot: 13    type: NONE    item:      material: DIAMOND_SWORD      name: "&6&lDiamond Sword"      lore:        - "&8&m─────────────────"        - ""        - "&7Price: &a$500"        - "&7Your balance: &e$%vault_eco_balance%"        - ""        - "&8&m─────────────────"        - ""        - "&e▸ Click to purchase"      glow: true    click-requirement:      requirements:        - type: placeholder          placeholder: "%vault_eco_balance%"          action: SUPERIOR_OR_EQUAL          value: 500          deny:            - type: message              messages:                - "&cYou need $500 to buy this!"            - type: sound              sound: ENTITY_VILLAGER_NO      success:        - type: currency-withdraw          amount: 500        - type: console-command          commands:            - "give %player% diamond_sword 1"        - type: message          messages:            - "&aPurchase successful!"        - type: sound          sound: ENTITY_PLAYER_LEVELUP        - type: close`
+`items:  shop-sword:    slot: 13    type: NONE    item:      material: DIAMOND_SWORD      name: "&6&lDiamond Sword"      lore:        - "&8&m─────────────────"        - ""        - "&7Price: &a$500"        - "&7Your balance: &e$%vault_eco_balance%"        - ""        - "&8&m─────────────────"        - ""        - "&e▸ Click to purchase"      glow: true    click-requirement:      purchase:        clicks:          - ALL        requirements:          - type: placeholder            placeholder: "%vault_eco_balance%"            action: SUPERIOR_OR_EQUAL            value: 500            deny:              - type: message                messages:                  - "&cYou need $500 to buy this!"              - type: sound                sound: ENTITY_VILLAGER_NO      success:        - type: currency-withdraw          amount: 500        - type: console-command          commands:            - "give %player% diamond_sword 1"        - type: message          messages:            - "&aPurchase successful!"        - type: sound          sound: ENTITY_PLAYER_LEVELUP        - type: close`
 
 ### Daily Reward with Cooldown[​](http://docs.groupez.dev/zmenu/configurations/requirements#daily-reward-with-cooldown "Direct link to Daily Reward with Cooldown")
 
 A button that can only be clicked once every 24 hours using player data and timestamps:
 
-`items:  daily-reward:    slot: 22    item:      material: CHEST      name: "&e&lDaily Reward"      lore:        - "&7Claim your daily reward!"    click-requirement:      requirements:        - type: placeholder          placeholder: "%zmenu_math_%zmenu_time_unix_timestamp%-%zmenu_player_value_last_daily%%"          action: SUPERIOR_OR_EQUAL          value: 86400          deny:            - type: message              messages:                - "&cYou already claimed today's reward!"      success:        - type: data          action: SET          key: "last_daily"          value: "%zmenu_time_unix_timestamp%"        - type: console-command          commands:            - "give %player% diamond 5"        - type: data          action: ADD          key: "daily_streak"          value: "1"        - type: message          messages:            - "&aDaily reward claimed!"            - "&7Streak: &e%zmenu_player_value_daily_streak%"        - type: sound          sound: ENTITY_PLAYER_LEVELUP`
+`items:  daily-reward:    slot: 22    item:      material: CHEST      name: "&e&lDaily Reward"      lore:        - "&7Claim your daily reward!"    click-requirement:      claim:        clicks:          - ALL        requirements:          - type: placeholder            placeholder: "%zmenu_math_%zmenu_time_unix_timestamp%-%zmenu_player_value_last_daily%%"            action: SUPERIOR_OR_EQUAL            value: 86400            deny:              - type: message                messages:                  - "&cYou already claimed today's reward!"      success:        - type: data          action: SET          key: "last_daily"          value: "%zmenu_time_unix_timestamp%"        - type: console-command          commands:            - "give %player% diamond 5"        - type: data          action: ADD          key: "daily_streak"          value: "1"        - type: message          messages:            - "&aDaily reward claimed!"            - "&7Streak: &e%zmenu_player_value_daily_streak%"        - type: sound          sound: ENTITY_PLAYER_LEVELUP`
 
 ### VIP-Gated Menu[​](http://docs.groupez.dev/zmenu/configurations/requirements#vip-gated-menu "Direct link to VIP-Gated Menu")
 
@@ -3243,7 +3233,7 @@ A button that shows different content based on the player's rank:
 
 A button that checks a custom currency stored in player data:
 
-`items:  spend-coins:    slot: 15    item:      material: DIAMOND      name: "&b&lBuy Diamond"      lore:        - "&7Cost: &e50 coins"        - "&7Your coins: &f%zmenu_player_value_coins%"    click-requirement:      requirements:        - type: placeholder          placeholder: "%zmenu_player_value_coins%"          action: SUPERIOR_OR_EQUAL          value: 50          deny:            - type: message              messages:                - "&cYou need 50 coins!"      success:        - type: data          action: SUBTRACT          key: "coins"          value: "50"        - type: console-command          commands:            - "give %player% diamond 1"        - type: refresh`
+`items:  spend-coins:    slot: 15    item:      material: DIAMOND      name: "&b&lBuy Diamond"      lore:        - "&7Cost: &e50 coins"        - "&7Your coins: &f%zmenu_player_value_coins%"    click-requirement:      purchase:        clicks:          - ALL        requirements:          - type: placeholder            placeholder: "%zmenu_player_value_coins%"            action: SUPERIOR_OR_EQUAL            value: 50            deny:              - type: message                messages:                  - "&cYou need 50 coins!"      success:        - type: data          action: SUBTRACT          key: "coins"          value: "50"        - type: console-command          commands:            - "give %player% diamond 1"        - type: refresh`
 
 ### Initialize Default Values[​](http://docs.groupez.dev/zmenu/configurations/requirements#initialize-default-values "Direct link to Initialize Default Values")
 
@@ -3256,8 +3246,6 @@ This invisible button checks if the player has been initialized. If not, it sets
 [](https://docs.groupez.dev/zmenu/configurations/buttons/actions)[](https://docs.groupez.dev/zmenu/configurations/global-placeholders)
 
 *   [How Requirements Work](http://docs.groupez.dev/zmenu/configurations/requirements#how-requirements-work)
-*   [Where to Use Requirements](http://docs.groupez.dev/zmenu/configurations/requirements#where-to-use-requirements)
-    *   [view-requirement (Buttons)](http://docs.groupez.dev/zmenu/configurations/requirements#view-requirement-buttons)
     *   [click-requirement (Buttons)](http://docs.groupez.dev/zmenu/configurations/requirements#click-requirement-buttons)
     *   [view-requirement / open-requirement (Inventories)](http://docs.groupez.dev/zmenu/configurations/requirements#view-requirement--open-requirement-inventories)
 
@@ -3301,8 +3289,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/t
 Title: NONE Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/none
-
-Published Time: Mon, 09 Mar 2026 10:53:29 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -3406,7 +3392,7 @@ Title: Components | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/items/components
 
-Published Time: Mon, 09 Mar 2026 10:53:29 GMT
+Published Time: Tue, 17 Mar 2026 13:20:24 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -3459,28 +3445,13 @@ Adds attribute modifiers to the item.
 | --- | --- | --- | --- |
 | `type` | String | Yes | Attribute type (e.g., `generic.attack_damage`) |
 | `amount` | Double | Yes | Value of the modifier |
-| `operation` | String | Yes | Operation type: `add_value`, `add_multiplied_base`, `add_multiplied_total` |
+| `operation` | String | Yes | Operation type: `ADD_NUMBER`, `ADD_SCALAR`, `MULTIPLY_SCALAR_1` |
 | `slot` | String | No | Equipment slot: `any`, `mainhand`, `offhand`, `head`, `chest`, `legs`, `feet` |
-| `id` | String | No | Unique identifier for the modifier |
+| `key` | String | No | Unique identifier for the modifier |
 
-`components:  attribute-modifiers:    - type: generic.attack_damage      amount: 10      operation: add_value      slot: mainhand      id: "my_plugin:attack_bonus"    - type: generic.movement_speed      amount: 0.1      operation: add_multiplied_base      slot: feet`
+`components:  attribute-modifiers:    - type: generic.attack_damage      amount: 10      operation: add_value      slot: mainhand      key: "my_plugin:attack_bonus"    - type: generic.movement_speed      amount: 0.1      operation: add_multiplied_base      slot: feet`
 
-**Available Attribute Types:**
-
-*   `generic.armor` - Armor points
-*   `generic.armor_toughness` - Armor toughness
-*   `generic.attack_damage` - Attack damage
-*   `generic.attack_knockback` - Attack knockback
-*   `generic.attack_speed` - Attack speed
-*   `generic.flying_speed` - Flying speed
-*   `generic.follow_range` - Follow range
-*   `generic.knockback_resistance` - Knockback resistance
-*   `generic.luck` - Luck
-*   `generic.max_absorption` - Max absorption
-*   `generic.max_health` - Max health
-*   `generic.movement_speed` - Movement speed
-*   `generic.scale` - Entity scale
-*   `generic.step_height` - Step height
+**Available Attributes:** can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/attribute/Attribute.html), support custom attributes if registered in the registry.
 
 * * *
 
@@ -3501,7 +3472,7 @@ Sets the base color for shields and banners.
 
 `components:  base-color: RED`
 
-**Available Colors:**`WHITE`, `ORANGE`, `MAGENTA`, `LIGHT_BLUE`, `YELLOW`, `LIME`, `PINK`, `GRAY`, `LIGHT_GRAY`, `CYAN`, `PURPLE`, `BLUE`, `BROWN`, `GREEN`, `RED`, `BLACK`
+**Available Colors:** can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/DyeColor.html).
 
 * * *
 
@@ -3561,7 +3532,7 @@ Sets the sound played when the item breaks.
 bundle-contents[​](http://docs.groupez.dev/zmenu/configurations/items/components#bundle-contents "Direct link to bundle-contents")
 ----------------------------------------------------------------------------------------------------------------------------------
 
-Stores items inside a bundle.
+Stores items inside a bundle. Use zMenu item syntax inside each entry.
 
 **Minecraft Wiki:**[bundle_contents](https://minecraft.wiki/w/Data_component_format#bundle_contents)
 
@@ -3619,8 +3590,8 @@ Stores items inside the item (like shulker boxes).
 | Key | Type | Description |
 | --- | --- | --- |
 | `slot` | Integer | Slot index (0-26 for shulker boxes) |
-| `material` | String | Item material |
-| `amount` | Integer | Item amount |
+
+Use zMenu item syntax inside each entry.
 
 `components:  container:    - slot: 0      material: DIAMOND      amount: 64    - slot: 1      material: EMERALD      amount: 32`
 
@@ -3640,7 +3611,7 @@ Sets the loot table for container items.
 
 `components:  container-loot:    loot-table: DESERT_PYRAMID    seed: 12345`
 
-**Available Loot Tables:**`ABANDONED_MINESHAFT`, `BASTION_BRIDGE`, `BURIED_TREASURE`, `DESERT_PYRAMID`, `END_CITY_TREASURE`, `JUNGLE_TEMPLE`, `NETHER_BRIDGE`, `PILLAGER_OUTPOST`, `SHIPWRECK_TREASURE`, `SIMPLE_DUNGEON`, `STRONGHOLD_CORRIDOR`, `VILLAGE_ARMORER`, `WOODLAND_MANSION`, and more.
+**Available Loot Tables:** can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/loot/LootTables.html).
 
 * * *
 
@@ -3679,9 +3650,9 @@ Custom model data for resource pack integration.
 | `floats` | List<Float> | Float values for predicates |
 | `flags` | List<Boolean> | Boolean flags for predicates |
 | `strings` | List<String> | String values for predicates |
-| `colors` | List<Color> | Color values (hex format) |
+| `colors` | List<Color> | Color values. Each entry can be a hex string (e.g., `"#FFAA00"` or `"#80FFAA00"`), an integer (RGB or ARGB), a list of floats (RGB[A], 0.0–1.0), or a list of ints (RGB[A], 0–255). |
 
-`components:  custom-model-data:    floats:      - 1.0      - 2.5    flags:      - true      - false    strings:      - "variant_a"    colors:      - "#FF5555"      - "#55FF55"`
+`components:  custom-model-data:    floats:      - 1.0      - 2.5    flags:      - true      - false    strings:      - "variant_a"    colors:      - "#FFAA00"         # Hex string (RRGGBB)      - "#80FFAA00"       # Hex string (AARRGGBB)      - 16755200          # Integer RGB (decimal)      - [1.0, 0.5, 0.0]   # List of floats (RGB, 0.0–1.0)      - [1.0, 0.5, 0.0, 0.5] # List of floats (RGBA, 0.0–1.0)      - [255, 128, 0]     # List of ints (RGB, 0–255)      - [128, 255, 128, 0]# List of ints (RGBA, 0–255)`
 
 * * *
 
@@ -3709,7 +3680,7 @@ Makes the item resistant to specific damage types.
 
 `components:  damage-resistant:    types: "minecraft:is_fire"`
 
-**Available Damage Type Tags:**`is_fire`, `is_explosion`, `is_projectile`, `is_fall`, `bypasses_armor`, `bypasses_shield`, `is_drowning`, `is_freezing`
+**Available Damage Type Tags:** can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/tag/DamageTypeTags.html).
 
 * * *
 
@@ -3733,7 +3704,14 @@ Sets the dye color for leather armor and other dyeable items.
 
 **Minecraft Wiki:**[dyed_color](https://minecraft.wiki/w/Data_component_format#dyed_color)
 
-`components:  dyed-color: "#FF5555"`
+| Type | Description |
+| --- | --- |
+| String | Hex string (e.g., `"#FFAA00"` or `"#80FFAA00"`) |
+| Integer | Integer RGB or ARGB (decimal) |
+| List<Float> | List of floats (RGB[A], 0.0–1.0) |
+| List<Integer> | List of ints (RGB[A], 0–255) |
+
+`components:  # Only use one of the following formats for dyed-color:  dyed-color: "#FFAA00"         # Hex string (RRGGBB)  # dyed-color: "#80FFAA00"       # Hex string (AARRGGBB)  # dyed-color: 16755200          # Integer RGB (decimal)  # dyed-color: [1.0, 0.5, 0.0]   # List of floats (RGB, 0.0–1.0)  # dyed-color: [1.0, 0.5, 0.0, 0.5] # List of floats (RGBA, 0.0–1.0)  # dyed-color: [255, 128, 0]     # List of ints (RGB, 0–255)  # dyed-color: [128, 255, 128, 0]# List of ints (RGBA, 0–255)`
 
 * * *
 
@@ -3772,6 +3750,63 @@ Adds enchantments to the item. Supports custom enchantments if they were registe
 
 * * *
 
+### custom_name Paper only[​](http://docs.groupez.dev/zmenu/configurations/items/components#custom_name-paper-only "Direct link to custom_name-paper-only")
+
+Sets the custom name of the item.
+
+**Minecraft Wiki:**[custom_name](https://minecraft.wiki/w/Data_component_format#custom_name)
+
+`components:  custom-name: "&6&lLegendary Sword"`
+
+* * *
+
+### intangible_projectile Paper only[​](http://docs.groupez.dev/zmenu/configurations/items/components#intangible_projectile-paper-only "Direct link to intangible_projectile-paper-only")
+
+Makes projectiles fired from this item intangible (pass through blocks).
+
+**Minecraft Wiki:**[intangible_projectile](https://minecraft.wiki/w/Data_component_format#intangible_projectile)
+
+`components:  intangible_projectile: true`
+
+* * *
+
+### map_decorations Paper only[​](http://docs.groupez.dev/zmenu/configurations/items/components#map_decorations-paper-only "Direct link to map_decorations-paper-only")
+
+Adds map decorations to filled maps.
+
+**Minecraft Wiki:**[map_decorations](https://minecraft.wiki/w/Data_component_format#map_decorations)
+
+| Key | Type | Description |
+| --- | --- | --- |
+| `type` | String | Decoration type (e.g., `red_marker`) [full list](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/map/MapCursor.Type.html) |
+| `x` | Integer | X coordinate on the map |
+| `z` | Integer | Z coordinate on the map |
+| `rotation` | Integer | Rotation |
+
+`components:  map_decorations:    - type: red_marker      x: 100      z: -50      rotation: 0    - type: blue_marker      x: -30      z: 75      rotation: 4`
+
+* * *
+
+### note_block_sound Paper only[​](http://docs.groupez.dev/zmenu/configurations/items/components#note_block_sound-paper-only "Direct link to note_block_sound-paper-only")
+
+Sets the sound played when a note block item is placed.
+
+**Minecraft Wiki:**[note_block_sound](https://minecraft.wiki/w/Data_component_format#note_block_sound)
+
+`components:  note_block_sound: "minecraft:block.note_block.bell"`
+
+* * *
+
+### pot_decorations Paper only[​](http://docs.groupez.dev/zmenu/configurations/items/components#pot_decorations-paper-only "Direct link to pot_decorations-paper-only")
+
+Adds decorations to decorated pots. Requires the item to be a pottery shard or brick. Each decoration is represented by a string ID corresponding to a specific pattern or design.
+
+**Minecraft Wiki:**[pot_decorations](https://minecraft.wiki/w/Data_component_format#pot_decorations)
+
+`components:  pot_decorations:    - "skull_pottery_sherd"    - "heart_pottery_sherd"    - "blade_pottery_sherd"    - "brick"`
+
+* * *
+
 equippable 1.21.2+[​](http://docs.groupez.dev/zmenu/configurations/items/components#equippable-1212 "Direct link to equippable-1212")
 -------------------------------------------------------------------------------------------------------------------------------------
 
@@ -3807,12 +3842,21 @@ Configures a single firework star explosion effect.
 | Key | Type | Description |
 | --- | --- | --- |
 | `shape` | String | Shape: `BALL`, `LARGE_BALL`, `BURST`, `CREEPER`, `STAR` |
-| `colors` | Color | Primary color (hex format) |
-| `fade_colors` | Color | Fade color (hex format) |
+| `colors` | Color/List | Primary color(s). Each entry can be a hex string (e.g., `"#FFAA00"` or `"#80FFAA00"`), an integer (RGB or ARGB), a list of floats (RGB[A], 0.0–1.0), or a list of ints (RGB[A], 0–255). |
+| `fade_colors` | Color/List | Fade color(s). Same formats as `colors`. |
 | `has_trail` | Boolean | Has trail effect |
 | `has_twinkle` | Boolean | Has twinkle/flicker effect |
 
-`components:  firework-explosion:    shape: STAR    colors: "#FF0000"    fade_colors: "#FFFF00"    has_trail: true    has_twinkle: true`
+**Accepted Color Formats for `colors` and `fade_colors`:**
+
+| Type | Description |
+| --- | --- |
+| String | Hex string (e.g., `"#FFAA00"` or `"#80FFAA00"`) |
+| Integer | Integer RGB or ARGB (decimal) |
+| List<Float> | List of floats (RGB[A], 0.0–1.0) |
+| List<Integer> | List of ints (RGB[A], 0–255) |
+
+`components:  firework-explosion:    shape: STAR    # Only use one of the following formats for colors:    colors: "#FFAA00"         # Hex string (RRGGBB)    # colors: "#80FFAA00"       # Hex string (AARRGGBB)    # colors: 16755200          # Integer RGB (decimal)    # colors: [1.0, 0.5, 0.0]   # List of floats (RGB, 0.0–1.0)    # colors: [1.0, 0.5, 0.0, 0.5] # List of floats (RGBA, 0.0–1.0)    # colors: [255, 128, 0]     # List of ints (RGB, 0–255)    # colors: [128, 255, 128, 0]# List of ints (RGBA, 0–255)    # Only use one of the following formats for fade_colors:    fade_colors: "#FFFF00"         # Hex string (RRGGBB)    # fade_colors: "#80FFFF00"       # Hex string (AARRGGBB)    # fade_colors: 16776960          # Integer RGB (decimal)    # fade_colors: [1.0, 1.0, 0.0]   # List of floats (RGB, 0.0–1.0)    # fade_colors: [1.0, 1.0, 0.0, 0.5] # List of floats (RGBA, 0.0–1.0)    # fade_colors: [255, 255, 0]     # List of ints (RGB, 0–255)    # fade_colors: [128, 255, 255, 0]# List of ints (RGBA, 0–255)    has_trail: true    has_twinkle: true`
 
 * * *
 
@@ -3828,15 +3872,7 @@ Configures firework rockets.
 | `flight-duration` | Integer | `1` | Flight duration (1-3) |
 | `explosions` | List | `[]` | List of explosion effects |
 
-**Explosion Properties:**
-
-| Key | Type | Description |
-| --- | --- | --- |
-| `shape` | String | Shape: `BALL`, `LARGE_BALL`, `BURST`, `CREEPER`, `STAR` |
-| `colors` | List | Primary colors (hex format) |
-| `fade-colors` | List | Fade colors (hex format) |
-| `has-trail` | Boolean | Has trail effect |
-| `has-twinkle` | Boolean | Has twinkle effect |
+Each entry in `explosions` follows the same properties as [`firework-explosion`](http://docs.groupez.dev/zmenu/configurations/items/components#firework-explosion).
 
 `components:  fireworks:    flight-duration: 2    explosions:      - shape: LARGE_BALL        colors:          - "#FF0000"          - "#00FF00"        fade-colors:          - "#FFFF00"        has-trail: true        has-twinkle: true`
 
@@ -3998,7 +4034,9 @@ Sets the map marker color for filled maps.
 
 **Minecraft Wiki:**[map_color](https://minecraft.wiki/w/Data_component_format#map_color)
 
-`components:  map-color: "#FF5555"`
+> [!NOTE] The `map-color` field uses the same color parsing method as [`firework-explosion`](http://docs.groupez.dev/zmenu/configurations/items/components#firework-explosion)`colors` and `fade_colors`. All supported formats (hex string, integer, float/int arrays/lists) are accepted.
+
+`components:  map-color: "#FF5555"  # map-color: 16737717  # map-color: [1.0, 0.33, 0.33]  # map-color: [255, 85, 85]`
 
 * * *
 
@@ -4085,9 +4123,11 @@ Configures potion effects and appearance.
 | Key | Type | Description |
 | --- | --- | --- |
 | `potion` | String | Base potion type (e.g., `speed`, `healing`) |
-| `custom-color` | String | Custom potion color (hex format) |
+| `custom-color` | String/Number/List | Custom potion color. **Uses the same color parsing method as [`firework-explosion`](http://docs.groupez.dev/zmenu/configurations/items/components#firework-explosion)`colors` and `fade_colors`.** |
 | `custom-name` | String | Custom potion name |
 | `custom-effects` | List | List of custom potion effects |
+
+> [!NOTE] The `custom-color` field accepts all formats supported by [`firework-explosion`](http://docs.groupez.dev/zmenu/configurations/items/components#firework-explosion)`colors`: hex string, integer, list of floats, or list of ints. Refer to that section for a full table and YAML examples.
 
 **Custom Effect Properties:**
 
@@ -4100,7 +4140,31 @@ Configures potion effects and appearance.
 | `show-particles` | Boolean | Show effect particles |
 | `show-icon` | Boolean | Show effect icon |
 
-`components:  potion-contents:    potion: speed    custom-color: "#FF0000"    custom-name: "&cSuper Speed Potion"    custom-effects:      - type: speed        amplifier: 1        duration: 600        ambient: false        show-particles: true        show-icon: true      - type: jump_boost        amplifier: 2        duration: 600`
+`components:  potion-contents:    potion: speed    # Only use one of the following formats for custom-color:    custom-color: "#FF0000"         # Hex string (RRGGBB)    # custom-color: "#80FF0000"       # Hex string (AARRGGBB)    # custom-color: 16711680          # Integer RGB (decimal)    # custom-color: [1.0, 0.0, 0.0]   # List of floats (RGB, 0.0–1.0)    # custom-color: [1.0, 0.0, 0.0, 0.5] # List of floats (RGBA, 0.0–1.0)    # custom-color: [255, 0, 0]     # List of ints (RGB, 0–255)    # custom-color: [128, 255, 0, 0]# List of ints (RGBA, 0–255)    custom-name: "&cSuper Speed Potion"    custom-effects:      - type: speed        amplifier: 1        duration: 600        ambient: false        show-particles: true        show-icon: true      - type: jump_boost        amplifier: 2        duration: 600`
+
+* * *
+
+### hide_tooltip[​](http://docs.groupez.dev/zmenu/configurations/items/components#hide_tooltip "Direct link to hide_tooltip")
+
+Hides the tooltip when hovering over the item.
+
+**Minecraft Wiki:**[hide_tooltip](https://minecraft.wiki/w/Data_component_format#hide_tooltip)
+
+| Key | Type | Description |
+| --- | --- | --- |
+| `hide_tooltip` | Boolean | Whether to hide the tooltip |
+
+`components:  hide_tooltip: true`
+
+#### Paper only[​](http://docs.groupez.dev/zmenu/configurations/items/components#paper-only "Direct link to Paper only")
+
+One more setting to hide specific tooltip lines:
+
+| Key | Type | Description |
+| --- | --- | --- |
+| `hidden_components` | List | List of component types to hide from tooltip (e.g., `ATTACK_RANGE`, `ATTRIBUTE_MODIFIERS`) [full list](https://jd.papermc.io/paper/1.21.11/io/papermc/paper/datacomponent/DataComponentTypes.html) |
+
+`components:  hide_tooltip: true  hidden_components:    - ATTACK_RANGE    - ATTRIBUTE_MODIFIERS`
 
 * * *
 
@@ -4181,7 +4245,7 @@ Sets the anvil repair cost.
 stored-enchantments[​](http://docs.groupez.dev/zmenu/configurations/items/components#stored-enchantments "Direct link to stored-enchantments")
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
-Enchantments stored in enchanted books.
+Enchantments stored in enchanted books. Supported enchantments are the same as the [`enchantments`](http://docs.groupez.dev/zmenu/configurations/items/components#enchantments) component, but these enchantments are only stored in the book and do not apply any effects until transferred to an item using an anvil.
 
 **Minecraft Wiki:**[stored_enchantments](https://minecraft.wiki/w/Data_component_format#stored_enchantments)
 
@@ -4195,6 +4259,15 @@ suspicious-stew-effects[​](http://docs.groupez.dev/zmenu/configurations/items/
 Sets potion effects for suspicious stew.
 
 **Minecraft Wiki:**[suspicious_stew_effects](https://minecraft.wiki/w/Data_component_format#suspicious_stew_effects)
+
+| Key | Type | Description |
+| --- | --- | --- |
+| id | String | Potion effect type (e.g., `blindness`, `saturation`) |
+| duration | Integer | Effect duration in ticks (20 ticks = 1 second) |
+| amplifier | Boolean | Effect level (0 = level 1) |
+| ambient | Boolean | Ambient particles (like beacon) |
+| show_particles | Boolean | Show effect particles |
+| show_icon | Boolean | Show effect icon |
 
 `components:  suspicious-stew-effects:    - type: blindness      amplifier: 0      duration: 100    - type: saturation      amplifier: 0      duration: 200`
 
@@ -4337,11 +4410,43 @@ Configures effects when using the item (like spyglass).
 use-remainder 1.21.2+[​](http://docs.groupez.dev/zmenu/configurations/items/components#use-remainder-1212 "Direct link to use-remainder-1212")
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
-Item left after using (like bowls from stew).
+Item left after using (like bowls from stew). Use zMenu item syntax here.
 
 **Minecraft Wiki:**[use_remainder](https://minecraft.wiki/w/Data_component_format#use_remainder)
 
 `components:  use-remainder:    material: BOWL    amount: 1`
+
+* * *
+
+### death_protection Paper only 1.21.2+[​](http://docs.groupez.dev/zmenu/configurations/items/components#death_protection-paper-only-1212 "Direct link to death_protection-paper-only-1212")
+
+Configures death protection for items (similar to a Totem of Undying).
+
+**Minecraft Wiki:**[death_protection](https://minecraft.wiki/w/Data_component_format#death_protection)
+
+| Key | Type | Description |
+| --- | --- | --- |
+| `death_effects` | List | List of effects to apply when death is prevented |
+
+`components:  death_protection:    death_effects:      - type: APPLY_EFFECTS        probability: 1.0        effects:          - id: regeneration            amplified: true            duration: 900          - id: fire_resistance            duration: 800          - id: absorption            amplified: true            duration: 100      - type: PLAY_SOUND        sound: item.totem.use      - type: TELEPORT_RANDOMLY        diameter: 16.0      - type: CLEAR_ALL_EFFECTS      - type: REMOVE_EFFECTS        effects:          - poison          - wither`
+
+**Effect Types:**
+
+*   `APPLY_EFFECTS` - Apply potion effects with probability
+*   `PLAY_SOUND` - Play a sound
+*   `TELEPORT_RANDOMLY` - Teleport randomly within diameter
+*   `CLEAR_ALL_EFFECTS` - Clear all potion effects
+*   `REMOVE_EFFECTS` - Remove specific effects
+
+* * *
+
+### repairable Paper only 1.21.2+[​](http://docs.groupez.dev/zmenu/configurations/items/components#repairable-paper-only-1212 "Direct link to repairable-paper-only-1212")
+
+Configures item repair behavior.
+
+**Minecraft Wiki:**[repairable](https://minecraft.wiki/w/Data_component_format#repairable)
+
+`components:  repairable:    items:      - minecraft:diamond      - minecraft:netherite_ingot`
 
 * * *
 
@@ -4358,6 +4463,26 @@ Configures weapon damage properties.
 | `disable-blocking-for-seconds` | Float | `0` | Duration to disable shield blocking |
 
 `components:  weapon:    item-damage-per-attack: 1    disable-blocking-for-seconds: 5.0`
+
+* * *
+
+### provides_banner_patterns Paper only 1.21.5+[​](http://docs.groupez.dev/zmenu/configurations/items/components#provides_banner_patterns-paper-only-1215 "Direct link to provides_banner_patterns-paper-only-1215")
+
+Configures banner pattern providing behavior for items.
+
+**Minecraft Wiki:**[provides_banner_patterns](https://minecraft.wiki/w/Data_component_format#provides_banner_patterns)
+
+`components:  provides_banner_patterns: "minecraft:flower_banner_pattern"`
+
+* * *
+
+### provides_trim_material Paper only 1.21.5+[​](http://docs.groupez.dev/zmenu/configurations/items/components#provides_trim_material-paper-only-1215 "Direct link to provides_trim_material-paper-only-1215")
+
+Configures trim material providing behavior for items.
+
+**Minecraft Wiki:**[provides_trim_material](https://minecraft.wiki/w/Data_component_format#provides_trim_material)
+
+`components:  provides_trim_material: "minecraft:gold"`
 
 * * *
 
@@ -4394,6 +4519,226 @@ Content for signed written books.
 
 * * *
 
+### axolotl/variant[​](http://docs.groupez.dev/zmenu/configurations/items/components#axolotlvariant "Direct link to axolotl/variant")
+
+Configures axolotl variant for axolotl.
+
+`components:  axolotl/variant: "lucy"`
+
+**Available Variants:** can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/Axolotl.Variant.html)
+
+* * *
+
+### cat/collar[​](http://docs.groupez.dev/zmenu/configurations/items/components#catcollar "Direct link to cat/collar")
+
+Configures cat collar color for cat.
+
+`components:  cat/collar: "red"`
+
+* * *
+
+### cat/variant[​](http://docs.groupez.dev/zmenu/configurations/items/components#catvariant "Direct link to cat/variant")
+
+Configures cat variant for cat.
+
+`components:  cat/variant: "siamese"`
+
+*_Available Variants:_ can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/Cat.Type.html)
+
+* * *
+
+### chicken/variant 1.21.5+[​](http://docs.groupez.dev/zmenu/configurations/items/components#chickenvariant-1215 "Direct link to chickenvariant-1215")
+
+Configures chicken variant for chicken.
+
+`components:  chicken/variant: "COLD"`
+
+**Available Variants:** can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/Chicken.Variant.html)
+
+* * *
+
+### cow/variant 1.21.5+[​](http://docs.groupez.dev/zmenu/configurations/items/components#cowvariant-1215 "Direct link to cowvariant-1215")
+
+Configures cow variant for cow.
+
+`components:  cow/variant: "COLD"`
+
+**Available Variants:** can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/Cow.Variant.html)
+
+* * *
+
+### fox/variant[​](http://docs.groupez.dev/zmenu/configurations/items/components#foxvariant "Direct link to fox/variant")
+
+Configures fox variant for fox.
+
+`components:  fox/variant: "RED"`
+
+**Available Variants:** can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/Fox.Type.html)
+
+* * *
+
+### frog/variant[​](http://docs.groupez.dev/zmenu/configurations/items/components#frogvariant "Direct link to frog/variant")
+
+Configures frog variant for frog.
+
+`components:  frog/variant: "TEMPERATE"`
+
+**Available Variants:** can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/Frog.Variant.html)
+
+* * *
+
+### horse/variant[​](http://docs.groupez.dev/zmenu/configurations/items/components#horsevariant "Direct link to horse/variant")
+
+Configures horse variant for horse.
+
+`components:  horse/variant: "BLACK"`
+
+**Available Variants:** can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/Horse.Color.html)
+
+* * *
+
+### llama/variant[​](http://docs.groupez.dev/zmenu/configurations/items/components#llamavariant "Direct link to llama/variant")
+
+Configures llama variant for llama.
+
+`components:  llama/variant: "CREAMY"`
+
+**Available Variants:** can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/Llama.Color.html)
+
+* * *
+
+### mooshroom/variant[​](http://docs.groupez.dev/zmenu/configurations/items/components#mooshroomvariant "Direct link to mooshroom/variant")
+
+Configures mooshroom variant for mooshroom.
+
+`mooshroom/variant: "BROWN"`
+
+**Available Variants:** can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/MushroomCow.Variant.html)
+
+* * *
+
+### painting/variant 1.20.5+[​](http://docs.groupez.dev/zmenu/configurations/items/components#paintingvariant-1205 "Direct link to paintingvariant-1205")
+
+Configures painting variant for painting.
+
+`components:  painting/variant: "WITHER"`
+
+**Available Variants:** can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Art.html)
+
+* * *
+
+### parrot/variant[​](http://docs.groupez.dev/zmenu/configurations/items/components#parrotvariant "Direct link to parrot/variant")
+
+Configures parrot variant for parrot.
+
+`components:  parrot/variant: "BLUE"`
+
+**Available Variants:** can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/Parrot.Variant.html)
+
+* * *
+
+### pig/variant 1.21.5+[​](http://docs.groupez.dev/zmenu/configurations/items/components#pigvariant-1215 "Direct link to pigvariant-1215")
+
+Configures pig variant for pig.
+
+`components:  pig/variant: "COLD"`
+
+**Available Variants:** can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/Pig.Variant.html)
+
+* * *
+
+### rabbit/variant[​](http://docs.groupez.dev/zmenu/configurations/items/components#rabbitvariant "Direct link to rabbit/variant")
+
+Configures rabbit variant for rabbit.
+
+`components:  rabbit/variant: "BLACK"`
+
+**Available Variants:** can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/Rabbit.Type.html)
+
+* * *
+
+### salmon/size 1.21.5+[​](http://docs.groupez.dev/zmenu/configurations/items/components#salmonsize-1215 "Direct link to salmonsize-1215")
+
+Configures salmon size for salmon.
+
+`components:  salmon/size: "SMALL"`
+
+**Available Sizes:** can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/Salmon.Variant.html)
+
+* * *
+
+### sheep/color[​](http://docs.groupez.dev/zmenu/configurations/items/components#sheepcolor "Direct link to sheep/color")
+
+Configures sheep color for sheep.
+
+`components:  sheep/color: "BLACK"`
+
+**Available Colors:** can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/DyeColor.html)
+
+* * *
+
+### shulker/color[​](http://docs.groupez.dev/zmenu/configurations/items/components#shulkercolor "Direct link to shulker/color")
+
+Configures shulker color for shulker.
+
+`components:  shulker/color: "PURPLE"`
+
+**Available Colors:** can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/DyeColor.html)
+
+* * *
+
+* * *
+
+### tropical_fish/base_color[​](http://docs.groupez.dev/zmenu/configurations/items/components#tropical_fishbase_color "Direct link to tropical_fish/base_color")
+
+Configures tropical fish base color.
+
+`components:  tropical_fish/base_color: "ORANGE"`
+
+**Available Colors:** can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/DyeColor.html)
+
+* * *
+
+### tropical_fish/pattern_color[​](http://docs.groupez.dev/zmenu/configurations/items/components#tropical_fishpattern_color "Direct link to tropical_fish/pattern_color")
+
+Configures tropical fish pattern color.
+
+`components:  tropical_fish/pattern_color: "BLUE"`
+
+**Available Colors:** can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/DyeColor.html)
+
+* * *
+
+### villager/variant[​](http://docs.groupez.dev/zmenu/configurations/items/components#villagervariant "Direct link to villager/variant")
+
+Configures villager variant for villager.
+
+`components:  villager/variant: "PLAINS"`
+
+**Available Variants:** can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/Villager.Type.html)
+
+* * *
+
+### wolf/variant 1.20.5+[​](http://docs.groupez.dev/zmenu/configurations/items/components#wolfvariant-1205 "Direct link to wolfvariant-1205")
+
+Configures wolf variant for wolf.
+
+`components:  wolf/variant: "RED"`
+
+**Available Variants:** can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/Wolf.Variant.html)
+
+* * *
+
+### wolf/collar 1.20.5+[​](http://docs.groupez.dev/zmenu/configurations/items/components#wolfcollar-1205 "Direct link to wolfcollar-1205")
+
+Configures wolf collar color for wolf.
+
+`components:  wolf/collar: "BLUE"`
+
+**Available Colors:** can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/DyeColor.html)
+
+* * *
+
 Complete Example[​](http://docs.groupez.dev/zmenu/configurations/items/components#complete-example "Direct link to Complete Example")
 -------------------------------------------------------------------------------------------------------------------------------------
 
@@ -4409,10 +4754,10 @@ Version Compatibility[​](http://docs.groupez.dev/zmenu/configurations/items/co
 | Component | Minimum Version |
 | --- | --- |
 | Most components | 1.20.5 |
-| `food`, `tool`, `container-loot`, `custom-data`, `damage-resistant`, `ominous-bottle-amplifier` | 1.20.5 |
+| `food`, `tool`, `container-loot`, `custom-data`, `damage-resistant`, `ominous-bottle-amplifier`, `painting/variant`, `wolf/variant`, `wolf/collar` | 1.20.5 |
 | `jukebox-playable` | 1.21 |
-| `consumable`, `enchantable`, `equippable`, `glider`, `item-model`, `tooltip-style`, `use-cooldown`, `use-remainder` | 1.21.2 |
-| `blocks-attacks`, `break-sound`, `potion-duration-scale`, `tooltip-display`, `weapon` | 1.21.5 |
+| `consumable`, `enchantable`, `equippable`, `glider`, `item-model`, `tooltip-style`, `use-cooldown`, `use-remainder`, `death_protection`, `repairable` | 1.21.2 |
+| `blocks-attacks`, `break-sound`, `potion-duration-scale`, `tooltip-display`, `weapon`, `provides_banner_patterns`, `provides_trim_material`, `chicken/variant`, `cow/variant`, `pig/variant`, `salmon/size` | 1.21.5 |
 | `profile` | 1.21.9 |
 | `attack-range`, `damage-type`, `kinetic-weapon`, `minimum-attack-charge`, `piercing-weapon`, `swing-animation`, `use-effects` | 1.21.11 |
 
@@ -4447,6 +4792,12 @@ Next Steps[​](http://docs.groupez.dev/zmenu/configurations/items/components#ne
 *   [enchantable 1.21.2+](http://docs.groupez.dev/zmenu/configurations/items/components#enchantable-1212)
 *   [enchantment-glint-override](http://docs.groupez.dev/zmenu/configurations/items/components#enchantment-glint-override)
 *   [enchantments](http://docs.groupez.dev/zmenu/configurations/items/components#enchantments)
+    *   [custom_name Paper only](http://docs.groupez.dev/zmenu/configurations/items/components#custom_name-paper-only)
+    *   [intangible_projectile Paper only](http://docs.groupez.dev/zmenu/configurations/items/components#intangible_projectile-paper-only)
+    *   [map_decorations Paper only](http://docs.groupez.dev/zmenu/configurations/items/components#map_decorations-paper-only)
+    *   [note_block_sound Paper only](http://docs.groupez.dev/zmenu/configurations/items/components#note_block_sound-paper-only)
+    *   [pot_decorations Paper only](http://docs.groupez.dev/zmenu/configurations/items/components#pot_decorations-paper-only)
+
 *   [equippable 1.21.2+](http://docs.groupez.dev/zmenu/configurations/items/components#equippable-1212)
 *   [firework-explosion](http://docs.groupez.dev/zmenu/configurations/items/components#firework-explosion)
 *   [fireworks](http://docs.groupez.dev/zmenu/configurations/items/components#fireworks)
@@ -4467,6 +4818,8 @@ Next Steps[​](http://docs.groupez.dev/zmenu/configurations/items/components#ne
 *   [ominous-bottle-amplifier](http://docs.groupez.dev/zmenu/configurations/items/components#ominous-bottle-amplifier)
 *   [piercing-weapon 1.21.11+](http://docs.groupez.dev/zmenu/configurations/items/components#piercing-weapon-12111)
 *   [potion-contents](http://docs.groupez.dev/zmenu/configurations/items/components#potion-contents)
+    *   [hide_tooltip](http://docs.groupez.dev/zmenu/configurations/items/components#hide_tooltip)
+
 *   [potion-duration-scale 1.21.5+](http://docs.groupez.dev/zmenu/configurations/items/components#potion-duration-scale-1215)
 *   [profile 1.21.9+](http://docs.groupez.dev/zmenu/configurations/items/components#profile-1219)
 *   [rarity](http://docs.groupez.dev/zmenu/configurations/items/components#rarity)
@@ -4483,9 +4836,38 @@ Next Steps[​](http://docs.groupez.dev/zmenu/configurations/items/components#ne
 *   [use-cooldown 1.21.2+](http://docs.groupez.dev/zmenu/configurations/items/components#use-cooldown-1212)
 *   [use-effects 1.21.11+](http://docs.groupez.dev/zmenu/configurations/items/components#use-effects-12111)
 *   [use-remainder 1.21.2+](http://docs.groupez.dev/zmenu/configurations/items/components#use-remainder-1212)
+    *   [death_protection Paper only 1.21.2+](http://docs.groupez.dev/zmenu/configurations/items/components#death_protection-paper-only-1212)
+    *   [repairable Paper only 1.21.2+](http://docs.groupez.dev/zmenu/configurations/items/components#repairable-paper-only-1212)
+
 *   [weapon 1.21.5+](http://docs.groupez.dev/zmenu/configurations/items/components#weapon-1215)
+    *   [provides_banner_patterns Paper only 1.21.5+](http://docs.groupez.dev/zmenu/configurations/items/components#provides_banner_patterns-paper-only-1215)
+    *   [provides_trim_material Paper only 1.21.5+](http://docs.groupez.dev/zmenu/configurations/items/components#provides_trim_material-paper-only-1215)
+
 *   [writable-book-content](http://docs.groupez.dev/zmenu/configurations/items/components#writable-book-content)
 *   [written-book-content](http://docs.groupez.dev/zmenu/configurations/items/components#written-book-content)
+    *   [axolotl/variant](http://docs.groupez.dev/zmenu/configurations/items/components#axolotlvariant)
+    *   [cat/collar](http://docs.groupez.dev/zmenu/configurations/items/components#catcollar)
+    *   [cat/variant](http://docs.groupez.dev/zmenu/configurations/items/components#catvariant)
+    *   [chicken/variant 1.21.5+](http://docs.groupez.dev/zmenu/configurations/items/components#chickenvariant-1215)
+    *   [cow/variant 1.21.5+](http://docs.groupez.dev/zmenu/configurations/items/components#cowvariant-1215)
+    *   [fox/variant](http://docs.groupez.dev/zmenu/configurations/items/components#foxvariant)
+    *   [frog/variant](http://docs.groupez.dev/zmenu/configurations/items/components#frogvariant)
+    *   [horse/variant](http://docs.groupez.dev/zmenu/configurations/items/components#horsevariant)
+    *   [llama/variant](http://docs.groupez.dev/zmenu/configurations/items/components#llamavariant)
+    *   [mooshroom/variant](http://docs.groupez.dev/zmenu/configurations/items/components#mooshroomvariant)
+    *   [painting/variant 1.20.5+](http://docs.groupez.dev/zmenu/configurations/items/components#paintingvariant-1205)
+    *   [parrot/variant](http://docs.groupez.dev/zmenu/configurations/items/components#parrotvariant)
+    *   [pig/variant 1.21.5+](http://docs.groupez.dev/zmenu/configurations/items/components#pigvariant-1215)
+    *   [rabbit/variant](http://docs.groupez.dev/zmenu/configurations/items/components#rabbitvariant)
+    *   [salmon/size 1.21.5+](http://docs.groupez.dev/zmenu/configurations/items/components#salmonsize-1215)
+    *   [sheep/color](http://docs.groupez.dev/zmenu/configurations/items/components#sheepcolor)
+    *   [shulker/color](http://docs.groupez.dev/zmenu/configurations/items/components#shulkercolor)
+    *   [tropical_fish/base_color](http://docs.groupez.dev/zmenu/configurations/items/components#tropical_fishbase_color)
+    *   [tropical_fish/pattern_color](http://docs.groupez.dev/zmenu/configurations/items/components#tropical_fishpattern_color)
+    *   [villager/variant](http://docs.groupez.dev/zmenu/configurations/items/components#villagervariant)
+    *   [wolf/variant 1.20.5+](http://docs.groupez.dev/zmenu/configurations/items/components#wolfvariant-1205)
+    *   [wolf/collar 1.20.5+](http://docs.groupez.dev/zmenu/configurations/items/components#wolfcollar-1205)
+
 *   [Complete Example](http://docs.groupez.dev/zmenu/configurations/items/components#complete-example)
 *   [Version Compatibility](http://docs.groupez.dev/zmenu/configurations/items/components#version-compatibility)
 *   [Next Steps](http://docs.groupez.dev/zmenu/configurations/items/components#next-steps)
@@ -4499,7 +4881,7 @@ Title: Item Configuration | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/items/item
 
-Published Time: Mon, 09 Mar 2026 10:53:30 GMT
+Published Time: Tue, 17 Mar 2026 13:20:24 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -4550,6 +4932,8 @@ zMenu supports many material sources through its loader system:
 | **ExecutableItems** | `ei:<item id>` | Paid | [SpigotMC](https://www.spigotmc.org/resources/83070/) |
 | **ExecutableBlocks** | `eb:<block id>` | Paid | [SpigotMC](https://www.spigotmc.org/resources/94696/) |
 | **Nexo** | `nexo:<item id>` | Paid | [MCModels](https://mcmodels.net/products/13172/nexo) |
+| **MMOItems** | `mmoitems:<type>:<item id>` | Paid | [SpigotMC](https://www.spigotmc.org/resources/39267/) |
+| **BaseHead** | `basehead-<head-url>` | Built-in | Use a base64 head texture directly in the material field |
 
 **Examples:**
 
@@ -4561,7 +4945,21 @@ zMenu supports many material sources through its loader system:
 
 The display name of the item.
 
-`item:  material: DIAMOND  name: "&b&lShiny Diamond"`
+*   name
+*   display-name
+*   display_name
+
+`item:material: DIAMONDname: "&b&lShiny Diamond"`
+
+`item:material: DIAMONDdisplay-name: "&b&lShiny Diamond"`
+
+`item:material: DIAMONDdisplay_name: "&b&lShiny Diamond"`
+
+**Aliases:**
+
+*   `name`
+*   `display-name`
+*   `display_name`
 
 **Features:**
 
@@ -4573,19 +4971,14 @@ The display name of the item.
 
 ### translated-name[​](http://docs.groupez.dev/zmenu/configurations/items/item#translated-name "Direct link to translated-name")
 
-Use Minecraft's built-in translation system for item names.
+*   translatedName
+*   translated-name
+
+`item:  material: DIAMOND_SWORD  translatedName: "item.minecraft.diamond_sword"`
 
 `item:  material: DIAMOND_SWORD  translated-name: "item.minecraft.diamond_sword"`
 
 This displays the item name in the player's client language.
-
-* * *
-
-### center-name[​](http://docs.groupez.dev/zmenu/configurations/items/item#center-name "Direct link to center-name")
-
-Center the item name in the tooltip.
-
-`item:  material: DIAMOND  name: "&6&lRare Item"  center-name: true`
 
 * * *
 
@@ -4603,7 +4996,15 @@ Each list item is a new line. Empty strings (`""`) create blank lines.
 
 Define how the lore should interact with existing item lore. This is especially useful when using material loaders (ItemsAdder, Oraxen, etc.) where the loaded item already has lore.
 
-`item:  material: "itemsadder:my_namespace:custom_sword"  lore:    - "&7Additional information"    - "&7Added by zMenu"  lore-type: APPEND  # Add after existing lore`
+*   REPLACE (default)
+*   APPEND
+*   PREPEND
+
+`item:  material: "oraxen:custom_item"  lore:    - "&7This replaces all existing lore"  lore-type: REPLACE`
+
+`item:  material: "itemsadder:namespace:item"  lore:    - ""    - "&eClick to use!"  lore-type: APPEND`
+
+`item:  material: "zitems:legendary_sword"  lore:    - "&6&lLEGENDARY"    - ""  lore-type: PREPEND`
 
 **Available Types:**
 
@@ -4613,31 +5014,22 @@ Define how the lore should interact with existing item lore. This is especially 
 | `APPEND` | Add lines after the existing lore |
 | `PREPEND` | Add lines before the existing lore |
 
-**Examples:**
-
-`# Replace existing lore (default behavior)item:  material: "oraxen:custom_item"  lore:    - "&7This replaces all existing lore"  lore-type: REPLACE# Add lore after existingitem:  material: "itemsadder:namespace:item"  lore:    - ""    - "&eClick to use!"  lore-type: APPEND# Add lore before existingitem:  material: "zitems:legendary_sword"  lore:    - "&6&lLEGENDARY"    - ""  lore-type: PREPEND`
-
 * * *
 
 ### translated-lore[​](http://docs.groupez.dev/zmenu/configurations/items/item#translated-lore "Direct link to translated-lore")
 
-Use Minecraft's built-in translation system for lore lines.
+*   translatedLore
+*   translated-lore
+
+`item:  material: DIAMOND_SWORD  translatedLore:    - "item.minecraft.diamond_sword.desc"`
 
 `item:  material: DIAMOND_SWORD  translated-lore:    - "item.minecraft.diamond_sword.desc"`
 
 * * *
 
-### center-lore[​](http://docs.groupez.dev/zmenu/configurations/items/item#center-lore "Direct link to center-lore")
-
-Center all lore lines in the tooltip.
-
-`item:  material: DIAMOND  lore:    - "&7A rare gem"    - "&7Worth a fortune"  center-lore: true`
-
-* * *
-
 ### amount[​](http://docs.groupez.dev/zmenu/configurations/items/item#amount "Direct link to amount")
 
-The stack size of the item (1-64).
+The stack size of the item.
 
 `item:  material: DIAMOND  amount: 64`
 
@@ -4655,11 +5047,156 @@ Set the durability/damage value for tools and armor.
 
 * * *
 
+### max-stack-size[​](http://docs.groupez.dev/zmenu/configurations/items/item#max-stack-size "Direct link to max-stack-size")
+
+Set a custom max stack size for the item.
+
+`item:  material: DIAMOND  max-stack-size: 16`
+
+* * *
+
+### max-damage[​](http://docs.groupez.dev/zmenu/configurations/items/item#max-damage "Direct link to max-damage")
+
+Set a custom max durability for the item.
+
+`item:  material: DIAMOND_SWORD  max-damage: 500`
+
+* * *
+
+### damage[​](http://docs.groupez.dev/zmenu/configurations/items/item#damage "Direct link to damage")
+
+Set the current durability damage for the item.
+
+`item:  material: DIAMOND_SWORD  damage: 50  # 50 durability used`
+
+* * *
+
+### repair-cost[​](http://docs.groupez.dev/zmenu/configurations/items/item#repair-cost "Direct link to repair-cost")
+
+Set the anvil repair cost for the item.
+
+`item:  material: DIAMOND_SWORD  repair-cost: 10`
+
+* * *
+
+### unbreakable[​](http://docs.groupez.dev/zmenu/configurations/items/item#unbreakable "Direct link to unbreakable")
+
+Make the item unbreakable (infinite durability).
+
+`item:  material: DIAMOND_SWORD  unbreakable: true`
+
+* * *
+
+### unbreakable-show-in-tooltip[​](http://docs.groupez.dev/zmenu/configurations/items/item#unbreakable-show-in-tooltip "Direct link to unbreakable-show-in-tooltip")
+
+Show "Unbreakable" in the item tooltip when the item is unbreakable.
+
+`item:  material: DIAMOND_SWORD  unbreakable: true  unbreakable-show-in-tooltip: false`
+
+* * *
+
+### fire-resistant[​](http://docs.groupez.dev/zmenu/configurations/items/item#fire-resistant "Direct link to fire-resistant")
+
+Make the item fire resistant (does not burn in lava or fire).
+
+`item:  material: DIAMOND  fire-resistant: true`
+
+* * *
+
+### hide-tooltip[​](http://docs.groupez.dev/zmenu/configurations/items/item#hide-tooltip "Direct link to hide-tooltip")
+
+Completely hide the item tooltip when hovering over the item in the inventory.
+
+`item:  material: DIAMOND  name: "&6&lHidden Tooltip" # You can still set a name and lore, but they won't be visible in the tooltip  hide-tooltip: true`
+
+* * *
+
+### hide-additional-tooltip[​](http://docs.groupez.dev/zmenu/configurations/items/item#hide-additional-tooltip "Direct link to hide-additional-tooltip")
+
+Hide the additional tooltip line that shows enchantments, attributes, etc. The item name and lore will still be visible.
+
+`item:  material: DIAMOND_SWORD  name: "&6&lHidden Additional Tooltip"  enchantments:    - SHARPNESS,5  hide-additional-tooltip: true`
+
+* * *
+
+### enchantment-glint[​](http://docs.groupez.dev/zmenu/configurations/items/item#enchantment-glint "Direct link to enchantment-glint")
+
+Enable the enchantment glint effect without showing enchantments in the tooltip.
+
+`item:  material: DIAMOND  name: "&6&lGlowing Diamond"  enchantment-glint: true`
+
+* * *
+
+### enchantment-show-in-tooltip[​](http://docs.groupez.dev/zmenu/configurations/items/item#enchantment-show-in-tooltip "Direct link to enchantment-show-in-tooltip")
+
+Define whether enchantments should be listed in the item tooltip.
+
+`item:  material: DIAMOND_SWORD  name: "&6&lTooltip Enchantments"  enchantments:    - SHARPNESS,5  enchantment-show-in-tooltip: false`
+
+* * *
+
+### attribute-show-in-tooltip[​](http://docs.groupez.dev/zmenu/configurations/items/item#attribute-show-in-tooltip "Direct link to attribute-show-in-tooltip")
+
+Define whether attribute modifiers should be listed in the item tooltip.
+
+`item:  material: DIAMOND_SWORD  name: "&6&lTooltip Attributes"  attributes:    - attribute: ATTACK_DAMAGE      amount: 10      operation: ADD_NUMBER      slot: MAINHAND  attribute-show-in-tooltip: false`
+
+* * *
+
+### item-rarity[​](http://docs.groupez.dev/zmenu/configurations/items/item#item-rarity "Direct link to item-rarity")
+
+Set the item rarity, which can be used by resource packs to apply different colors or effects.
+
+`item:  material: DIAMOND  name: "&6&lRare Diamond"  item-rarity: RARE`
+
+Click to show rarity options
+
+Available rarities:
+
+*   `COMMON`
+*   `UNCOMMON`
+*   `RARE`
+*   `EPIC`
+
+* * *
+
+### tooltip-style[​](http://docs.groupez.dev/zmenu/configurations/items/item#tooltip-style "Direct link to tooltip-style")
+
+Set the tooltip style, which can be used by resource packs to apply different formatting.
+
+`item:  material: DIAMOND  name: "&6&lStyled Diamond"  tooltip-style: "fancy"`
+
+* * *
+
 ### model-id[​](http://docs.groupez.dev/zmenu/configurations/items/item#model-id "Direct link to model-id")
 
-Set custom model data for resource pack integration.
+*   model-id
+*   modelID
+*   modelId
+*   customModelId
+*   customModelData
+*   model_data
+*   custom-model-id
+*   custom-model-data
+*   model-data
 
 `item:  material: DIAMOND  model-id: 12345`
+
+`item:  material: DIAMOND  modelID: 12345`
+
+`item:  material: DIAMOND  modelId: 12345`
+
+`item:  material: DIAMOND  customModelId: 12345`
+
+`item:  material: DIAMOND  customModelData: 12345`
+
+`item:  material: DIAMOND  model_data: 12345`
+
+`item:  material: DIAMOND  custom-model-id: 12345`
+
+`item:  material: DIAMOND  custom-model-data: 12345`
+
+`item:  material: DIAMOND  model-data: 12345`
 
 This allows resource packs to display custom models for items.
 
@@ -4689,7 +5226,7 @@ This is used for armor and equipment that changes appearance when worn.
 
 ### glow[​](http://docs.groupez.dev/zmenu/configurations/items/item#glow "Direct link to glow")
 
-Add an enchantment glow effect without showing enchantments.
+Add an enchantment glow effect without showing enchantments. Equivalent to adding `HIDE_ENCHANTS` flag with a dummy enchantment.
 
 `item:  material: NETHER_STAR  name: "&6&lSpecial Item"  glow: true`
 
@@ -4719,18 +5256,133 @@ Get head textures from sites like [minecraft-heads.com](https://minecraft-heads.
 
 * * *
 
+### target[​](http://docs.groupez.dev/zmenu/configurations/items/item#target "Direct link to target")
+
+Set the target player for placeholders in the item name and lore.
+
+`item:  material: DIAMOND_SWORD  target: "%zmenu_argument_player%"  # Use a placeholder that resolves to a player name  name: "&6&l%player_name%'s Sword"`
+
+So if the target placeholder resolves to "Notch", the item name will display as "Notch's Sword" for that player.
+
+* * *
+
+### attributes[​](http://docs.groupez.dev/zmenu/configurations/items/item#attributes "Direct link to attributes")
+
+Define attribute modifiers for the item.
+
+`item:  material: DIAMOND_SWORD  attributes:    - attribute: ATTACK_SPEED      amount: 5      operation: ADD_NUMBER      slot: MAINHAND`
+
+Click to show attribute options
+
+List of all available attributes [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/attribute/Attribute.html). Available operations:
+
+*   `ADD_NUMBER`
+*   `ADD_SCALAR`
+*   `MULTIPLY_SCALAR_1` Available slots can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/EquipmentSlotGroup.html).
+
+* * *
+
+### attribute-merge-strategy[​](http://docs.groupez.dev/zmenu/configurations/items/item#attribute-merge-strategy "Direct link to attribute-merge-strategy")
+
+Define how attribute modifiers should merge with existing item attributes.
+
+`item:  material: DIAMOND_SWORD  attributes:    - attribute: ATTACK_DAMAGE      amount: 10      operation: ADD_NUMBER      slot: MAINHAND  attribute-merge-strategy: REPLACE`
+
+Click to show merge strategy options
+
+**Merge Strategies:**
+
+*   `REPLACE` - Replace all existing attributes with the defined ones.
+*   `ADD` - Add the defined attributes to the existing ones.
+*   `KEEP_HIGHEST` - For each attribute, keep the highest value between existing and defined.
+*   `KEEP_LOWEST` - For each attribute, keep the lowest value between existing and defined.
+*   `SUM` - Sum the values of existing and defined attributes together.
+
+* * *
+
+### clear-default-attributes[​](http://docs.groupez.dev/zmenu/configurations/items/item#clear-default-attributes "Direct link to clear-default-attributes")
+
+Remove default attributes from items (e.g., remove attack damage from swords).
+
+`item:  material: DIAMOND_SWORD  clear-default-attributes: true`
+
+* * *
+
 ### enchantments[​](http://docs.groupez.dev/zmenu/configurations/items/item#enchantments "Direct link to enchantments")
 
-Add enchantments to the item.
+*   enchantments
+*   enchants
 
-`item:  material: DIAMOND_SWORD  enchantments:    - SHARPNESS,5    - UNBREAKING,3    - FIRE_ASPECT,2`
+`item:  material: DIAMOND_SWORD  enchantments:    - SHARPNESS,5    - UNBREAKING,3`
 
-Common enchantment types:
+`item:  material: DIAMOND_SWORD  enchants:    - SHARPNESS,5    - UNBREAKING,3`
 
-*   Swords: `SHARPNESS`, `SMITE`, `FIRE_ASPECT`, `KNOCKBACK`
-*   Armor: `PROTECTION`, `THORNS`, `UNBREAKING`
-*   Tools: `EFFICIENCY`, `FORTUNE`, `SILK_TOUCH`
-*   Bows: `POWER`, `PUNCH`, `INFINITY`, `FLAME`
+You can use either `enchantments` or `enchants` to add enchantments to your item.
+
+Click to show supported enchantments and aliases
+
+**Supported Enchantments and Aliases:**
+
+| Main Name | Aliases |
+| --- | --- |
+| SHARPNESS | DAMAGE_ALL, SHARPNESS, alldamage, alldmg, sharpness, sharp, dal |
+| BANE_OF_ARTHROPODS | DAMAGE_ARTHROPODS, BANE_OF_ARTHROPODS, ardmg, baneofarthropods, baneofarthropod, arthropod, dar |
+| SMITE | DAMAGE_UNDEAD, undeaddamage, smite, du |
+| EFFICIENCY | DIG_SPEED, EFFICIENCY, digspeed, efficiency, minespeed, cutspeed, ds, eff |
+| UNBREAKING | DURABILITY, dura, unbreaking, d |
+| THORNS | thorns, highcrit, thorn, highercrit, t |
+| FIRE_ASPECT | FIRE_ASPECT, fireaspect, fire, meleefire, meleeflame, fa |
+| KNOCKBACK | knockback, kback, kb, k |
+| FORTUNE | LOOT_BONUS_BLOCKS, FORTUNE, blockslootbonus, fortune, fort, lbb |
+| LOOTING | LOOT_BONUS_MOBS, LOOTING, mobslootbonus, mobloot, looting, lbm |
+| RESPIRATION | OXYGEN, RESPIRATION, oxygen, respiration, breathing, breath, o |
+| PROTECTION | PROTECTION_ENVIRONMENTAL, PROTECTION, protection, prot, protect, p |
+| BLAST_PROTECTION | PROTECTION_EXPLOSIONS, BLAST_PROTECTION, explosionsprotection, explosionprotection, expprot, blastprotection, bprotection, bprotect, blastprotect, pe |
+| FEATHER_FALLING | PROTECTION_FALL, FEATHER_FALLING, fallprotection, fallprot, featherfall, featherfalling, pfa |
+| FIRE_PROTECTION | PROTECTION_FIRE, FIRE_PROTECTION, fireprotection, flameprotection, fireprotect, flameprotect, fireprot, flameprot, pf |
+| PROJECTILE_PROTECTION | PROTECTION_PROJECTILE, PROJECTILE_PROTECTION, projectileprotection, projprot, pp |
+| SILK_TOUCH | SILK_TOUCH, silktouch, softtouch, st |
+| AQUA_AFFINITY | WATER_WORKER, AQUA_AFFINITY, waterworker, aquaaffinity, watermine, ww |
+| FLAME | ARROW_FIRE, FLAME, firearrow, flame, flamearrow, af |
+| POWER | ARROW_DAMAGE, POWER, arrowdamage, power, arrowpower, ad |
+| PUNCH | ARROW_KNOCKBACK, PUNCH, arrowknockback, arrowkb, punch, arrowpunch, ak |
+| INFINITY | ARROW_INFINITE, INFINITY, infinitearrows, infarrows, infinity, infinite, unlimited, unlimitedarrows, ai |
+| LUCK_OF_THE_SEA | LUCK, LUCK_OF_THE_SEA, luck, luckofsea, luckofseas, rodluck |
+| LURE | lure, rodlure |
+| DEPTH_STRIDER | DEPTH_STRIDER, depthstrider, depth, strider |
+| FROST_WALKER | FROST_WALKER, frostwalker, frost, walker |
+| MENDING | mending |
+| BINDING_CURSE | BINDING_CURSE, bindingcurse, bindcurse, binding, bind |
+| VANISHING_CURSE | VANISHING_CURSE, vanishingcurse, vanishcurse, vanishing, vanish |
+| SWEEPING_EDGE | SWEEPING_EDGE, sweepingedge, sweepedge, sweeping |
+| LOYALTY | loyalty, loyal, return |
+| IMPALING | impaling, impale, oceandamage, oceandmg |
+| RIPTIDE | riptide, rip, tide, launch |
+| CHANNELING | channelling, chanelling, channeling, chaneling, channel |
+| MULTISHOT | multishot, tripleshot |
+| QUICK_CHARGE | QUICK_CHARGE, quickcharge, quickdraw, fastcharge, fastdraw |
+| PIERCING | piercing |
+| SOUL_SPEED | SOUL_SPEED, soulspeed, soilspeed, sandspeed |
+| SWIFT_SNEAK | swiftsneak, SWIFT_SNEAK |
+| BREACH | breach |
+| DENSITY | density |
+| WIND_BURST | WIND_BURST, windburst, wind, burst |
+
+**Usage:**
+
+*   Each enchantment entry is in the format `ENCHANTMENT_NAME,level` (e.g., `SHARPNESS,5`).
+*   You can use any alias listed above for the enchantment name.
+*   These options are for the top-level item configuration, not for components.
+
+* * *
+
+### trim[​](http://docs.groupez.dev/zmenu/configurations/items/item#trim "Direct link to trim")
+
+Define armor trim patterns and materials.
+
+`item:  material: DIAMOND_CHESTPLATE  trim:    enable: true    pattern: "coast"    material: "iron"`
+
+**Available Patterns:**[here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/meta/trim/TrimPattern.html)**Available Materials:**[here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/meta/trim/TrimMaterial.html)
 
 * * *
 
@@ -4740,7 +5392,7 @@ Hide certain item attributes using item flags.
 
 `item:  material: DIAMOND_SWORD  enchantments:    - SHARPNESS,5  flags:    - HIDE_ENCHANTS    - HIDE_ATTRIBUTES`
 
-**Available Flags:**
+Click to show all available flags
 
 | Flag | Description |
 | --- | --- |
@@ -4749,9 +5401,104 @@ Hide certain item attributes using item flags.
 | `HIDE_UNBREAKABLE` | Hide "Unbreakable" tag |
 | `HIDE_DESTROYS` | Hide "Can destroy" list |
 | `HIDE_PLACED_ON` | Hide "Can be placed on" list |
-| `HIDE_POTION_EFFECTS` | Hide potion effects |
+| `HIDE_ADDITIONAL_TOOLTIP` | Hide additional tooltip |
 | `HIDE_DYE` | Hide leather armor dye color |
 | `HIDE_ARMOR_TRIM` | Hide armor trim pattern |
+| `HIDE_CUSTOM_DATA` | Hide custom data |
+| `HIDE_MAX_STACK_SIZE` | Hide max stack size |
+| `HIDE_MAX_DAMAGE` | Hide max damage |
+| `HIDE_DAMAGE` | Hide damage |
+| `HIDE_CUSTOM_NAME` | Hide custom name |
+| `HIDE_ITEM_NAME` | Hide item name |
+| `HIDE_ITEM_MODEL` | Hide item model |
+| `HIDE_LORE` | Hide lore |
+| `HIDE_RARITY` | Hide rarity |
+| `HIDE_ENCHANTMENTS` | Hide enchantments |
+| `HIDE_CAN_PLACE_ON` | Hide can place on |
+| `HIDE_CAN_BREAK` | Hide can break |
+| `HIDE_ATTRIBUTE_MODIFIERS` | Hide attribute modifiers |
+| `HIDE_CUSTOM_MODEL_DATA` | Hide custom model data |
+| `HIDE_TOOLTIP_DISPLAY` | Hide tooltip display |
+| `HIDE_REPAIR_COST` | Hide repair cost |
+| `HIDE_CREATIVE_SLOT_LOCK` | Hide creative slot lock |
+| `HIDE_ENCHANTMENT_GLINT_OVERRIDE` | Hide enchantment glint override |
+| `HIDE_INTANGIBLE_PROJECTILE` | Hide intangible projectile |
+| `HIDE_FOOD` | Hide food |
+| `HIDE_CONSUMABLE` | Hide consumable |
+| `HIDE_USE_REMAINDER` | Hide use remainder |
+| `HIDE_USE_COOLDOWN` | Hide use cooldown |
+| `HIDE_DAMAGE_RESISTANT` | Hide damage resistant |
+| `HIDE_TOOL` | Hide tool |
+| `HIDE_WEAPON` | Hide weapon |
+| `HIDE_ENCHANTABLE` | Hide enchantable |
+| `HIDE_EQUIPPABLE` | Hide equippable |
+| `HIDE_REPAIRABLE` | Hide repairable |
+| `HIDE_GLIDER` | Hide glider |
+| `HIDE_TOOLTIP_STYLE` | Hide tooltip style |
+| `HIDE_DEATH_PROTECTION` | Hide death protection |
+| `HIDE_BLOCKS_ATTACKS` | Hide blocks attacks |
+| `HIDE_STORED_ENCHANTMENTS` | Hide stored enchantments |
+| `HIDE_DYED_COLOR` | Hide dyed color |
+| `HIDE_MAP_COLOR` | Hide map color |
+| `HIDE_MAP_ID` | Hide map id |
+| `HIDE_MAP_DECORATIONS` | Hide map decorations |
+| `HIDE_MAP_POST_PROCESSING` | Hide map post processing |
+| `HIDE_CHARGED_PROJECTILES` | Hide charged projectiles |
+| `HIDE_BUNDLE_CONTENTS` | Hide bundle contents |
+| `HIDE_POTION_CONTENTS` | Hide potion contents |
+| `HIDE_POTION_DURATION_SCALE` | Hide potion duration scale |
+| `HIDE_SUSPICIOUS_STEW_EFFECTS` | Hide suspicious stew effects |
+| `HIDE_WRITABLE_BOOK_CONTENT` | Hide writable book content |
+| `HIDE_WRITTEN_BOOK_CONTENT` | Hide written book content |
+| `HIDE_TRIM` | Hide trim |
+| `HIDE_DEBUG_STICK_STATE` | Hide debug stick state |
+| `HIDE_ENTITY_DATA` | Hide entity data |
+| `HIDE_BUCKET_ENTITY_DATA` | Hide bucket entity data |
+| `HIDE_BLOCK_ENTITY_DATA` | Hide block entity data |
+| `HIDE_INSTRUMENT` | Hide instrument |
+| `HIDE_PROVIDES_TRIM_MATERIAL` | Hide provides trim material |
+| `HIDE_OMINOUS_BOTTLE_AMPLIFIER` | Hide ominous bottle amplifier |
+| `HIDE_JUKEBOX_PLAYABLE` | Hide jukebox playable |
+| `HIDE_PROVIDES_BANNER_PATTERNS` | Hide provides banner patterns |
+| `HIDE_RECIPES` | Hide recipes |
+| `HIDE_LODESTONE_TRACKER` | Hide lodestone tracker |
+| `HIDE_FIREWORK_EXPLOSION` | Hide firework explosion |
+| `HIDE_FIREWORKS` | Hide fireworks |
+| `HIDE_PROFILE` | Hide profile |
+| `HIDE_NOTE_BLOCK_SOUND` | Hide note block sound |
+| `HIDE_BANNER_PATTERNS` | Hide banner patterns |
+| `HIDE_BASE_COLOR` | Hide base color |
+| `HIDE_POT_DECORATIONS` | Hide pot decorations |
+| `HIDE_CONTAINER` | Hide container |
+| `HIDE_BLOCK_STATE` | Hide block state |
+| `HIDE_BEES` | Hide bees |
+| `HIDE_LOCK` | Hide lock |
+| `HIDE_CONTAINER_LOOT` | Hide container loot |
+| `HIDE_BREAK_SOUND` | Hide break sound |
+| `HIDE_VILLAGER_VARIANT` | Hide villager variant |
+| `HIDE_WOLF_VARIANT` | Hide wolf variant |
+| `HIDE_WOLF_SOUND_VARIANT` | Hide wolf sound variant |
+| `HIDE_WOLF_COLLAR` | Hide wolf collar |
+| `HIDE_FOX_VARIANT` | Hide fox variant |
+| `HIDE_SALMON_SIZE` | Hide salmon size |
+| `HIDE_PARROT_VARIANT` | Hide parrot variant |
+| `HIDE_TROPICAL_FISH_PATTERN` | Hide tropical fish pattern |
+| `HIDE_TROPICAL_FISH_BASE_COLOR` | Hide tropical fish base color |
+| `HIDE_TROPICAL_FISH_PATTERN_COLOR` | Hide tropical fish pattern color |
+| `HIDE_MOOSHROOM_VARIANT` | Hide mooshroom variant |
+| `HIDE_RABBIT_VARIANT` | Hide rabbit variant |
+| `HIDE_PIG_VARIANT` | Hide pig variant |
+| `HIDE_COW_VARIANT` | Hide cow variant |
+| `HIDE_CHICKEN_VARIANT` | Hide chicken variant |
+| `HIDE_FROG_VARIANT` | Hide frog variant |
+| `HIDE_HORSE_VARIANT` | Hide horse variant |
+| `HIDE_PAINTING_VARIANT` | Hide painting variant |
+| `HIDE_LLAMA_VARIANT` | Hide llama variant |
+| `HIDE_AXOLOTL_VARIANT` | Hide axolotl variant |
+| `HIDE_CAT_VARIANT` | Hide cat variant |
+| `HIDE_CAT_COLLAR` | Hide cat collar |
+| `HIDE_SHEEP_COLOR` | Hide sheep color |
+| `HIDE_SHULKER_COLOR` | Hide shulker color |
 
 * * *
 
@@ -4760,7 +5507,7 @@ Components 1.20.5+[​](http://docs.groupez.dev/zmenu/configurations/items/item#
 
 Starting from Minecraft 1.20.5, items use a new component system. zMenu provides full support for over 40+ component types including food, tools, weapons, attributes, and more.
 
-`item:  material: DIAMOND_SWORD  components:    custom-name: "&6&lLegendary Sword"    rarity: EPIC    enchantments:      - enchantment: sharpness        level: 5    fire-resistant: true`
+`item:  material: DIAMOND_SWORD  components:    custom-name: "&6&lLegendary Sword"    rarity: EPIC    enchantments:      sharpness: 5    fire-resistant: true`
 
 For the complete components reference, see the dedicated [Components](https://docs.groupez.dev/zmenu/configurations/items/components) page.
 
@@ -4827,20 +5574,37 @@ Next Steps[​](http://docs.groupez.dev/zmenu/configurations/items/item#next-ste
     *   [material](http://docs.groupez.dev/zmenu/configurations/items/item#material)
     *   [name](http://docs.groupez.dev/zmenu/configurations/items/item#name)
     *   [translated-name](http://docs.groupez.dev/zmenu/configurations/items/item#translated-name)
-    *   [center-name](http://docs.groupez.dev/zmenu/configurations/items/item#center-name)
     *   [lore](http://docs.groupez.dev/zmenu/configurations/items/item#lore)
     *   [lore-type](http://docs.groupez.dev/zmenu/configurations/items/item#lore-type)
     *   [translated-lore](http://docs.groupez.dev/zmenu/configurations/items/item#translated-lore)
-    *   [center-lore](http://docs.groupez.dev/zmenu/configurations/items/item#center-lore)
     *   [amount](http://docs.groupez.dev/zmenu/configurations/items/item#amount)
     *   [durability](http://docs.groupez.dev/zmenu/configurations/items/item#durability)
+    *   [max-stack-size](http://docs.groupez.dev/zmenu/configurations/items/item#max-stack-size)
+    *   [max-damage](http://docs.groupez.dev/zmenu/configurations/items/item#max-damage)
+    *   [damage](http://docs.groupez.dev/zmenu/configurations/items/item#damage)
+    *   [repair-cost](http://docs.groupez.dev/zmenu/configurations/items/item#repair-cost)
+    *   [unbreakable](http://docs.groupez.dev/zmenu/configurations/items/item#unbreakable)
+    *   [unbreakable-show-in-tooltip](http://docs.groupez.dev/zmenu/configurations/items/item#unbreakable-show-in-tooltip)
+    *   [fire-resistant](http://docs.groupez.dev/zmenu/configurations/items/item#fire-resistant)
+    *   [hide-tooltip](http://docs.groupez.dev/zmenu/configurations/items/item#hide-tooltip)
+    *   [hide-additional-tooltip](http://docs.groupez.dev/zmenu/configurations/items/item#hide-additional-tooltip)
+    *   [enchantment-glint](http://docs.groupez.dev/zmenu/configurations/items/item#enchantment-glint)
+    *   [enchantment-show-in-tooltip](http://docs.groupez.dev/zmenu/configurations/items/item#enchantment-show-in-tooltip)
+    *   [attribute-show-in-tooltip](http://docs.groupez.dev/zmenu/configurations/items/item#attribute-show-in-tooltip)
+    *   [item-rarity](http://docs.groupez.dev/zmenu/configurations/items/item#item-rarity)
+    *   [tooltip-style](http://docs.groupez.dev/zmenu/configurations/items/item#tooltip-style)
     *   [model-id](http://docs.groupez.dev/zmenu/configurations/items/item#model-id)
     *   [item-model 1.21+](http://docs.groupez.dev/zmenu/configurations/items/item#item-model-121)
     *   [equipped-model 1.21+](http://docs.groupez.dev/zmenu/configurations/items/item#equipped-model-121)
     *   [glow](http://docs.groupez.dev/zmenu/configurations/items/item#glow)
     *   [player-head](http://docs.groupez.dev/zmenu/configurations/items/item#player-head)
     *   [url](http://docs.groupez.dev/zmenu/configurations/items/item#url)
+    *   [target](http://docs.groupez.dev/zmenu/configurations/items/item#target)
+    *   [attributes](http://docs.groupez.dev/zmenu/configurations/items/item#attributes)
+    *   [attribute-merge-strategy](http://docs.groupez.dev/zmenu/configurations/items/item#attribute-merge-strategy)
+    *   [clear-default-attributes](http://docs.groupez.dev/zmenu/configurations/items/item#clear-default-attributes)
     *   [enchantments](http://docs.groupez.dev/zmenu/configurations/items/item#enchantments)
+    *   [trim](http://docs.groupez.dev/zmenu/configurations/items/item#trim)
     *   [flags](http://docs.groupez.dev/zmenu/configurations/items/item#flags)
 
 *   [Components 1.20.5+](http://docs.groupez.dev/zmenu/configurations/items/item#components-1205)
@@ -4864,7 +5628,7 @@ Title: zMenu+ | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/zmenu-plus
 
-Published Time: Mon, 09 Mar 2026 10:53:31 GMT
+Published Time: Tue, 17 Mar 2026 13:20:25 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -5021,11 +5785,13 @@ Command List[​](http://docs.groupez.dev/zmenu/configurations/commands-permissi
 | Command | Permission | Description |
 | --- | --- | --- |
 | `/zm` | `zmenu.use` | Display the help menu |
-| `/zm version` | - | Display plugin version information |
-| `/zm list` | `zmenu.use` | List all loaded inventories |
+| `/zm version` | `zmenu.version` | Display plugin version information |
+| `/zm list` | `zmenu.list` | List all loaded inventories |
 | `/zm documentation` | `zmenu.documentation` | View documentation links |
-| `/zm addons` | `zmenu.use` | List official addons |
-| `/zm contributors` | `zmenu.use` | Show plugin contributors |
+| `/zm addons` | `zmenu.addons` | List official addons |
+| `/zm contributors` | `zmenu.contributors` | Show plugin contributors |
+| `/zm create <file name> <inventory size> <inventory name>` | `zmenu.create` | Create a new inventory file |
+| `/zm editor` | `zmenu.editor` | Send a link to the online inventory editor |
 
 ### Inventory Commands[​](http://docs.groupez.dev/zmenu/configurations/commands-permissions#inventory-commands "Direct link to Inventory Commands")
 
@@ -5034,8 +5800,7 @@ Command List[​](http://docs.groupez.dev/zmenu/configurations/commands-permissi
 | `/zm open <inventory>` | `zmenu.open` | Open an inventory for yourself |
 | `/zm open <inventory> <player>` | `zmenu.open` | Open an inventory for another player |
 | `/zm open <inventory> <player> <args...>` | `zmenu.open` | Open inventory with arguments |
-| `/zm create [name]` | `zmenu.create` | Create a new inventory from template |
-| `/zm editor [name]` | `zmenu.editor` | Open the inventory editor |
+| `/zm openMainMenu [<player>] [<display message>]` | `zmenu.open` | Open the main menu with optional message |
 
 **Examples:**
 
@@ -5060,8 +5825,8 @@ Command List[​](http://docs.groupez.dev/zmenu/configurations/commands-permissi
 
 | Command | Permission | Description |
 | --- | --- | --- |
-| `/zm giveitem <inventory> <player>` | `zmenu.giveitem` | Give a clickable item to player |
-| `/zm giveopenitem <inventory> <player>` | `zmenu.giveopenitem` | Give menu-opening item to player |
+| `/zm giveitem <inventory> <player>` | `zmenu.give.item` | Give a clickable item to player |
+| `/zm giveopenitem <inventory> <player>` | `zmenu.give.open.item` | Give menu-opening item to player |
 | `/zm save <name>` | `zmenu.save` | Save held item as inventory |
 
 ### Player Data Commands[​](http://docs.groupez.dev/zmenu/configurations/commands-permissions#player-data-commands "Direct link to Player Data Commands")
@@ -5113,8 +5878,8 @@ Permission List[​](http://docs.groupez.dev/zmenu/configurations/commands-permi
 
 | Permission | Description | Default |
 | --- | --- | --- |
-| `zmenu.giveitem` | Give clickable items | op |
-| `zmenu.giveopenitem` | Give menu-opening items | op |
+| `zmenu.give.item` | Give clickable items | op |
+| `zmenu.give.open.item` | Give menu-opening items | op |
 | `zmenu.save` | Save items as inventories | op |
 
 ### Player Data Permissions[​](http://docs.groupez.dev/zmenu/configurations/commands-permissions#player-data-permissions "Direct link to Player Data Permissions")
@@ -5138,7 +5903,7 @@ Custom Command Permissions[​](http://docs.groupez.dev/zmenu/configurations/com
 
 When you create custom commands in `commands/commands.yml`, you can define custom permissions:
 
-`commands:  shop:    command: /shop    inventory: shop_menu    permission: myserver.shop    aliases:      - store      - market`
+`commands:  shop:    command: shop    inventory: shop_menu    permission: myserver.shop    aliases:      - store      - market`
 
 Players will need the `myserver.shop` permission to use `/shop`.
 
@@ -5298,7 +6063,7 @@ When a player runs `/punish Notch`, the placeholder `%zmenu_argument_player%` wi
 
 **Example:**
 
-`# In global-placeholders.ymlserver-name: "My Server"# In inventoryname: "&6%zmenu_global_placeholders_server-name%"`
+`# In global-placeholders.ymlserver-name: "My Server"# In inventoryname: "&6%server-name%" # Replacing directly when zMenu load the inventory`
 
 ### Time Placeholders[​](http://docs.groupez.dev/zmenu/configurations/placeholders#time-placeholders "Direct link to Time Placeholders")
 
@@ -5371,7 +6136,7 @@ Requirements with Placeholders[​](http://docs.groupez.dev/zmenu/configurations
 
 Use placeholders in requirements to create dynamic conditions:
 
-`click-requirement:  requirements:    - type: placeholder      placeholder: "%vault_eco_balance%"      action: SUPERIOR_OR_EQUAL      value: 100      deny:        - type: message          messages:            - "&cYou need at least $100!"`
+`click-requirement:   requirement:      clicks:         - ALL      requirements:       - type: placeholder         placeholder: "%vault_eco_balance%"         action: SUPERIOR_OR_EQUAL         value: 100         deny:           - type: message             messages:              - "&cYou need at least $100!"`
 
 Placeholder Formatting[​](http://docs.groupez.dev/zmenu/configurations/placeholders#placeholder-formatting "Direct link to Placeholder Formatting")
 ---------------------------------------------------------------------------------------------------------------------------------------------------
@@ -5497,7 +6262,19 @@ Configuration Options[​](http://docs.groupez.dev/zmenu/configurations/inventor
 
 The title displayed at the top of the inventory.
 
+*   Name
+*   Name with List
+*   Title
+
 `name: "&6&lMy Server Menu"`
+
+Each line was joined together to create a single title.
+
+`name:  - "&6&lMy Server Menu"  - "&7Welcome, &f%player%&7!"`
+
+`title: "&6&lMy Server Menu"`
+
+**Aliases:**`name` and `title` are interchangeable. You can use either one to define the inventory title.
 
 **Features:**
 
@@ -5619,7 +6396,7 @@ This feature **requires**[PacketEvents](https://github.com/retrooper/packetevent
 
 **Complete example:**
 
-`name: "&6Loading..."size: 27title-animation:  titles:    - "&6&l⏳ Loading."    - "&6&l⏳ Loading.."    - "&6&l⏳ Loading..."    - "&a&l✓ Welcome!"  cycles: 1  initial-delay: 0  interval: 500  time-unit: MILLISECONDS  show-items-after-animation: trueitems:  content:    slot: 13    item:      material: NETHER_STAR      name: "&eMenu Content"`
+`name: "&6Loading"size: 27title-animation:  titles:    - "&6&l⏳ Loading."    - "&6&l⏳ Loading.."    - "&6&l⏳ Loading..."    - "&a&l✓ Welcome!"  cycles: 1  initial-delay: 0  interval: 500  time-unit: MILLISECONDS  show-items-after-animation: trueitems:  content:    slot: 13    item:      material: NETHER_STAR      name: "&eMenu Content"`
 
 **Example**
 
@@ -5640,6 +6417,19 @@ Clear the player's inventory while the menu is open and restore it when closed.
 
 * * *
 
+### clear-inventory-type[​](http://docs.groupez.dev/zmenu/configurations/inventories/inventory#clear-inventory-type "Direct link to clear-inventory-type")
+
+Choice what type of inventory clear is used to clear the player's inventory.
+
+`clear-inventory-type: DEFAULT`
+
+**Options:**
+
+*   `DEFAULT` - Clears the inventory using the default method (clears the player's inventory and saves the contents to restore later)
+*   `PACKET_EVENT` - Clears the inventory using PacketEvents (sends packets to the player to clear their inventory without actually modifying it, so items remain in their inventory but are not visible)
+
+* * *
+
 ### cancel-item-pickup[​](http://docs.groupez.dev/zmenu/configurations/inventories/inventory#cancel-item-pickup "Direct link to cancel-item-pickup")
 
 Prevent players from picking up items while the inventory is open.
@@ -5650,6 +6440,14 @@ Prevent players from picking up items while the inventory is open.
 
 *   Preventing accidental item pickup during menu interaction
 *   Clean GUI experience without interference
+
+* * *
+
+### click-limiter-enabled[​](http://docs.groupez.dev/zmenu/configurations/inventories/inventory#click-limiter-enabled "Direct link to click-limiter-enabled")
+
+Enable a click limiter to prevent players from clicking too fast.
+
+`click-limiter-enabled: true`
 
 * * *
 
@@ -5664,6 +6462,8 @@ Define a custom placeholder for the target player's name. Useful when opening in
 **Example usage:**
 
 `name: "&6Profile of %target%"target-player-name-placeholder: "%target%"items:  info:    slot: 13    item:      material: PLAYER_HEAD      name: "&e%target%"      lore:        - "&7Viewing player profile"`
+
+Useful for profile menus or any inventory opened for a specific player.
 
 * * *
 
@@ -5685,7 +6485,14 @@ When applied, all buttons in the inventory will inherit these actions. Button-sp
 
 Define an item to fill all empty slots.
 
+*   fill-item
+*   fillItem
+
 `fill-item:  material: BLACK_STAINED_GLASS_PANE  name: "&8"`
+
+`fillItem:  material: BLACK_STAINED_GLASS_PANE  name: "&8"`
+
+**Aliases:**`fill-item` and `fillItem` are interchangeable.
 
 This automatically fills any slot not occupied by a button.
 
@@ -5733,9 +6540,16 @@ If requirements aren't met, the inventory won't open and deny actions will execu
 
 ### open-requirement[​](http://docs.groupez.dev/zmenu/configurations/inventories/inventory#open-requirement "Direct link to open-requirement")
 
-Alternative name for view-requirement (same functionality).
+Requirements that must be met to open this inventory. Similar to `view-requirement`, but checked before opening the inventory, allowing you to prevent the inventory from opening at all if conditions aren't met.
+
+*   open-requirement
+*   open_requirement
 
 `open-requirement:  requirements:    - type: permission      permission: "myserver.premium"`
+
+`open_requirement:  requirements:    - type: permission      permission: "myserver.premium"`
+
+**Aliases:**`open_requirement` and `open-requirement` are interchangeable.
 
 * * *
 
@@ -5743,7 +6557,14 @@ Alternative name for view-requirement (same functionality).
 
 Define an item that opens this inventory when held and clicked.
 
-`open-with-item:  item:    material: COMPASS    name: "&6&lMenu"    lore:      - "&7Right-click to open"  actions:    - RIGHT_CLICK    - RIGHT_CLICK_BLOCK  type: full  # full, contains, or starts_with`
+*   open-with-item
+*   openWithItem
+
+`open-with-item:  item:    material: COMPASS    name: "&6&lMenu"    lore:      - "&7Right-click to open"  actions:    - RIGHT_CLICK  type: full # full, contains, or starts_with`
+
+`openWithItem:  item:    material: COMPASS    name: "&6&lMenu"    lore:      - "&7Right-click to open"  actions:    - RIGHT_CLICK  type: full # full, contains, or starts_with`
+
+**Aliases:**`open-with-item` and `openWithItem` are interchangeable.
 
 **Actions types:**
 
@@ -5831,7 +6652,9 @@ Next Steps[​](http://docs.groupez.dev/zmenu/configurations/inventories/invento
     *   [update-interval](http://docs.groupez.dev/zmenu/configurations/inventories/inventory#update-interval)
     *   [title-animation](http://docs.groupez.dev/zmenu/configurations/inventories/inventory#title-animation)
     *   [clear-inventory](http://docs.groupez.dev/zmenu/configurations/inventories/inventory#clear-inventory)
+    *   [clear-inventory-type](http://docs.groupez.dev/zmenu/configurations/inventories/inventory#clear-inventory-type)
     *   [cancel-item-pickup](http://docs.groupez.dev/zmenu/configurations/inventories/inventory#cancel-item-pickup)
+    *   [click-limiter-enabled](http://docs.groupez.dev/zmenu/configurations/inventories/inventory#click-limiter-enabled)
     *   [target-player-name-placeholder](http://docs.groupez.dev/zmenu/configurations/inventories/inventory#target-player-name-placeholder)
     *   [action-patterns](http://docs.groupez.dev/zmenu/configurations/inventories/inventory#action-patterns)
     *   [fill-item](http://docs.groupez.dev/zmenu/configurations/inventories/inventory#fill-item)
@@ -5858,6 +6681,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/config-ym
 Title: Config.yml | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/config-yml
+
+Published Time: Tue, 17 Mar 2026 13:20:23 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -6187,6 +7012,8 @@ Title: Supported Plugins | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/supported-plugins
 
+Published Time: Tue, 17 Mar 2026 13:20:25 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Supported Plugins
@@ -6234,6 +7061,20 @@ Vault provides a unified economy API that zMenu uses for currency-based actions.
 
 * * *
 
+### ExcellentEconomy[​](http://docs.groupez.dev/zmenu/supported-plugins#excellenteconomy "Direct link to ExcellentEconomy")
+
+**Download**: [SpigotMC](https://www.spigotmc.org/resources/excellenteconomy-%E2%AD%90-economy-and-custom-currencies.84121/)
+
+ExcellentEconomy provides a multi-currency economy system with custom currencies support.
+
+**Features enabled:**
+
+*   `currency-deposit` action
+*   `currency-withdraw` action
+*   Multi-currency support via `economy` parameter
+
+* * *
+
 Permission Plugins[​](http://docs.groupez.dev/zmenu/supported-plugins#permission-plugins "Direct link to Permission Plugins")
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -6251,7 +7092,7 @@ LuckPerms integration allows for advanced permission-based features.
 
 **Example:**
 
-`click-requirement:  requirements:    - type: luckperm      group: vip      deny:        - type: message          messages:            - "&cYou need VIP rank to use this!"`
+`click-requirement:  vip-check:    clicks:      - ALL    requirements:      - type: luckperm        group: vip        deny:          - type: message            messages:             - "&cYou need VIP rank to use this!"`
 
 * * *
 
@@ -6394,7 +7235,7 @@ Jobs Reborn integration for job-based requirements.
 
 **Example:**
 
-`click-requirement:  requirements:    - type: job      job: Miner      level: 10`
+`click-requirement:  job-check:    clicks:      - ALL    requirements:      - type: job        job: Miner        level: 10`
 
 * * *
 
@@ -6434,6 +7275,7 @@ Supported Plugin Summary Table[​](http://docs.groupez.dev/zmenu/supported-plug
 | --- | --- | --- | --- |
 | PlaceholderAPI | Placeholders | - | Dynamic values |
 | Vault | Economy | - | Currency actions |
+| ExcellentEconomy | Economy | - | Multi-currency actions |
 | LuckPerms | Permissions | - | Group requirements |
 | ItemsAdder | Custom Items | `ITEMSADDER:` | Custom items/textures |
 | Oraxen | Custom Items | `ORAXEN:` | Custom items/models |
@@ -6471,6 +7313,7 @@ To verify which plugins zMenu detected, check the console output when the server
 
 *   [Economy Plugins](http://docs.groupez.dev/zmenu/supported-plugins#economy-plugins)
     *   [Vault](http://docs.groupez.dev/zmenu/supported-plugins#vault)
+    *   [ExcellentEconomy](http://docs.groupez.dev/zmenu/supported-plugins#excellenteconomy)
 
 *   [Permission Plugins](http://docs.groupez.dev/zmenu/supported-plugins#permission-plugins)
     *   [LuckPerms](http://docs.groupez.dev/zmenu/supported-plugins#luckperms)
@@ -6513,6 +7356,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/t
 Title: DYNAMIC_PAGINATION Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/dynamic-pagination
+
+Published Time: Tue, 17 Mar 2026 13:20:25 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -6585,7 +7430,7 @@ Title: Custom Commands | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/custom-commands
 
-Published Time: Mon, 09 Mar 2026 10:53:29 GMT
+Published Time: Tue, 17 Mar 2026 13:20:23 GMT
 
 Markdown Content:
 zMenu allows you to create custom commands that open your inventories. Instead of using `/zm open shop`, players can simply type `/shop`.
@@ -6820,8 +7665,6 @@ Title: Global Placeholders | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/global-placeholders
 
-Published Time: Mon, 09 Mar 2026 10:53:30 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -6988,12 +7831,12 @@ The `SWITCH` button type displays different items based on a placeholder value. 
 Usage[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#usage "Direct link to Usage")
 --------------------------------------------------------------------------------------------------------
 
-`items:  toggle:    type: SWITCH    slot: 13    key: "%zmenu_player_value_notifications%"buttons:        "true":          item:            material: LIME_DYE            name: "&a&lNotifications: ON"          lore:            - "&7Click to disable"        actions:          - type: data            action: SET            key: "notifications"            value: "false"          - type: refresh      "false":        slot: 13        item:          material: GRAY_DYE          name: "&7&lNotifications: OFF"          lore:            - "&7Click to enable"        actions:          - type: data            action: SET            key: "notifications"            value: "true"          - type: refresh`
+`items:  toggle:    type: SWITCH    slot: 13    key: "%zmenu_player_value_notifications%"    buttons:      "true":        item:          material: LIME_DYE          name: "&a&lNotifications: ON"        lore:          - "&7Click to disable"        actions:          - type: data            action: SET            key: "notifications"            value: "false"          - type: refresh      "false":        slot: 13        item:          material: GRAY_DYE          name: "&7&lNotifications: OFF"        lore:          - "&7Click to enable"        actions:          - type: data            action: SET            key: "notifications"            value: "true"          - type: refresh    # Default state    item:      material: GRAY_DYE      name: "&7&lNotifications: OFF"`
 
 Properties[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#properties "Direct link to Properties")
 -----------------------------------------------------------------------------------------------------------------------
 
-### placeholder[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#placeholder "Direct link to placeholder")
+### key[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#key "Direct link to key")
 
 **Required.** The placeholder to evaluate for determining which button to display.
 
@@ -7007,32 +7850,30 @@ Properties[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/switc
 
 `buttons:  "value1":    item:      material: DIAMOND    actions:      - type: message        messages: ["Value is 1"]  "value2":    item:      material: EMERALD    actions:      - type: message        messages: ["Value is 2"]`
 
-* * *
+### Default State[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#default-state "Direct link to Default State")
 
-### default[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#default "Direct link to default")
+The default state (when the placeholder value doesn't match any key in the `buttons` section) is defined by the standard button properties (`item`, `actions`, etc.) placed directly at the button level.
 
-Button to display when the placeholder value doesn't match any defined buttons.
-
-`default:  item:    material: BARRIER    name: "&cUnknown State"`
+`items:  my-switch:    type: SWITCH    slot: 13    key: "%placeholder%"    buttons:      "value1":        item:          material: DIAMOND    # This is the default state    item:      material: BARRIER      name: "&cUnknown State"`
 
 Examples[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#examples "Direct link to Examples")
 -----------------------------------------------------------------------------------------------------------------
 
 ### Toggle Setting[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#toggle-setting "Direct link to Toggle Setting")
 
-`items:  toggle-pvp:    type: SWITCH    slot: 13    key: "%zmenu_player_value_pvp_enabled%"    buttons:      "true":        item:          material: DIAMOND_SWORD          name: "&c&lPvP: ENABLED"          lore:            - "&7You can be attacked by players"            - ""            - "&e▸ Click to disable"          glow: true        actions:          - type: data            action: SET            key: "pvp_enabled"            value: "false"          - type: message            messages:              - "&aPvP has been disabled!"          - type: sound            sound: BLOCK_NOTE_BLOCK_PLING          - type: refresh      "false":        slot: 13        item:          material: SHIELD          name: "&a&lPvP: DISABLED"          lore:            - "&7You are protected from players"            - ""            - "&e▸ Click to enable"        actions:          - type: data            action: SET            key: "pvp_enabled"            value: "true"          - type: message            messages:              - "&cPvP has been enabled!"          - type: sound            sound: ENTITY_ENDER_DRAGON_GROWL          - type: refresh    default:      item:        material: SHIELD        name: "&a&lPvP: DISABLED"      actions:        - type: data          action: SET          key: "pvp_enabled"          value: "true"        - type: refresh`
+`items:  toggle-pvp:    type: SWITCH    slot: 13    key: "%zmenu_player_value_pvp_enabled%"    buttons:      "true":        item:          material: DIAMOND_SWORD          name: "&c&lPvP: ENABLED"          lore:            - "&7You can be attacked by players"            - ""            - "&e▸ Click to disable"          glow: true        actions:          - type: data            action: SET            key: "pvp_enabled"            value: "false"          - type: message            messages:              - "&aPvP has been disabled!"          - type: sound            sound: BLOCK_NOTE_BLOCK_PLING          - type: refresh      "false":        slot: 13        item:          material: SHIELD          name: "&a&lPvP: DISABLED"          lore:            - "&7You are protected from players"            - ""            - "&e▸ Click to enable"        actions:          - type: data            action: SET            key: "pvp_enabled"            value: "true"          - type: message            messages:              - "&cPvP has been enabled!"          - type: sound            sound: ENTITY_ENDER_DRAGON_GROWL          - type: refresh    # Default state if placeholder doesn't match "true" or "false"    item:      material: SHIELD      name: "&a&lPvP: DISABLED"    actions:      - type: data        action: SET        key: "pvp_enabled"        value: "true"      - type: refresh`
 
 ### Multi-State Button[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#multi-state-button "Direct link to Multi-State Button")
 
-`items:  difficulty:    type: SWITCH    slot: 22    key: "%zmenu_player_value_difficulty%"    buttons:      "easy":        slot: 13        item:          material: LIME_WOOL          name: "&a&lDifficulty: EASY"          lore:            - "&7Current: Easy mode"            - ""            - "&e▸ Click to change to Normal"        actions:          - type: data            action: SET            key: "difficulty"            value: "normal"          - type: refresh      "normal":        slot: 13        item:          material: YELLOW_WOOL          name: "&e&lDifficulty: NORMAL"          lore:            - "&7Current: Normal mode"            - ""            - "&e▸ Click to change to Hard"        actions:          - type: data            action: SET            key: "difficulty"            value: "hard"          - type: refresh      "hard":        slot: 13        item:          material: RED_WOOL          name: "&c&lDifficulty: HARD"          lore:            - "&7Current: Hard mode"            - ""            - "&e▸ Click to change to Easy"        actions:          - type: data            action: SET            key: "difficulty"            value: "easy"          - type: refresh    default:      item:        material: YELLOW_WOOL        name: "&e&lDifficulty: NORMAL"      actions:        - type: data          action: SET          key: "difficulty"          value: "hard"        - type: refresh`
+`items:  difficulty:    type: SWITCH    slot: 22    key: "%zmenu_player_value_difficulty%"    buttons:      "easy":        slot: 13        item:          material: LIME_WOOL          name: "&a&lDifficulty: EASY"          lore:            - "&7Current: Easy mode"            - ""            - "&e▸ Click to change to Normal"        actions:          - type: data            action: SET            key: "difficulty"            value: "normal"          - type: refresh      "normal":        slot: 13        item:          material: YELLOW_WOOL          name: "&e&lDifficulty: NORMAL"          lore:            - "&7Current: Normal mode"            - ""            - "&e▸ Click to change to Hard"        actions:          - type: data            action: SET            key: "difficulty"            value: "hard"          - type: refresh      "hard":        slot: 13        item:          material: RED_WOOL          name: "&c&lDifficulty: HARD"          lore:            - "&7Current: Hard mode"            - ""            - "&e▸ Click to change to Easy"        actions:          - type: data            action: SET            key: "difficulty"            value: "easy"          - type: refresh    # Default state    item:      material: YELLOW_WOOL      name: "&e&lDifficulty: NORMAL"    actions:      - type: data        action: SET        key: "difficulty"        value: "hard"      - type: refresh`
 
 ### Rank-Based Display[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#rank-based-display "Direct link to Rank-Based Display")
 
-`items:  rank-display:    type: SWITCH    slot: 4    key: "%luckperms_primary_group_name%"    buttons:      "default":        slot: 13        item:          material: COAL          name: "&7&lMember"          lore:            - "&7Your current rank"      "vip":        slot: 13        item:          material: IRON_INGOT          name: "&a&lVIP"          lore:            - "&7Your current rank"          glow: true      "mvp":        slot: 13        item:          material: GOLD_INGOT          name: "&6&lMVP"          lore:            - "&7Your current rank"          glow: true      "admin":        slot: 13        item:          material: DIAMOND          name: "&b&lAdmin"          lore:            - "&7Your current rank"          glow: true    default:      item:        material: COAL        name: "&7&lMember"`
+`items:  rank-display:    type: SWITCH    slot: 4    key: "%luckperms_primary_group_name%"    buttons:      "default":        slot: 13        item:          material: COAL          name: "&7&lMember"          lore:            - "&7Your current rank"      "vip":        slot: 13        item:          material: IRON_INGOT          name: "&a&lVIP"          lore:            - "&7Your current rank"          glow: true      "mvp":        slot: 13        item:          material: GOLD_INGOT          name: "&6&lMVP"          lore:            - "&7Your current rank"          glow: true      "admin":        slot: 13        item:          material: DIAMOND          name: "&b&lAdmin"          lore:            - "&7Your current rank"          glow: true    # Default state    item:      material: COAL      name: "&7&lMember"`
 
 ### Progress Indicator[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#progress-indicator "Direct link to Progress Indicator")
 
-`items:  quest-status:    type: SWITCH    slot: 31    key: "%zmenu_player_value_quest_stage%"    buttons:      "0":        slot: 13        item:          material: PAPER          name: "&7&lQuest: Not Started"          lore:            - "&7Begin your adventure!"            - ""            - "&e▸ Click to start"        actions:          - type: data            action: SET            key: "quest_stage"            value: "1"          - type: message            messages:              - "&aQuest started! Talk to the village elder."          - type: refresh      "1":        slot: 13        item:          material: WRITABLE_BOOK          name: "&e&lQuest: In Progress"          lore:            - "&7Talk to the village elder"            - ""            - "&7Progress: &e1/3"      "2":        slot: 13        item:          material: WRITABLE_BOOK          name: "&e&lQuest: In Progress"          lore:            - "&7Collect 10 wheat"            - ""            - "&7Progress: &e2/3"      "3":        slot: 13        item:          material: ENCHANTED_BOOK          name: "&a&lQuest: Complete!"          lore:            - "&7Return for your reward"            - ""            - "&e▸ Click to claim"          glow: true        actions:          - type: console-command            commands:              - "give %player% diamond 5"          - type: data            action: SET            key: "quest_stage"            value: "done"          - type: message            messages:              - "&aYou received 5 diamonds!"          - type: refresh      "done":        slot: 13        item:          material: BOOK          name: "&8&lQuest: Completed"          lore:            - "&7You've completed this quest"    default:      item:        material: PAPER        name: "&7&lQuest: Not Started"`
+`items:  quest-status:    type: SWITCH    slot: 31    key: "%zmenu_player_value_quest_stage%"    buttons:      "0":        slot: 13        item:          material: PAPER          name: "&7&lQuest: Not Started"          lore:            - "&7Begin your adventure!"            - ""            - "&e▸ Click to start"        actions:          - type: data            action: SET            key: "quest_stage"            value: "1"          - type: message            messages:              - "&aQuest started! Talk to the village elder."          - type: refresh      "1":        slot: 13        item:          material: WRITABLE_BOOK          name: "&e&lQuest: In Progress"          lore:            - "&7Talk to the village elder"            - ""            - "&7Progress: &e1/3"      "2":        slot: 13        item:          material: WRITABLE_BOOK          name: "&e&lQuest: In Progress"          lore:            - "&7Collect 10 wheat"            - ""            - "&7Progress: &e2/3"      "3":        slot: 13        item:          material: ENCHANTED_BOOK          name: "&a&lQuest: Complete!"          lore:            - "&7Return for your reward"            - ""            - "&e▸ Click to claim"          glow: true        actions:          - type: console-command            commands:              - "give %player% diamond 5"          - type: data            action: SET            key: "quest_stage"            value: "done"          - type: message            messages:              - "&aYou received 5 diamonds!"          - type: refresh      "done":        slot: 13        item:          material: BOOK          name: "&8&lQuest: Completed"          lore:            - "&7You've completed this quest"    # Default state    item:      material: PAPER      name: "&7&lQuest: Not Started"`
 
 Important Notes[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#important-notes "Direct link to Important Notes")
 --------------------------------------------------------------------------------------------------------------------------------------
@@ -7076,9 +7917,9 @@ Next Steps[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/switc
 
 *   [Usage](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#usage)
 *   [Properties](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#properties)
-    *   [placeholder](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#placeholder)
+    *   [key](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#key)
     *   [buttons](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#buttons)
-    *   [default](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#default)
+    *   [Default State](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#default-state)
 
 *   [Examples](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#examples)
     *   [Toggle Setting](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#toggle-setting)
@@ -7280,7 +8121,7 @@ Pass arguments to the target inventory.
 
 * * *
 
-### page[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/inventory#page "Direct link to page")
+### to-page[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/inventory#to-page "Direct link to to-page")
 
 Open the inventory at a specific page.
 
@@ -7303,7 +8144,7 @@ Examples[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/invento
 
 ### Opening at Specific Page[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/inventory#opening-at-specific-page "Direct link to Opening at Specific Page")
 
-`items:  page_1:    type: INVENTORY    slot: 10    inventory: "items_catalog"    page: 1    item:      material: PAPER      name: "&7Page 1"  page_2:    type: INVENTORY    slot: 11    inventory: "items_catalog"    page: 2    item:      material: PAPER      name: "&7Page 2"  page_3:    type: INVENTORY    slot: 12    inventory: "items_catalog"    to-page: 3    item:      material: PAPER      name: "&7Page 3"`
+`items:  page_1:    type: INVENTORY    slot: 10    inventory: "items_catalog"    to-page: 1    item:      material: PAPER      name: "&7Page 1"  page_2:    type: INVENTORY    slot: 11    inventory: "items_catalog"    to-page: 2    item:      material: PAPER      name: "&7Page 2"  page_3:    type: INVENTORY    slot: 12    inventory: "items_catalog"    to-page: 3    item:      material: PAPER      name: "&7Page 3"`
 
 Alternative: Using Actions[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/inventory#alternative-using-actions "Direct link to Alternative: Using Actions")
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -7344,7 +8185,7 @@ Next Steps[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/inven
     *   [inventory](http://docs.groupez.dev/zmenu/configurations/buttons/types/inventory#inventory)
     *   [plugin](http://docs.groupez.dev/zmenu/configurations/buttons/types/inventory#plugin)
     *   [arguments](http://docs.groupez.dev/zmenu/configurations/buttons/types/inventory#arguments)
-    *   [page](http://docs.groupez.dev/zmenu/configurations/buttons/types/inventory#page)
+    *   [to-page](http://docs.groupez.dev/zmenu/configurations/buttons/types/inventory#to-page)
 
 *   [Examples](http://docs.groupez.dev/zmenu/configurations/buttons/types/inventory#examples)
     *   [Basic Menu Navigation](http://docs.groupez.dev/zmenu/configurations/buttons/types/inventory#basic-menu-navigation)
@@ -7366,7 +8207,7 @@ Title: NEXT Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/next
 
-Published Time: Mon, 09 Mar 2026 10:53:31 GMT
+Published Time: Tue, 17 Mar 2026 13:20:25 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -7393,6 +8234,8 @@ Pagination is automatic when a button uses multiple slots and there's more conte
 `items:  shop-items:    slots:      - 10-16      - 19-25      - 28-34    # This creates 21 slots per page    # If you have 42 items, it creates 2 pages`
 
 The `NEXT` button only appears/works when there are more pages available.
+
+`NEXT` buttons are permanent by default. They will automatically be shown on all pages of a paginated inventory, even if `is-permanent: true` is not explicitly set in the configuration.
 
 Properties[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/next#properties "Direct link to Properties")
 ---------------------------------------------------------------------------------------------------------------------
@@ -7650,7 +8493,7 @@ The `PAGINATION` button type allows you to display paginated content in your men
 Usage[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/pagination#usage "Direct link to Usage")
 ------------------------------------------------------------------------------------------------------------
 
-`items:  paginated-items:    type: PAGINATION    slots:      - 10-16      - 19-25      - 28-34    item:      material: STONE      name: "&7Item %index%"`
+`items:  paginated-items:    type: PAGINATION    slots:      - 10-16      - 19-25      - 28-34    elements:      - display_name: "Diamond"      - display_name: "Emerald"    item:      material: STONE      name: "&7%display_name%"`
 
 Configuration[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/pagination#configuration "Direct link to Configuration")
 ------------------------------------------------------------------------------------------------------------------------------------
@@ -7659,29 +8502,26 @@ Configuration[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/pa
 | --- | --- | --- |
 | `type` | Must be `PAGINATION` | Yes |
 | `slots` | Slots where paginated items appear | Yes |
+| `elements` | List of data for each entry | Yes |
 | `item` | Item template for each entry | Yes |
+
+If a key in `elements` contains a list (e.g., for lore), the values will be joined with newlines. You can use these keys as placeholders in your `item` configuration.
 
 Example[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/pagination#example "Direct link to Example")
 ------------------------------------------------------------------------------------------------------------------
 
 ### Basic Pagination[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/pagination#basic-pagination "Direct link to Basic Pagination")
 
-`size: 54name: "&8Paginated Menu"items:  # Paginated content area  content:    type: PAGINATION    slots:      - 10-16      - 19-25      - 28-34    item:      material: PAPER      name: "&e&lItem #%index%"      lore:        - "&7This is item number %index%"  # Navigation buttons  previous:    type: PREVIOUS    slot: 48    is-permanent: true    item:      material: ARROW      name: "&c&lPrevious Page"  next:    type: NEXT    slot: 50    is-permanent: true    item:      material: ARROW      name: "&a&lNext Page"`
+`size: 54name: "&8Paginated Menu"items:  # Paginated content area  content:    type: PAGINATION    slots:      - 10-16      - 19-25      - 28-34    elements:      - display_name: "Diamond"        lore_value: "Valuable"      - display_name: "Emerald"        lore_value: "Traded"    item:      material: PAPER      name: "&e&l%display_name%"      lore:        - "&7This item is %lore_value%"`
 
-Placeholders[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/pagination#placeholders "Direct link to Placeholders")
----------------------------------------------------------------------------------------------------------------------------------
+Navigation buttons
+------------------
 
-| Placeholder | Description |
-| --- | --- |
-| `%index%` | Current item index |
-| `%page%` | Current page number |
-| `%max_page%` | Total number of pages |
+previous: type: PREVIOUS slot: 48 is-permanent: true item: material: ARROW name: "&c&lPrevious Page"
 
-Next Steps[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/pagination#next-steps "Direct link to Next Steps")
----------------------------------------------------------------------------------------------------------------------------
+next: type: NEXT slot: 50 is-permanent: true item: material: ARROW name: "&a&lNext Page"
 
-*   Learn about [DYNAMIC_PAGINATION](https://docs.groupez.dev/zmenu/configurations/buttons/types/dynamic-pagination) for dynamic content
-*   See [NEXT](https://docs.groupez.dev/zmenu/configurations/buttons/types/next) and [PREVIOUS](https://docs.groupez.dev/zmenu/configurations/buttons/types/previous) for navigation buttons
+`## Placeholders| Placeholder | Description ||-------------|-------------|| `%index%` | Current item index || `%page%` | Current page number || `%max_page%` | Total number of pages |## Next Steps- Learn about [DYNAMIC_PAGINATION](./dynamic-pagination) for dynamic content- See [NEXT](./next) and [PREVIOUS](./previous) for navigation buttons`
 
 [](https://docs.groupez.dev/zmenu/configurations/buttons/types/switch)[](https://docs.groupez.dev/zmenu/configurations/buttons/types/dynamic-pagination)
 
@@ -7689,9 +8529,6 @@ Next Steps[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/pagin
 *   [Configuration](http://docs.groupez.dev/zmenu/configurations/buttons/types/pagination#configuration)
 *   [Example](http://docs.groupez.dev/zmenu/configurations/buttons/types/pagination#example)
     *   [Basic Pagination](http://docs.groupez.dev/zmenu/configurations/buttons/types/pagination#basic-pagination)
-
-*   [Placeholders](http://docs.groupez.dev/zmenu/configurations/buttons/types/pagination#placeholders)
-*   [Next Steps](http://docs.groupez.dev/zmenu/configurations/buttons/types/pagination#next-steps)
 
 ================================================================================
 Page 31/41
@@ -7910,8 +8747,6 @@ Title: PREVIOUS Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/previous
 
-Published Time: Mon, 09 Mar 2026 10:53:30 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -7923,6 +8758,8 @@ PREVIOUS Button Type
 --------------------
 
 The `PREVIOUS` button type navigates to the previous page in a paginated inventory.
+
+`PREVIOUS` buttons are permanent by default. They will automatically be shown on all pages of a paginated inventory, even if `is-permanent: true` is not explicitly set in the configuration.
 
 Usage[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#usage "Direct link to Usage")
 ----------------------------------------------------------------------------------------------------------
@@ -8001,6 +8838,8 @@ Title: JUMP Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/jump
 
+Published Time: Tue, 17 Mar 2026 13:20:25 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -8021,7 +8860,7 @@ Usage[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/jump#usage
 Properties[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/jump#properties "Direct link to Properties")
 ---------------------------------------------------------------------------------------------------------------------
 
-### page[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/jump#page "Direct link to page")
+### to-page[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/jump#to-page "Direct link to to-page")
 
 **Required.** The page number to jump to.
 
@@ -8101,7 +8940,7 @@ Next Steps[​](http://docs.groupez.dev/zmenu/configurations/buttons/types/jump#
 
 *   [Usage](http://docs.groupez.dev/zmenu/configurations/buttons/types/jump#usage)
 *   [Properties](http://docs.groupez.dev/zmenu/configurations/buttons/types/jump#properties)
-    *   [page](http://docs.groupez.dev/zmenu/configurations/buttons/types/jump#page)
+    *   [to-page](http://docs.groupez.dev/zmenu/configurations/buttons/types/jump#to-page)
 
 *   [Examples](http://docs.groupez.dev/zmenu/configurations/buttons/types/jump#examples)
     *   [Page Index](http://docs.groupez.dev/zmenu/configurations/buttons/types/jump#page-index)
@@ -8407,6 +9246,8 @@ Title: Events | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-events
 
+Published Time: Tue, 17 Mar 2026 13:20:25 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Development
@@ -8577,8 +9418,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-inventor
 Title: Inventory API | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-inventory
-
-Published Time: Mon, 09 Mar 2026 10:53:30 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -8765,6 +9604,8 @@ Title: Player Data API | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-player-data
 
+Published Time: Tue, 17 Mar 2026 13:20:26 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Development
@@ -8930,6 +9771,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-menu-ite
 Title: MenuItemStack | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-menu-item-stack
+
+Published Time: Tue, 17 Mar 2026 13:20:25 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -9100,7 +9943,7 @@ Title: Paginate Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-paginate-button
 
-Published Time: Mon, 09 Mar 2026 10:53:30 GMT
+Published Time: Tue, 17 Mar 2026 13:20:26 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
