@@ -1,7 +1,7 @@
 Start URL: https://docs.groupez.dev/zmenu/getting-started
 Crawl Prefix: /zmenu/
 Pages: 41
-Generated At: 2026-03-19T01:05:44Z
+Generated At: 2026-03-20T01:02:21Z
 
 ================================================================================
 Page 1/41
@@ -169,8 +169,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/a
 Title: Actions | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/actions
-
-Published Time: Tue, 17 Mar 2026 13:20:24 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -1570,6 +1568,8 @@ Title: Creating an Inventory | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/inventories/create-inventory
 
+Published Time: Tue, 17 Mar 2026 13:20:24 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -1976,8 +1976,6 @@ Title: Dialogues | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/dialogues
 
-Published Time: Tue, 17 Mar 2026 13:20:24 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -2267,6 +2265,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/patterns
 Title: Patterns | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/patterns
+
+Published Time: Tue, 17 Mar 2026 13:20:23 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -4698,6 +4698,8 @@ Title: Item Configuration | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/items/item
 
+Published Time: Tue, 17 Mar 2026 13:20:24 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -5752,8 +5754,6 @@ Title: Placeholders | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/placeholders
 
-Published Time: Tue, 17 Mar 2026 13:20:23 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -6452,6 +6452,8 @@ Title: Config.yml | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/config-yml
 
+Published Time: Tue, 17 Mar 2026 13:20:23 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -7102,8 +7104,6 @@ Title: DYNAMIC_PAGINATION Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/dynamic-pagination
 
-Published Time: Tue, 17 Mar 2026 13:20:25 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -7390,8 +7390,6 @@ Title: Global Placeholders | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/global-placeholders
 
-Published Time: Tue, 17 Mar 2026 13:20:23 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -7532,8 +7530,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/t
 Title: SWITCH Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/switch
-
-Published Time: Tue, 17 Mar 2026 13:20:24 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -8148,6 +8144,8 @@ Title: PAGINATION Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/pagination
 
+Published Time: Tue, 17 Mar 2026 13:20:24 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -8294,8 +8292,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/t
 Title: HOME Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/home
-
-Published Time: Tue, 17 Mar 2026 13:20:25 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -8601,8 +8597,6 @@ Title: Custom Actions | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-actions
 
-Published Time: Tue, 17 Mar 2026 13:20:25 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Development
@@ -8735,6 +8729,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-buttons
 Title: Custom Buttons | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-buttons
+
+Published Time: Tue, 17 Mar 2026 13:20:25 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
