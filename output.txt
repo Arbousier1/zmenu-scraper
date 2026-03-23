@@ -1,7 +1,7 @@
 Start URL: https://docs.groupez.dev/zmenu/getting-started
 Crawl Prefix: /zmenu/
 Pages: 41
-Generated At: 2026-03-22T01:04:48Z
+Generated At: 2026-03-23T01:06:14Z
 
 ================================================================================
 Page 1/41
@@ -169,6 +169,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/a
 Title: Actions | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/actions
+
+Published Time: Sun, 22 Mar 2026 16:13:35 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -1369,6 +1371,8 @@ Title: Informations | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/informations
 
+Published Time: Sun, 22 Mar 2026 16:13:33 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -1893,8 +1897,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/t
 Title: INPUT Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/input
-
-Published Time: Tue, 17 Mar 2026 13:20:25 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -2606,6 +2608,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/player-da
 Title: Player Data | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/player-data
+
+Published Time: Sun, 22 Mar 2026 16:13:33 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -4689,8 +4693,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/items/ite
 Title: Item Configuration | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/items/item
-
-Published Time: Tue, 17 Mar 2026 13:20:24 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -7094,8 +7096,6 @@ Title: DYNAMIC_PAGINATION Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/dynamic-pagination
 
-Published Time: Tue, 17 Mar 2026 13:20:25 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -7522,6 +7522,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/t
 Title: SWITCH Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/switch
+
+Published Time: Sun, 22 Mar 2026 16:13:34 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -9169,8 +9171,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-player-d
 Title: Player Data API | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-player-data
-
-Published Time: Tue, 17 Mar 2026 13:20:26 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
