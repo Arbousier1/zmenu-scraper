@@ -1,7 +1,7 @@
 Start URL: https://docs.groupez.dev/zmenu/getting-started
 Crawl Prefix: /zmenu/
 Pages: 41
-Generated At: 2026-03-24T00:59:08Z
+Generated At: 2026-03-25T01:04:44Z
 
 ================================================================================
 Page 1/41
@@ -11,8 +11,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/getting-started
 Title: Getting Started | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/getting-started
-
-Published Time: Sun, 22 Mar 2026 16:13:35 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -171,8 +169,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/a
 Title: Actions | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/actions
-
-Published Time: Sun, 22 Mar 2026 16:13:35 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -2611,6 +2607,8 @@ Title: Player Data | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/player-data
 
+Published Time: Sun, 22 Mar 2026 16:13:33 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -2759,8 +2757,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/requireme
 Title: Requirements | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/requirements
-
-Published Time: Sun, 22 Mar 2026 16:13:33 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -5561,6 +5557,8 @@ Title: Commands & Permissions | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/commands-permissions
 
+Published Time: Sun, 22 Mar 2026 16:13:34 GMT
+
 Markdown Content:
 This page lists all available commands and permissions in zMenu.
 
@@ -7098,8 +7096,6 @@ Title: DYNAMIC_PAGINATION Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/dynamic-pagination
 
-Published Time: Sun, 22 Mar 2026 16:13:36 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -7385,8 +7381,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/global-pl
 Title: Global Placeholders | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/global-placeholders
-
-Published Time: Sun, 22 Mar 2026 16:13:33 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -7770,8 +7764,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/t
 Title: INVENTORY Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/inventory
-
-Published Time: Sun, 22 Mar 2026 16:13:36 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -8199,8 +8191,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/t
 Title: MAIN_MENU Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu
-
-Published Time: Sun, 22 Mar 2026 16:13:35 GMT
 
 Markdown Content:
 The `MAIN_MENU` button type opens the inventory configured as the main menu in `config.yml`.
@@ -8854,6 +8844,8 @@ Title: Events | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-events
 
+Published Time: Sun, 22 Mar 2026 16:13:34 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Development
@@ -9490,8 +9482,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-paginate
 Title: Paginate Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-paginate-button
-
-Published Time: Sun, 22 Mar 2026 16:13:34 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
