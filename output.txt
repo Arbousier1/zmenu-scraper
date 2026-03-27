@@ -1,7 +1,7 @@
 Start URL: https://docs.groupez.dev/zmenu/getting-started
 Crawl Prefix: /zmenu/
 Pages: 41
-Generated At: 2026-03-26T01:09:36Z
+Generated At: 2026-03-27T01:09:07Z
 
 ================================================================================
 Page 1/41
@@ -11,6 +11,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/getting-started
 Title: Getting Started | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/getting-started
+
+Published Time: Sun, 22 Mar 2026 16:13:35 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -856,6 +858,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/b
 Title: Button Configuration | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/button
+
+Published Time: Sun, 22 Mar 2026 16:13:34 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -3264,6 +3268,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/items/com
 Title: Components | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/items/components
+
+Published Time: Sun, 22 Mar 2026 16:13:33 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -7155,8 +7161,6 @@ Title: Custom Commands | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/custom-commands
 
-Published Time: Sun, 22 Mar 2026 16:13:34 GMT
-
 Markdown Content:
 zMenu allows you to create custom commands that open your inventories. Instead of using `/zm open shop`, players can simply type `/shop`.
 
@@ -7760,8 +7764,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/t
 Title: INVENTORY Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/inventory
-
-Published Time: Sun, 22 Mar 2026 16:13:36 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -8381,6 +8383,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/t
 Title: PREVIOUS Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/previous
+
+Published Time: Sun, 22 Mar 2026 16:13:33 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
