@@ -1,7 +1,7 @@
 Start URL: https://docs.groupez.dev/zmenu/getting-started
 Crawl Prefix: /zmenu/
 Pages: 41
-Generated At: 2026-03-27T01:09:07Z
+Generated At: 2026-03-28T01:03:31Z
 
 ================================================================================
 Page 1/41
@@ -11,8 +11,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/getting-started
 Title: Getting Started | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/getting-started
-
-Published Time: Sun, 22 Mar 2026 16:13:35 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -171,6 +169,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/a
 Title: Actions | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/actions
+
+Published Time: Sun, 22 Mar 2026 16:13:35 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -1373,6 +1373,8 @@ Title: Informations | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/informations
 
+Published Time: Sun, 22 Mar 2026 16:13:33 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -1975,6 +1977,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/dialogues
 Title: Dialogues | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/dialogues
+
+Published Time: Sun, 22 Mar 2026 16:13:34 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -2608,6 +2612,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/player-da
 Title: Player Data | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/player-data
+
+Published Time: Sun, 22 Mar 2026 16:13:33 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -6004,6 +6010,8 @@ Title: Inventory Configuration | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/inventories/inventory
 
+Published Time: Sun, 22 Mar 2026 16:13:34 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -7095,6 +7103,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/t
 Title: DYNAMIC_PAGINATION Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/dynamic-pagination
+
+Published Time: Sun, 22 Mar 2026 16:13:36 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -8384,8 +8394,6 @@ Title: PREVIOUS Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/previous
 
-Published Time: Sun, 22 Mar 2026 16:13:33 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -8470,6 +8478,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/t
 Title: JUMP Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/jump
+
+Published Time: Sun, 22 Mar 2026 16:13:36 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -8843,6 +8853,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-events
 Title: Events | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-events
+
+Published Time: Sun, 22 Mar 2026 16:13:34 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
