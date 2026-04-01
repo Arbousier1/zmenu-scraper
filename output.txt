@@ -1,7 +1,7 @@
 Start URL: https://docs.groupez.dev/zmenu/getting-started
 Crawl Prefix: /zmenu/
 Pages: 41
-Generated At: 2026-03-31T01:10:33Z
+Generated At: 2026-04-01T01:18:04Z
 
 ================================================================================
 Page 1/41
@@ -1714,7 +1714,7 @@ Title: Installing zMenu | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/installation
 
-Published Time: Sun, 22 Mar 2026 16:13:35 GMT
+Published Time: Tue, 31 Mar 2026 09:53:38 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -1973,8 +1973,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/dialogues
 Title: Dialogues | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/dialogues
-
-Published Time: Sun, 22 Mar 2026 16:13:34 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -2758,8 +2756,6 @@ Title: Requirements | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/requirements
 
-Published Time: Sun, 22 Mar 2026 16:13:33 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -2841,16 +2837,30 @@ Compares a placeholder value against a target. This is the most versatile requir
 
 #### Comparison Operators[​](http://docs.groupez.dev/zmenu/configurations/requirements#comparison-operators "Direct link to Comparison Operators")
 
-| Operator | Description | Example |
+**Numeric:**
+
+| Alias | Description | Action |
 | --- | --- | --- |
-| `==` | Equal to (numeric) | `action: EQUAL_TO` |
-| `!=` | Not equal to (numeric) | `action: DIFFERENT` |
-| `>=` | Greater than or equal | `action: SUPERIOR_OR_EQUAL` |
+| `==` | Equal to | `action: EQUAL_TO` |
 | `>` | Greater than | `action: SUPERIOR` |
-| `<=` | Less than or equal | `action: INFERIOR_OR_EQUAL` |
-| `<` | Less than | `action: INFERIOR` |
-| `equals_string` | Exact string match | `action: EQUALS_STRING` |
-| `equalsIgnoreCase` | Case-insensitive string match | `action: EQUALS_IGNORE_CASE` |
+| `>=` | Greater than or equal | `action: SUPERIOR_OR_EQUAL` |
+| `<` | Less than | `action: LOWER` |
+| `<=` | Less than or equal | `action: LOWER_OR_EQUAL` |
+
+**String:**
+
+| Alias | Description | Action |
+| --- | --- | --- |
+| `s=` | Exact string match | `action: EQUALS_STRING` |
+| `s!=` | String not equal | `action: DIFFERENT_STRING` |
+| `s==` | Case-insensitive string match | `action: EQUALSIGNORECASE_STRING` |
+| `sc` | String contains | `action: CONTAINS_STRING` |
+
+**Boolean:**
+
+| Alias | Description | Action |
+| --- | --- | --- |
+| `b=` | Compare with boolean | `action: BOOLEAN` |
 
 #### Math Expressions[​](http://docs.groupez.dev/zmenu/configurations/requirements#math-expressions "Direct link to Math Expressions")
 
@@ -5748,8 +5758,6 @@ Title: Placeholders | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/placeholders
 
-Published Time: Sun, 22 Mar 2026 16:13:33 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -6338,10 +6346,12 @@ Define an item that opens this inventory when held and clicked.
 
 **Actions types:**
 
-*   `RIGHT_CLICK` - Right click in air
-*   `LEFT_CLICK` - Left click in air
-*   `RIGHT_CLICK_BLOCK` - Right click on a block
-*   `LEFT_CLICK_BLOCK` - Left click on a block
+*   `RIGHT_CLICK` - Right click in air + on blocks
+*   `LEFT_CLICK` - Left click in air + on blocks
+*   `RIGHT_CLICK_AIR` - Right click in air only
+*   `LEFT_CLICK_AIR` - Left click in air only
+*   `RIGHT_CLICK_BLOCK` - Right click on a block only
+*   `LEFT_CLICK_BLOCK` - Left click on a block only
 
 **Type options:**
 
@@ -7643,8 +7653,6 @@ Title: BACK Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/back
 
-Published Time: Sun, 22 Mar 2026 16:13:36 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -8005,7 +8013,7 @@ Title: API Introduction | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-introduction
 
-Published Time: Sun, 22 Mar 2026 16:13:34 GMT
+Published Time: Tue, 31 Mar 2026 09:53:38 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -8848,8 +8856,6 @@ Title: Events | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-events
 
-Published Time: Sun, 22 Mar 2026 16:13:34 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Development
@@ -9006,6 +9012,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-inventor
 Title: Inventory API | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-inventory
+
+Published Time: Tue, 31 Mar 2026 09:53:37 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -9178,6 +9186,8 @@ Title: Player Data API | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-player-data
 
+Published Time: Tue, 31 Mar 2026 09:53:38 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Development
@@ -9329,6 +9339,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-menu-ite
 Title: MenuItemStack | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-menu-item-stack
+
+Published Time: Tue, 31 Mar 2026 09:53:37 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
