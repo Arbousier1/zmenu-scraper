@@ -1,7 +1,7 @@
 Start URL: https://docs.groupez.dev/zmenu/getting-started
 Crawl Prefix: /zmenu/
 Pages: 41
-Generated At: 2026-04-05T01:12:21Z
+Generated At: 2026-04-06T01:13:03Z
 
 ================================================================================
 Page 1/41
@@ -169,8 +169,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/a
 Title: Actions | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/actions
-
-Published Time: Sat, 04 Apr 2026 10:36:59 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -1974,8 +1972,6 @@ Title: Dialogues | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/dialogues
 
-Published Time: Sat, 04 Apr 2026 10:36:58 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -2757,8 +2753,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/requireme
 Title: Requirements | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/requirements
-
-Published Time: Sat, 04 Apr 2026 10:36:58 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -5573,8 +5567,6 @@ Title: Commands & Permissions | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/commands-permissions
 
-Published Time: Sat, 04 Apr 2026 10:36:58 GMT
-
 Markdown Content:
 This page lists all available commands and permissions in zMenu.
 
@@ -5763,8 +5755,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/placehold
 Title: Placeholders | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/placeholders
-
-Published Time: Sat, 04 Apr 2026 10:36:58 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -7116,8 +7106,6 @@ Title: DYNAMIC_PAGINATION Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/dynamic-pagination
 
-Published Time: Sat, 04 Apr 2026 10:37:00 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -7663,6 +7651,8 @@ Title: BACK Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/back
 
+Published Time: Sat, 04 Apr 2026 10:37:01 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -7912,6 +7902,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/t
 Title: NEXT Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/next
+
+Published Time: Sat, 04 Apr 2026 10:37:00 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -9347,8 +9339,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-menu-ite
 Title: MenuItemStack | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-menu-item-stack
-
-Published Time: Sat, 04 Apr 2026 10:36:59 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
