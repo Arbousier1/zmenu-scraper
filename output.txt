@@ -1,7 +1,7 @@
 Start URL: https://docs.groupez.dev/zmenu/getting-started
 Crawl Prefix: /zmenu/
 Pages: 41
-Generated At: 2026-04-06T01:13:03Z
+Generated At: 2026-04-07T01:11:06Z
 
 ================================================================================
 Page 1/41
@@ -3278,6 +3278,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/items/com
 Title: Components | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/items/components
+
+Published Time: Sat, 04 Apr 2026 10:36:59 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -7651,8 +7653,6 @@ Title: BACK Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/back
 
-Published Time: Sat, 04 Apr 2026 10:37:01 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -7777,8 +7777,6 @@ Title: INVENTORY Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/inventory
 
-Published Time: Sat, 04 Apr 2026 10:37:00 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -7902,8 +7900,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/t
 Title: NEXT Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/next
-
-Published Time: Sat, 04 Apr 2026 10:37:00 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -8149,6 +8145,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/t
 Title: PAGINATION Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/pagination
+
+Published Time: Sat, 04 Apr 2026 10:37:00 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -8858,8 +8856,6 @@ Title: Events | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-events
 
-Published Time: Sat, 04 Apr 2026 10:36:59 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Development
@@ -9496,6 +9492,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-paginate
 Title: Paginate Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-paginate-button
+
+Published Time: Sat, 04 Apr 2026 10:36:59 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
