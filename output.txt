@@ -1,7 +1,7 @@
 Start URL: https://docs.groupez.dev/zmenu/getting-started
 Crawl Prefix: /zmenu/
 Pages: 41
-Generated At: 2026-04-07T01:11:06Z
+Generated At: 2026-04-08T01:12:15Z
 
 ================================================================================
 Page 1/41
@@ -857,6 +857,8 @@ Title: Button Configuration | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/button
 
+Published Time: Sat, 04 Apr 2026 10:37:00 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -1369,6 +1371,8 @@ Title: Informations | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/informations
 
+Published Time: Sat, 04 Apr 2026 10:36:58 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -1565,6 +1569,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/inventori
 Title: Creating an Inventory | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/inventories/create-inventory
+
+Published Time: Sat, 04 Apr 2026 10:36:59 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -2261,6 +2267,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/patterns
 Title: Patterns | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/patterns
+
+Published Time: Sat, 04 Apr 2026 10:36:58 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -8146,8 +8154,6 @@ Title: PAGINATION Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/pagination
 
-Published Time: Sat, 04 Apr 2026 10:37:00 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -8731,6 +8737,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-buttons
 Title: Custom Buttons | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-buttons
+
+Published Time: Sat, 04 Apr 2026 10:36:59 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -9335,6 +9343,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-menu-ite
 Title: MenuItemStack | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-menu-item-stack
+
+Published Time: Sat, 04 Apr 2026 10:36:59 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
