@@ -1,7 +1,7 @@
 Start URL: https://docs.groupez.dev/zmenu/getting-started
 Crawl Prefix: /zmenu/
 Pages: 41
-Generated At: 2026-04-18T01:10:58Z
+Generated At: 2026-04-19T01:19:55Z
 
 ================================================================================
 Page 1/41
@@ -169,8 +169,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/a
 Title: Actions | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/actions
-
-Published Time: Sat, 04 Apr 2026 10:36:59 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -1568,6 +1566,8 @@ Title: Creating an Inventory | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/inventories/create-inventory
 
+Published Time: Sat, 04 Apr 2026 10:36:59 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -2758,6 +2758,8 @@ Title: Requirements | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/requirements
 
+Published Time: Sat, 04 Apr 2026 10:36:58 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -3282,6 +3284,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/items/com
 Title: Components | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/items/components
+
+Published Time: Sat, 04 Apr 2026 10:36:59 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -4706,8 +4710,6 @@ Title: Item Configuration | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/items/item
 
-Published Time: Sat, 04 Apr 2026 10:36:59 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -5444,6 +5446,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/zmenu-plus
 Title: zMenu+ | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/zmenu-plus
+
+Published Time: Sat, 04 Apr 2026 10:37:00 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -7177,6 +7181,8 @@ Title: Custom Commands | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/custom-commands
 
+Published Time: Sat, 04 Apr 2026 10:36:58 GMT
+
 Markdown Content:
 zMenu allows you to create custom commands that open your inventories. Instead of using `/zm open shop`, players can simply type `/shop`.
 
@@ -7781,8 +7787,6 @@ Title: INVENTORY Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/inventory
 
-Published Time: Sat, 04 Apr 2026 10:37:00 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -8210,6 +8214,8 @@ Title: MAIN_MENU Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu
 
+Published Time: Sat, 04 Apr 2026 10:37:00 GMT
+
 Markdown Content:
 The `MAIN_MENU` button type opens the inventory configured as the main menu in `config.yml`.
 
@@ -8298,8 +8304,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/t
 Title: HOME Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/home
-
-Published Time: Sat, 04 Apr 2026 10:36:59 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -8861,8 +8865,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-events
 Title: Events | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-events
-
-Published Time: Sat, 04 Apr 2026 10:36:59 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
