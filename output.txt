@@ -1,7 +1,7 @@
 Start URL: https://docs.groupez.dev/zmenu/getting-started
 Crawl Prefix: /zmenu/
 Pages: 41
-Generated At: 2026-04-21T01:18:22Z
+Generated At: 2026-04-22T01:17:20Z
 
 ================================================================================
 Page 1/41
@@ -1570,8 +1570,6 @@ Title: Creating an Inventory | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/inventories/create-inventory
 
-Published Time: Sat, 04 Apr 2026 10:36:59 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -1899,8 +1897,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/t
 Title: INPUT Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/input
-
-Published Time: Sat, 04 Apr 2026 10:37:00 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -3192,6 +3188,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/t
 Title: NONE Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/none
+
+Published Time: Sat, 04 Apr 2026 10:37:00 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -5581,8 +5579,6 @@ Title: Commands & Permissions | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/commands-permissions
 
-Published Time: Sat, 04 Apr 2026 10:36:58 GMT
-
 Markdown Content:
 This page lists all available commands and permissions in zMenu.
 
@@ -6791,8 +6787,6 @@ Title: Supported Plugins | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/supported-plugins
 
-Published Time: Sat, 04 Apr 2026 10:37:00 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Supported Plugins
@@ -7410,6 +7404,8 @@ Title: Global Placeholders | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/global-placeholders
 
+Published Time: Sat, 04 Apr 2026 10:36:58 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -7550,6 +7546,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/t
 Title: SWITCH Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/switch
+
+Published Time: Sat, 04 Apr 2026 10:36:59 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -7793,6 +7791,8 @@ Title: INVENTORY Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/inventory
 
+Published Time: Sat, 04 Apr 2026 10:37:00 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -8029,8 +8029,6 @@ Title: API Introduction | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-introduction
 
-Published Time: Sat, 04 Apr 2026 10:36:59 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Development
@@ -8221,8 +8219,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/t
 Title: MAIN_MENU Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu
-
-Published Time: Sat, 04 Apr 2026 10:37:00 GMT
 
 Markdown Content:
 The `MAIN_MENU` button type opens the inventory configured as the main menu in `config.yml`.
@@ -8415,6 +8411,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/t
 Title: PREVIOUS Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/previous
+
+Published Time: Sat, 04 Apr 2026 10:36:58 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -8619,6 +8617,8 @@ Title: Custom Actions | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-actions
 
+Published Time: Sat, 04 Apr 2026 10:36:59 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Development
@@ -8751,6 +8751,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-buttons
 Title: Custom Buttons | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-buttons
+
+Published Time: Sat, 04 Apr 2026 10:36:59 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -9035,6 +9037,8 @@ Title: Inventory API | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-inventory
 
+Published Time: Sat, 04 Apr 2026 10:36:59 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Development
@@ -9206,8 +9210,6 @@ Title: Player Data API | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-player-data
 
-Published Time: Sat, 04 Apr 2026 10:36:59 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Development
@@ -9359,8 +9361,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-menu-ite
 Title: MenuItemStack | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-menu-item-stack
-
-Published Time: Sat, 04 Apr 2026 10:36:59 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
