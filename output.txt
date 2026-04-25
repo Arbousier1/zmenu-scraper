@@ -1,7 +1,7 @@
 Start URL: https://docs.groupez.dev/zmenu/getting-started
 Crawl Prefix: /zmenu/
 Pages: 41
-Generated At: 2026-04-24T01:21:46Z
+Generated At: 2026-04-25T01:14:42Z
 
 ================================================================================
 Page 1/41
@@ -166,7 +166,7 @@ Page 3/41
 URL: https://docs.groupez.dev/zmenu/configurations/buttons/actions
 Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/actions
 ================================================================================
-Title: Actions | GroupeZ Docs
+Title: GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/actions
 
@@ -858,8 +858,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/b
 Title: Button Configuration | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/button
-
-Published Time: Sat, 04 Apr 2026 10:37:00 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -1570,6 +1568,8 @@ Title: Creating an Inventory | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/inventories/create-inventory
 
+Published Time: Sat, 04 Apr 2026 10:36:59 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -2266,6 +2266,8 @@ Title: Patterns | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/patterns
 
+Published Time: Sat, 04 Apr 2026 10:36:58 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -2758,8 +2760,6 @@ Title: Requirements | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/requirements
 
-Published Time: Sat, 04 Apr 2026 10:36:58 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -3188,8 +3188,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/t
 Title: NONE Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/none
-
-Published Time: Sat, 04 Apr 2026 10:37:00 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -6468,6 +6466,8 @@ Title: Config.yml | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/config-yml
 
+Published Time: Sat, 04 Apr 2026 10:36:59 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -7663,6 +7663,8 @@ Title: BACK Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/back
 
+Published Time: Sat, 04 Apr 2026 10:37:01 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -7787,6 +7789,8 @@ Title: INVENTORY Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/inventory
 
+Published Time: Sat, 04 Apr 2026 10:37:00 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -7910,6 +7914,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/t
 Title: NEXT Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/next
+
+Published Time: Sat, 04 Apr 2026 10:37:00 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -8406,8 +8412,6 @@ Title: PREVIOUS Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/previous
 
-Published Time: Sat, 04 Apr 2026 10:36:58 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -8492,8 +8496,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/t
 Title: JUMP Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/jump
-
-Published Time: Sat, 04 Apr 2026 10:37:00 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
