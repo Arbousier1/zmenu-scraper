@@ -1,7 +1,7 @@
 Start URL: https://docs.groupez.dev/zmenu/getting-started
 Crawl Prefix: /zmenu/
 Pages: 41
-Generated At: 2026-04-28T01:30:29Z
+Generated At: 2026-04-29T01:34:04Z
 
 ================================================================================
 Page 1/41
@@ -169,8 +169,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/a
 Title: Actions | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/actions
-
-Published Time: Sat, 04 Apr 2026 10:36:59 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -858,8 +856,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/b
 Title: Button Configuration | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/button
-
-Published Time: Sat, 04 Apr 2026 10:37:00 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -2609,8 +2605,6 @@ Title: Player Data | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/player-data
 
-Published Time: Sat, 04 Apr 2026 10:36:58 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -3189,8 +3183,6 @@ Title: NONE Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/none
 
-Published Time: Sat, 04 Apr 2026 10:37:00 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -3286,8 +3278,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/items/com
 Title: Components | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/items/components
-
-Published Time: Sat, 04 Apr 2026 10:36:59 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -4712,6 +4702,8 @@ Title: Item Configuration | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/items/item
 
+Published Time: Sat, 04 Apr 2026 10:36:59 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -6022,8 +6014,6 @@ Title: Inventory Configuration | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/inventories/inventory
 
-Published Time: Sat, 04 Apr 2026 10:36:59 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -6467,8 +6457,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/config-ym
 Title: Config.yml | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/config-yml
-
-Published Time: Sat, 04 Apr 2026 10:36:59 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -7547,8 +7535,6 @@ Title: SWITCH Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/switch
 
-Published Time: Sat, 04 Apr 2026 10:36:59 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -7791,8 +7777,6 @@ Title: INVENTORY Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/inventory
 
-Published Time: Sat, 04 Apr 2026 10:37:00 GMT
-
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Configurations
@@ -7916,8 +7900,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/t
 Title: NEXT Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/next
-
-Published Time: Sat, 04 Apr 2026 10:37:00 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -8221,8 +8203,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/t
 Title: MAIN_MENU Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu
-
-Published Time: Sat, 04 Apr 2026 10:37:00 GMT
 
 Markdown Content:
 The `MAIN_MENU` button type opens the inventory configured as the main menu in `config.yml`.
@@ -9355,8 +9335,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-menu-ite
 Title: MenuItemStack | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-menu-item-stack
-
-Published Time: Sat, 04 Apr 2026 10:36:59 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
