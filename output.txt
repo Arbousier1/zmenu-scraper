@@ -1,7 +1,7 @@
 Start URL: https://docs.groupez.dev/zmenu/getting-started
 Crawl Prefix: /zmenu/
 Pages: 43
-Generated At: 2026-07-14T01:13:44Z
+Generated At: 2026-07-15T01:10:49Z
 
 ================================================================================
 Page 1/43
@@ -143,7 +143,7 @@ Ready to get started? Follow these steps:
 *   [Next Steps](http://docs.groupez.dev/zmenu/getting-started#next-steps)
 *   [Getting Help](http://docs.groupez.dev/zmenu/getting-started#getting-help)
 
-![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991328-6SEBWAK6-WLE6)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991328-6SEBWAK6-WLE6&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991328-6SEBWAK6-WLE6%26auid%3DAU1D-0100-001783991328-6SEBWAK6-WLE6&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991328-6SEBWAK6-WLE6&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991328-6SEBWAK6-WLE6&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991328-6SEBWAK6-WLE6&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991328-6SEBWAK6-WLE6&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991328-6SEBWAK6-WLE6%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTMyOC02U0VCV0FLNi1XTEU2&id=AU1D-0100-001783991328-6SEBWAK6-WLE6&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991328-6SEBWAK6-WLE6)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991328-6SEBWAK6-WLE6&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991328-6SEBWAK6-WLE6%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
+![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001784077567-ZDH711DO-DDW6)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001784077567-ZDH711DO-DDW6&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001784077567-ZDH711DO-DDW6%26auid%3DAU1D-0100-001784077567-ZDH711DO-DDW6&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001784077567-ZDH711DO-DDW6&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001784077567-ZDH711DO-DDW6&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001784077567-ZDH711DO-DDW6&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001784077567-ZDH711DO-DDW6&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001784077567-ZDH711DO-DDW6%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4NDA3NzU2Ny1aREg3MTFETy1ERFc2&id=AU1D-0100-001784077567-ZDH711DO-DDW6&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001784077567-ZDH711DO-DDW6)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001784077567-ZDH711DO-DDW6&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001784077567-ZDH711DO-DDW6%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
 
 ================================================================================
 Page 2/43
@@ -173,8 +173,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/a
 Title: Actions | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/actions
-
-Published Time: Mon, 13 Apr 2026 10:17:03 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -966,7 +964,7 @@ Actions can also be used in `deny` and `success` blocks of requirements:
 
 *   [Next Steps](http://docs.groupez.dev/zmenu/configurations/buttons/actions#next-steps)
 
-![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991341-FZPRBCKC-CPNB)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991341-FZPRBCKC-CPNB&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991341-FZPRBCKC-CPNB%26auid%3DAU1D-0100-001783991341-FZPRBCKC-CPNB&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991341-FZPRBCKC-CPNB&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991341-FZPRBCKC-CPNB&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991341-FZPRBCKC-CPNB&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991341-FZPRBCKC-CPNB&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991341-FZPRBCKC-CPNB%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTM0MS1GWlBSQkNLQy1DUE5C&id=AU1D-0100-001783991341-FZPRBCKC-CPNB&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991341-FZPRBCKC-CPNB)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991341-FZPRBCKC-CPNB&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991341-FZPRBCKC-CPNB%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
+![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001784077578-Q569G0QS-PNV0)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001784077578-Q569G0QS-PNV0&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001784077578-Q569G0QS-PNV0%26auid%3DAU1D-0100-001784077578-Q569G0QS-PNV0&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001784077578-Q569G0QS-PNV0&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001784077578-Q569G0QS-PNV0&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001784077578-Q569G0QS-PNV0&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001784077578-Q569G0QS-PNV0&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001784077578-Q569G0QS-PNV0%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4NDA3NzU3OC1RNTY5RzBRUy1QTlYw&id=AU1D-0100-001784077578-Q569G0QS-PNV0&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001784077578-Q569G0QS-PNV0)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001784077578-Q569G0QS-PNV0&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001784077578-Q569G0QS-PNV0%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
 
 ================================================================================
 Page 4/43
@@ -976,6 +974,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/b
 Title: Button Configuration | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/button
+
+Published Time: Tue, 14 Jul 2026 19:47:04 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -1480,7 +1480,7 @@ To control this behavior for your buttons:
 *   [Best Practices](http://docs.groupez.dev/zmenu/configurations/buttons/button#best-practices)
 *   [Next Steps](http://docs.groupez.dev/zmenu/configurations/buttons/button#next-steps)
 
-![Image 2](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991348-PTBS69NB-QTC0)![Image 3](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991348-PTBS69NB-QTC0&adnxs_id=$UID&gdpr=0)![Image 4](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991348-PTBS69NB-QTC0%26auid%3DAU1D-0100-001783991348-PTBS69NB-QTC0&gdpr=0)![Image 5](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991348-PTBS69NB-QTC0&gdpr=0)![Image 6](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991348-PTBS69NB-QTC0&gdpr=0)![Image 7](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991348-PTBS69NB-QTC0&gdpr=0)![Image 8](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991348-PTBS69NB-QTC0&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991348-PTBS69NB-QTC0%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 9](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTM0OC1QVEJTNjlOQi1RVEMw&id=AU1D-0100-001783991348-PTBS69NB-QTC0&gdpr=0)![Image 10](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991348-PTBS69NB-QTC0)![Image 11](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991348-PTBS69NB-QTC0&uid=[UID]&gdpr=0)![Image 12](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991348-PTBS69NB-QTC0%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
+![Image 2](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001784077584-CWDYCUKQ-UJIM)![Image 3](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001784077584-CWDYCUKQ-UJIM&adnxs_id=$UID&gdpr=0)![Image 4](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001784077584-CWDYCUKQ-UJIM%26auid%3DAU1D-0100-001784077584-CWDYCUKQ-UJIM&gdpr=0)![Image 5](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001784077584-CWDYCUKQ-UJIM&gdpr=0)![Image 6](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001784077584-CWDYCUKQ-UJIM&gdpr=0)![Image 7](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001784077584-CWDYCUKQ-UJIM&gdpr=0)![Image 8](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001784077584-CWDYCUKQ-UJIM&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001784077584-CWDYCUKQ-UJIM%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 9](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4NDA3NzU4NC1DV0RZQ1VLUS1VSklN&id=AU1D-0100-001784077584-CWDYCUKQ-UJIM&gdpr=0)![Image 10](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001784077584-CWDYCUKQ-UJIM)![Image 11](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001784077584-CWDYCUKQ-UJIM&uid=[UID]&gdpr=0)![Image 12](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001784077584-CWDYCUKQ-UJIM%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
 
 ================================================================================
 Page 5/43
@@ -1490,6 +1490,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/informati
 Title: Informations | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/informations
+
+Published Time: Wed, 27 Aug 2025 22:17:04 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -1679,7 +1681,7 @@ Now that you understand the basics:
 *   [File Encoding](http://docs.groupez.dev/zmenu/configurations/informations#file-encoding)
 *   [Next Steps](http://docs.groupez.dev/zmenu/configurations/informations#next-steps)
 
-![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991356-5HL8DTET-1ZQO)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991356-5HL8DTET-1ZQO&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991356-5HL8DTET-1ZQO%26auid%3DAU1D-0100-001783991356-5HL8DTET-1ZQO&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991356-5HL8DTET-1ZQO&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991356-5HL8DTET-1ZQO&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991356-5HL8DTET-1ZQO&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991356-5HL8DTET-1ZQO&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991356-5HL8DTET-1ZQO%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTM1Ni01SEw4RFRFVC0xWlFP&id=AU1D-0100-001783991356-5HL8DTET-1ZQO&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991356-5HL8DTET-1ZQO)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991356-5HL8DTET-1ZQO&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991356-5HL8DTET-1ZQO%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
+![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001784077592-C97SEXM5-1ZI6)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001784077592-C97SEXM5-1ZI6&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001784077592-C97SEXM5-1ZI6%26auid%3DAU1D-0100-001784077592-C97SEXM5-1ZI6&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001784077592-C97SEXM5-1ZI6&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001784077592-C97SEXM5-1ZI6&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001784077592-C97SEXM5-1ZI6&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001784077592-C97SEXM5-1ZI6&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001784077592-C97SEXM5-1ZI6%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4NDA3NzU5Mi1DOTdTRVhNNS0xWkk2&id=AU1D-0100-001784077592-C97SEXM5-1ZI6&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001784077592-C97SEXM5-1ZI6)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001784077592-C97SEXM5-1ZI6&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001784077592-C97SEXM5-1ZI6%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
 
 ================================================================================
 Page 6/43
@@ -1689,8 +1691,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/inventori
 Title: Creating an Inventory | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/inventories/create-inventory
-
-Published Time: Wed, 27 Aug 2025 22:17:04 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -1831,7 +1831,7 @@ Now that you can create basic inventories:
 *   [Tips for Good Menu Design](http://docs.groupez.dev/zmenu/configurations/inventories/create-inventory#tips-for-good-menu-design)
 *   [Next Steps](http://docs.groupez.dev/zmenu/configurations/inventories/create-inventory#next-steps)
 
-![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991362-0W0VJVGJ-UB8T)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991362-0W0VJVGJ-UB8T&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991362-0W0VJVGJ-UB8T%26auid%3DAU1D-0100-001783991362-0W0VJVGJ-UB8T&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991362-0W0VJVGJ-UB8T&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991362-0W0VJVGJ-UB8T&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991362-0W0VJVGJ-UB8T&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991362-0W0VJVGJ-UB8T&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991362-0W0VJVGJ-UB8T%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTM2Mi0wVzBWSlZHSi1VQjhU&id=AU1D-0100-001783991362-0W0VJVGJ-UB8T&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991362-0W0VJVGJ-UB8T)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991362-0W0VJVGJ-UB8T&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991362-0W0VJVGJ-UB8T%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
+![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001784077599-QLZLVZXY-6RAD)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001784077599-QLZLVZXY-6RAD&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001784077599-QLZLVZXY-6RAD%26auid%3DAU1D-0100-001784077599-QLZLVZXY-6RAD&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001784077599-QLZLVZXY-6RAD&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001784077599-QLZLVZXY-6RAD&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001784077599-QLZLVZXY-6RAD&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001784077599-QLZLVZXY-6RAD&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001784077599-QLZLVZXY-6RAD%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4NDA3NzU5OS1RTFpMVlpYWS02UkFE&id=AU1D-0100-001784077599-QLZLVZXY-6RAD&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001784077599-QLZLVZXY-6RAD)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001784077599-QLZLVZXY-6RAD&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001784077599-QLZLVZXY-6RAD%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
 
 ================================================================================
 Page 7/43
@@ -1841,6 +1841,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/installation
 Title: Installing zMenu | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/installation
+
+Published Time: Tue, 14 Jul 2026 21:26:12 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -1856,11 +1858,15 @@ Before installing zMenu, make sure your server meets the following requirements:
 
 | Requirement | Version |
 | --- | --- |
-| Minecraft | 1.19 to 1.21+ |
+| Minecraft | 1.19 to 1.21+ (Paper 26+ supported) |
 | Java | **Java 21** (required) |
-| Server Software | Spigot, Paper, Purpur, Pufferfish, or Folia |
+| Server Software | **Paper**, Purpur, Pufferfish, or Folia |
+
+zMenu is a **Paper-only** plugin — it ships a `paper-plugin.yml` and **will not load on Spigot**. Run it on Paper, a Paper fork (Purpur / Pufferfish) or Folia.
 
 For the best experience, we recommend using **Paper** or **Purpur**. This enables MiniMessage formatting support and provides better performance.
+
+On first load zMenu downloads a few runtime libraries (the MariaDB driver and Reflections) through Paper's library loader. On a restricted network you can point it at a mirror with the `PAPER_DEFAULT_CENTRAL_REPOSITORY` environment variable or the `-Dorg.bukkit.plugin.java.LibraryLoader.centralURL` JVM flag.
 
 ## Download[​](http://docs.groupez.dev/zmenu/installation#download "Direct link to Download")
 
@@ -2013,8 +2019,6 @@ Now that zMenu is installed, learn how to:
 *   [Updating zMenu](http://docs.groupez.dev/zmenu/installation#updating-zmenu)
 *   [Next Steps](http://docs.groupez.dev/zmenu/installation#next-steps)
 
-![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991369-F86GBYGK-BGX9)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991369-F86GBYGK-BGX9&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991369-F86GBYGK-BGX9%26auid%3DAU1D-0100-001783991369-F86GBYGK-BGX9&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991369-F86GBYGK-BGX9&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991369-F86GBYGK-BGX9&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991369-F86GBYGK-BGX9&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991369-F86GBYGK-BGX9&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991369-F86GBYGK-BGX9%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTM2OS1GODZHQllHSy1CR1g5&id=AU1D-0100-001783991369-F86GBYGK-BGX9&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991369-F86GBYGK-BGX9)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991369-F86GBYGK-BGX9&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991369-F86GBYGK-BGX9%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
-
 ================================================================================
 Page 8/43
 URL: https://docs.groupez.dev/zmenu/configurations/bedrock
@@ -2023,6 +2027,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/bedrock
 Title: Bedrock Forms | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/bedrock
+
+Published Time: Tue, 14 Jul 2026 19:47:04 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -2121,7 +2127,7 @@ A read-only text label. Does not produce any value.
 
 #### bedrock_text[​](http://docs.groupez.dev/zmenu/configurations/bedrock#bedrock_text "Direct link to bedrock_text")
 
-A text input field where the player can type freely.
+A text input field where the player can type freely. Also accepts the alias `bedrock_text_input`.
 
 | Option | Type | Required | Description |
 | --- | --- | --- | --- |
@@ -2179,6 +2185,35 @@ In a custom form, each input value is available as a placeholder using the butto
 ### Custom Form Actions[​](http://docs.groupez.dev/zmenu/configurations/bedrock#custom-form-actions "Direct link to Custom Form Actions")
 
 Unlike simple and modal forms where each button has its own `click-requirement`, custom forms use a shared `actions` section at the root level. These actions are executed when the player submits the form, with all input values available as placeholders.
+
+* * *
+
+## Dynamic Buttons[​](http://docs.groupez.dev/zmenu/configurations/bedrock#dynamic-buttons "Direct link to Dynamic Buttons")
+
+Dynamic buttons generate several inputs or buttons from a single template, repeated over a numeric range — handy when the count is data-driven or would otherwise be copy/pasted.
+
+Both dynamic types share these options:
+
+| Option | Type | Description |
+| --- | --- | --- |
+| `start` | Integer | First index, inclusive. Placeholder-aware. |
+| `end` | Integer | Last index, inclusive. Placeholder-aware. |
+
+Inside the repeated template, the `%index%` placeholder is replaced with the current iteration number.
+
+### bedrock-dynamic-input-button[​](http://docs.groupez.dev/zmenu/configurations/bedrock#bedrock-dynamic-input-button "Direct link to bedrock-dynamic-input-button")
+
+For **custom** forms. Repeats an `input:` element (`bedrock_label`, `bedrock_text`, `bedrock_toggle`, `bedrock_slider`, `bedrock_dropdown`). Each generated input's value is available as the placeholder `%<button-name>_<index>%`.
+
+`type: customname: "&6Dynamic Bedrock Example"buttons:  # If the player types "Value A" in the first box, %dynamic_input_1% will be "Value A"  dynamic_input:    type: bedrock-dynamic-input-button    start: 1    end: 2    input:      type: bedrock_text      text: "&6Enter your name #%index%:"actions:  1:    success:      - type: message        messages:          - "&eInput 1: &f%dynamic_input_1%"          - "&eInput 2: &f%dynamic_input_2%"`
+
+### bedrock-dynamic-button[​](http://docs.groupez.dev/zmenu/configurations/bedrock#bedrock-dynamic-button "Direct link to bedrock-dynamic-button")
+
+For **simple** forms. Repeats a clickable `button:` (`bedrock_modal_button`), each with its own actions.
+
+`type: simplename: "&6Dynamic Bedrock Simple Example"content: "&7Each button shows its unique index."buttons:  dynamic_buttons:    type: bedrock-dynamic-button    start: 1    end: 5    button:      type: bedrock_modal_button      text: "&bClick Me! &e(Button #%index%)"      actions:        - type: MESSAGE          messages:            - "&aYou clicked dynamic button &6#%index%&a!"`
+
+See the bundled `bedrock/dynamic-bedrock-example.yml` and `bedrock/dynamic-simple-bedrock-example.yml` for full examples.
 
 * * *
 
@@ -2319,6 +2354,10 @@ You can open a Bedrock form from a button action using the `bedrock` action type
     *   [Custom Form Placeholders](http://docs.groupez.dev/zmenu/configurations/bedrock#custom-form-placeholders)
     *   [Custom Form Actions](http://docs.groupez.dev/zmenu/configurations/bedrock#custom-form-actions)
 
+*   [Dynamic Buttons](http://docs.groupez.dev/zmenu/configurations/bedrock#dynamic-buttons)
+    *   [bedrock-dynamic-input-button](http://docs.groupez.dev/zmenu/configurations/bedrock#bedrock-dynamic-input-button)
+    *   [bedrock-dynamic-button](http://docs.groupez.dev/zmenu/configurations/bedrock#bedrock-dynamic-button)
+
 *   [Common Options](http://docs.groupez.dev/zmenu/configurations/bedrock#common-options)
     *   [name](http://docs.groupez.dev/zmenu/configurations/bedrock#name)
     *   [content](http://docs.groupez.dev/zmenu/configurations/bedrock#content)
@@ -2333,7 +2372,7 @@ You can open a Bedrock form from a button action using the `bedrock` action type
 *   [Bedrock Action](http://docs.groupez.dev/zmenu/configurations/bedrock#bedrock-action)
 *   [Next Steps](http://docs.groupez.dev/zmenu/configurations/bedrock#next-steps)
 
-![Image 4](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991377-1OY7U79F-TA3T)![Image 5](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991377-1OY7U79F-TA3T&adnxs_id=$UID&gdpr=0)![Image 6](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991377-1OY7U79F-TA3T%26auid%3DAU1D-0100-001783991377-1OY7U79F-TA3T&gdpr=0)![Image 7](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991377-1OY7U79F-TA3T&gdpr=0)![Image 8](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991377-1OY7U79F-TA3T&gdpr=0)![Image 9](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991377-1OY7U79F-TA3T&gdpr=0)![Image 10](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991377-1OY7U79F-TA3T&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991377-1OY7U79F-TA3T%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 11](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTM3Ny0xT1k3VTc5Ri1UQTNU&id=AU1D-0100-001783991377-1OY7U79F-TA3T&gdpr=0)![Image 12](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991377-1OY7U79F-TA3T)![Image 13](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991377-1OY7U79F-TA3T&uid=[UID]&gdpr=0)![Image 14](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991377-1OY7U79F-TA3T%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
+![Image 4](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001784077609-W7YS4MFY-4ESQ)![Image 5](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001784077609-W7YS4MFY-4ESQ&adnxs_id=$UID&gdpr=0)![Image 6](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001784077609-W7YS4MFY-4ESQ%26auid%3DAU1D-0100-001784077609-W7YS4MFY-4ESQ&gdpr=0)![Image 7](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001784077609-W7YS4MFY-4ESQ&gdpr=0)![Image 8](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001784077609-W7YS4MFY-4ESQ&gdpr=0)![Image 9](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001784077609-W7YS4MFY-4ESQ&gdpr=0)![Image 10](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001784077609-W7YS4MFY-4ESQ&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001784077609-W7YS4MFY-4ESQ%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 11](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4NDA3NzYwOS1XN1lTNE1GWS00RVNR&id=AU1D-0100-001784077609-W7YS4MFY-4ESQ&gdpr=0)![Image 12](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001784077609-W7YS4MFY-4ESQ)![Image 13](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001784077609-W7YS4MFY-4ESQ&uid=[UID]&gdpr=0)![Image 14](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001784077609-W7YS4MFY-4ESQ%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
 
 ================================================================================
 Page 9/43
@@ -2413,7 +2452,7 @@ The `INPUT` button type allows you to capture text input from players. When clic
 *   [Notes](http://docs.groupez.dev/zmenu/configurations/buttons/types/input#notes)
 *   [Next Steps](http://docs.groupez.dev/zmenu/configurations/buttons/types/input#next-steps)
 
-![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991383-ZYKGQCS1-OUJV)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991383-ZYKGQCS1-OUJV&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991383-ZYKGQCS1-OUJV%26auid%3DAU1D-0100-001783991383-ZYKGQCS1-OUJV&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991383-ZYKGQCS1-OUJV&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991383-ZYKGQCS1-OUJV&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991383-ZYKGQCS1-OUJV&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991383-ZYKGQCS1-OUJV&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991383-ZYKGQCS1-OUJV%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTM4My1aWUtHUUNTMS1PVUpW&id=AU1D-0100-001783991383-ZYKGQCS1-OUJV&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991383-ZYKGQCS1-OUJV)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991383-ZYKGQCS1-OUJV&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991383-ZYKGQCS1-OUJV%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
+![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001784077615-XZNGV4BM-DPCY)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001784077615-XZNGV4BM-DPCY&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001784077615-XZNGV4BM-DPCY%26auid%3DAU1D-0100-001784077615-XZNGV4BM-DPCY&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001784077615-XZNGV4BM-DPCY&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001784077615-XZNGV4BM-DPCY&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001784077615-XZNGV4BM-DPCY&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001784077615-XZNGV4BM-DPCY&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001784077615-XZNGV4BM-DPCY%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4NDA3NzYxNS1YWk5HVjRCTS1EUENZ&id=AU1D-0100-001784077615-XZNGV4BM-DPCY&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001784077615-XZNGV4BM-DPCY)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001784077615-XZNGV4BM-DPCY&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001784077615-XZNGV4BM-DPCY%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
 
 ================================================================================
 Page 10/43
@@ -2559,6 +2598,35 @@ A numeric slider.
 
 * * *
 
+## Dynamic Buttons[​](http://docs.groupez.dev/zmenu/configurations/dialogues#dynamic-buttons "Direct link to Dynamic Buttons")
+
+Dynamic buttons generate several body sections or inputs from a single template, repeated over a numeric range. They are useful when the number of elements depends on data (a placeholder) or when you would otherwise copy/paste the same block many times.
+
+Both dynamic types share these options:
+
+| Option | Type | Description |
+| --- | --- | --- |
+| `start` | Integer | First index, inclusive. Placeholder-aware. |
+| `end` | Integer | Last index, inclusive. Placeholder-aware. |
+
+Inside the repeated template, the `%index%` placeholder is replaced with the current iteration number.
+
+### dialog-dynamic-body-button[​](http://docs.groupez.dev/zmenu/configurations/dialogues#dialog-dynamic-body-button "Direct link to dialog-dynamic-body-button")
+
+Placed in the `body:` section. Repeats a `body:` element (e.g. `dialog_plain_message`, `dialog_item`).
+
+`body:  dynamic_message:    type: dialog-dynamic-body-button    start: 1    end: 5    body:      type: dialog_plain_message      messages:        - "&eThis is body section #%index%"      width: 300`
+
+### dialog-dynamic-input-button[​](http://docs.groupez.dev/zmenu/configurations/dialogues#dialog-dynamic-input-button "Direct link to dialog-dynamic-input-button")
+
+Placed in the `inputs:` section. Repeats an `input:` element (e.g. `dialog_text`, `dialog_boolean`). Each generated input is keyed `<button-name>_<index>`, so its submitted value is available as the placeholder `%<button-name>_<index>%`.
+
+`inputs:  # If the player types "Hello" in the first field, %my_input_1% will be "Hello"  my_input:    type: dialog-dynamic-input-button    start: 1    end: 3    input:      type: dialog_text      label: "&6Enter value #%index%:"      width: 300      max-length: 50`
+
+See the bundled `dialogs/dynamic-dialog-example.yml` for a complete example.
+
+* * *
+
 ## Notice Dialog[​](http://docs.groupez.dev/zmenu/configurations/dialogues#notice-dialog "Direct link to Notice Dialog")
 
 A simple informational dialog with optional inputs.
@@ -2610,6 +2678,55 @@ A dialog with multiple action buttons in a grid.
 Display server links as clickable buttons.
 
 `name: "&6&lServer Links"external_title: "Links"type: server_linkscan-close-with-escape: trueafter_action: CLOSEserver-links:  text: "&6&lUseful Links"  tooltip: "&7Click to open"  width: 300  number-of-columns: 2  actions:    1:      success:        - type: message          messages:            - "&aLink opened!"`
+
+* * *
+
+## Action Button Options[​](http://docs.groupez.dev/zmenu/configurations/dialogues#action-button-options "Direct link to Action Button Options")
+
+Action buttons — the Yes/No buttons of a `confirmation`, a `notice` button, each entry of a `multi_action`, and the `server_links` exit button — share a common set of options.
+
+### type[​](http://docs.groupez.dev/zmenu/configurations/dialogues#type-1 "Direct link to type")
+
+The kind of action performed when the button is clicked.
+
+| Value | Description |
+| --- | --- |
+| `custom-click` | _(default)_ Runs the zMenu `actions:` defined on the button. |
+| `static` | Runs a native client action (see `static-type` below), without a server round-trip. |
+
+### static-type[​](http://docs.groupez.dev/zmenu/configurations/dialogues#static-type "Direct link to static-type")
+
+Only used when `type: static`. The native client action to perform.
+
+| `static-type` | Required field | Description |
+| --- | --- | --- |
+| `OPEN_URL` | `url` | Open a URL in the player's browser |
+| `OPEN_FILE` | `file` | Open a local file |
+| `RUN_COMMAND` | `command` | Run a command as the player |
+| `SUGGEST_COMMAND` | `command` | Pre-fill the chat box with a command |
+| `COPY_TO_CLIPBOARD` | `text` | Copy text to the clipboard |
+
+`multi-actions:  website:    text: "&bOur Website"    type: static    static-type: OPEN_URL    url: "https://example.com"`
+
+### usage-limit[​](http://docs.groupez.dev/zmenu/configurations/dialogues#usage-limit "Direct link to usage-limit")
+
+Maximum number of times the button can be activated (default: unlimited).
+
+`usage-limit: 1`
+
+### duration-limit[​](http://docs.groupez.dev/zmenu/configurations/dialogues#duration-limit "Direct link to duration-limit")
+
+A cooldown between activations. Either a plain number (seconds) or a section with a time unit:
+
+`duration-limit: 5          # 5 seconds`
+
+`duration-limit:  value: 2  type: MINUTES            # SECONDS, MILLISECONDS, MINUTES, HOURS, ...`
+
+### enable-placeholders[​](http://docs.groupez.dev/zmenu/configurations/dialogues#enable-placeholders "Direct link to enable-placeholders")
+
+Enable placeholder parsing for the button. Accepts a boolean, or a section to toggle it per key.
+
+The nested form (`<key>.label`, `<key>.tooltip`, `<key>.width`, `<key>.actions`, `<key>.type`) is the new canonical layout, but the old flat keys (`yes-text`, `notice.text`, `multi-actions.<key>.text`, ...) still work, so existing dialog files do not need to be rewritten.
 
 * * *
 
@@ -2685,6 +2802,10 @@ Open a dialog from another plugin:
     *   [dialog_single_option](http://docs.groupez.dev/zmenu/configurations/dialogues#dialog_single_option)
     *   [dialog_number_range](http://docs.groupez.dev/zmenu/configurations/dialogues#dialog_number_range)
 
+*   [Dynamic Buttons](http://docs.groupez.dev/zmenu/configurations/dialogues#dynamic-buttons)
+    *   [dialog-dynamic-body-button](http://docs.groupez.dev/zmenu/configurations/dialogues#dialog-dynamic-body-button)
+    *   [dialog-dynamic-input-button](http://docs.groupez.dev/zmenu/configurations/dialogues#dialog-dynamic-input-button)
+
 *   [Notice Dialog](http://docs.groupez.dev/zmenu/configurations/dialogues#notice-dialog)
 *   [Confirmation Dialog](http://docs.groupez.dev/zmenu/configurations/dialogues#confirmation-dialog)
     *   [Confirmation Options](http://docs.groupez.dev/zmenu/configurations/dialogues#confirmation-options)
@@ -2693,6 +2814,13 @@ Open a dialog from another plugin:
     *   [Multi-Action Options](http://docs.groupez.dev/zmenu/configurations/dialogues#multi-action-options)
 
 *   [Server Links Dialog](http://docs.groupez.dev/zmenu/configurations/dialogues#server-links-dialog)
+*   [Action Button Options](http://docs.groupez.dev/zmenu/configurations/dialogues#action-button-options)
+    *   [type](http://docs.groupez.dev/zmenu/configurations/dialogues#type-1)
+    *   [static-type](http://docs.groupez.dev/zmenu/configurations/dialogues#static-type)
+    *   [usage-limit](http://docs.groupez.dev/zmenu/configurations/dialogues#usage-limit)
+    *   [duration-limit](http://docs.groupez.dev/zmenu/configurations/dialogues#duration-limit)
+    *   [enable-placeholders](http://docs.groupez.dev/zmenu/configurations/dialogues#enable-placeholders)
+
 *   [Opening Dialogs](http://docs.groupez.dev/zmenu/configurations/dialogues#opening-dialogs)
     *   [From Button Actions](http://docs.groupez.dev/zmenu/configurations/dialogues#from-button-actions)
     *   [With Arguments](http://docs.groupez.dev/zmenu/configurations/dialogues#with-arguments)
@@ -2705,6 +2833,8 @@ Open a dialog from another plugin:
 *   [Best Practices](http://docs.groupez.dev/zmenu/configurations/dialogues#best-practices)
 *   [Next Steps](http://docs.groupez.dev/zmenu/configurations/dialogues#next-steps)
 
+![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001784077622-HZM7057W-E70M)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001784077622-HZM7057W-E70M&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001784077622-HZM7057W-E70M%26auid%3DAU1D-0100-001784077622-HZM7057W-E70M&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001784077622-HZM7057W-E70M&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001784077622-HZM7057W-E70M&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001784077622-HZM7057W-E70M&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001784077622-HZM7057W-E70M&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001784077622-HZM7057W-E70M%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4NDA3NzYyMi1IWk03MDU3Vy1FNzBN&id=AU1D-0100-001784077622-HZM7057W-E70M&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001784077622-HZM7057W-E70M)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001784077622-HZM7057W-E70M&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001784077622-HZM7057W-E70M%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
+
 ================================================================================
 Page 11/43
 URL: https://docs.groupez.dev/zmenu/configurations/patterns
@@ -2713,6 +2843,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/patterns
 Title: Patterns | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/patterns
+
+Published Time: Tue, 14 Jul 2026 19:47:04 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -3048,7 +3180,7 @@ Inventory patterns do not perform variable substitution. If you need `%placehold
     *   [Confusing inventory patterns and button patterns](http://docs.groupez.dev/zmenu/configurations/patterns#confusing-inventory-patterns-and-button-patterns)
     *   [Expecting variables in inventory patterns](http://docs.groupez.dev/zmenu/configurations/patterns#expecting-variables-in-inventory-patterns)
 
-![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991395-TCPUSJ3R-Q8X4)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991395-TCPUSJ3R-Q8X4&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991395-TCPUSJ3R-Q8X4%26auid%3DAU1D-0100-001783991395-TCPUSJ3R-Q8X4&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991395-TCPUSJ3R-Q8X4&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991395-TCPUSJ3R-Q8X4&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991395-TCPUSJ3R-Q8X4&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991395-TCPUSJ3R-Q8X4&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991395-TCPUSJ3R-Q8X4%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTM5NS1UQ1BVU0ozUi1ROFg0&id=AU1D-0100-001783991395-TCPUSJ3R-Q8X4&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991395-TCPUSJ3R-Q8X4)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991395-TCPUSJ3R-Q8X4&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991395-TCPUSJ3R-Q8X4%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
+![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001784077631-B8RKL8PL-7Y66)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001784077631-B8RKL8PL-7Y66&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001784077631-B8RKL8PL-7Y66%26auid%3DAU1D-0100-001784077631-B8RKL8PL-7Y66&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001784077631-B8RKL8PL-7Y66&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001784077631-B8RKL8PL-7Y66&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001784077631-B8RKL8PL-7Y66&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001784077631-B8RKL8PL-7Y66&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001784077631-B8RKL8PL-7Y66%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4NDA3NzYzMS1COFJLTDhQTC03WTY2&id=AU1D-0100-001784077631-B8RKL8PL-7Y66&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001784077631-B8RKL8PL-7Y66)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001784077631-B8RKL8PL-7Y66&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001784077631-B8RKL8PL-7Y66%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
 
 ================================================================================
 Page 12/43
@@ -3199,7 +3331,7 @@ Or set defaults on first access:
 *   [Key Naming Conventions](http://docs.groupez.dev/zmenu/configurations/player-data#key-naming-conventions)
 *   [Next Steps](http://docs.groupez.dev/zmenu/configurations/player-data#next-steps)
 
-![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991405-U2AFAQUI-A70W)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991405-U2AFAQUI-A70W&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991405-U2AFAQUI-A70W%26auid%3DAU1D-0100-001783991405-U2AFAQUI-A70W&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991405-U2AFAQUI-A70W&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991405-U2AFAQUI-A70W&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991405-U2AFAQUI-A70W&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991405-U2AFAQUI-A70W&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991405-U2AFAQUI-A70W%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTQwNS1VMkFGQVFVSS1BNzBX&id=AU1D-0100-001783991405-U2AFAQUI-A70W&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991405-U2AFAQUI-A70W)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991405-U2AFAQUI-A70W&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991405-U2AFAQUI-A70W%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
+![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001784077638-Z2MTX233-WXPI)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001784077638-Z2MTX233-WXPI&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001784077638-Z2MTX233-WXPI%26auid%3DAU1D-0100-001784077638-Z2MTX233-WXPI&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001784077638-Z2MTX233-WXPI&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001784077638-Z2MTX233-WXPI&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001784077638-Z2MTX233-WXPI&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001784077638-Z2MTX233-WXPI&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001784077638-Z2MTX233-WXPI%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4NDA3NzYzOC1aMk1UWDIzMy1XWFBJ&id=AU1D-0100-001784077638-Z2MTX233-WXPI&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001784077638-Z2MTX233-WXPI)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001784077638-Z2MTX233-WXPI&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001784077638-Z2MTX233-WXPI%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
 
 ================================================================================
 Page 13/43
@@ -3649,8 +3781,6 @@ This invisible button checks if the player has been initialized. If not, it sets
     *   [Player Data Spending System](http://docs.groupez.dev/zmenu/configurations/requirements#player-data-spending-system)
     *   [Initialize Default Values](http://docs.groupez.dev/zmenu/configurations/requirements#initialize-default-values)
 
-![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991412-1M46Q6LK-NRO2)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991412-1M46Q6LK-NRO2&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991412-1M46Q6LK-NRO2%26auid%3DAU1D-0100-001783991412-1M46Q6LK-NRO2&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991412-1M46Q6LK-NRO2&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991412-1M46Q6LK-NRO2&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991412-1M46Q6LK-NRO2&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991412-1M46Q6LK-NRO2&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991412-1M46Q6LK-NRO2%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTQxMi0xTTQ2UTZMSy1OUk8y&id=AU1D-0100-001783991412-1M46Q6LK-NRO2&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991412-1M46Q6LK-NRO2)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991412-1M46Q6LK-NRO2&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991412-1M46Q6LK-NRO2%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
-
 ================================================================================
 Page 14/43
 URL: https://docs.groupez.dev/zmenu/configurations/buttons/types/none
@@ -3660,7 +3790,7 @@ Title: NONE Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/none
 
-Published Time: Wed, 27 Aug 2025 22:17:04 GMT
+Published Time: Mon, 13 Apr 2026 10:17:03 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -3749,7 +3879,7 @@ All standard button properties work with `NONE` buttons:
 *   [Properties](http://docs.groupez.dev/zmenu/configurations/buttons/types/none#properties)
 *   [Next Steps](http://docs.groupez.dev/zmenu/configurations/buttons/types/none#next-steps)
 
-![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991418-6LZXKBLK-WEIO)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991418-6LZXKBLK-WEIO&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991418-6LZXKBLK-WEIO%26auid%3DAU1D-0100-001783991418-6LZXKBLK-WEIO&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991418-6LZXKBLK-WEIO&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991418-6LZXKBLK-WEIO&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991418-6LZXKBLK-WEIO&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991418-6LZXKBLK-WEIO&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991418-6LZXKBLK-WEIO%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTQxOC02TFpYS0JMSy1XRUlP&id=AU1D-0100-001783991418-6LZXKBLK-WEIO&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991418-6LZXKBLK-WEIO)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991418-6LZXKBLK-WEIO&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991418-6LZXKBLK-WEIO%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
+![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001784077655-0ZKWM0V2-LZBM)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001784077655-0ZKWM0V2-LZBM&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001784077655-0ZKWM0V2-LZBM%26auid%3DAU1D-0100-001784077655-0ZKWM0V2-LZBM&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001784077655-0ZKWM0V2-LZBM&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001784077655-0ZKWM0V2-LZBM&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001784077655-0ZKWM0V2-LZBM&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001784077655-0ZKWM0V2-LZBM&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001784077655-0ZKWM0V2-LZBM%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4NDA3NzY1NS0wWktXTTBWMi1MWkJN&id=AU1D-0100-001784077655-0ZKWM0V2-LZBM&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001784077655-0ZKWM0V2-LZBM)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001784077655-0ZKWM0V2-LZBM&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001784077655-0ZKWM0V2-LZBM%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
 
 ================================================================================
 Page 15/43
@@ -3759,6 +3889,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/items/com
 Title: Components | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/items/components
+
+Published Time: Wed, 27 Aug 2025 22:17:04 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -3771,6 +3903,16 @@ Markdown Content:
 Starting from Minecraft 1.20.5, items use a new component system. zMenu provides full support for this system through the `components` configuration section.
 
 Components require Minecraft 1.20.5 or higher. Some components are only available in newer versions, indicated by a badge next to each component name.
+
+Component field values may contain placeholders. Any value that contains a `%` is resolved per viewer when the item is built (local placeholders first, then PlaceholderAPI). This works for colors, enums, numbers and strings — for example `dyed-color: "%my_color_placeholder%"`.
+
+Every color field (`dyed-color`, `map-color`, `firework-explosion``colors`/`fade_colors`, `custom-model-data``colors`, `potion-contents``custom-color`, collar colors, ...) accepts all of these formats:
+
+*   Hex string — `"#FFAA00"` (RRGGBB) or `"#80FFAA00"` (AARRGGBB)
+*   Integer — `16755200` (RGB or ARGB, decimal)
+*   Comma string — `"255,128,0"` or `"255,128,0,128"` (RGB[A], with or without spaces, values clamped 0–255)
+*   List of floats — `[1.0, 0.5, 0.0]` (RGB[A], 0.0–1.0)
+*   List of ints — `[255, 128, 0]` (RGB[A], 0–255)
 
 ## Basic Structure[​](http://docs.groupez.dev/zmenu/configurations/items/components#basic-structure "Direct link to Basic Structure")
 
@@ -3894,6 +4036,34 @@ Stores items inside a bundle. Use zMenu item syntax inside each entry.
 **Minecraft Wiki:**[bundle_contents](https://minecraft.wiki/w/Data_component_format#bundle_contents)
 
 `components:  bundle-contents:    - material: DIAMOND      amount: 10    - material: EMERALD      amount: 5    - material: GOLD_INGOT      amount: 20`
+
+* * *
+
+## can-break Paper only 1.20.5+[​](http://docs.groupez.dev/zmenu/configurations/items/components#can-break-paper-only-1205 "Direct link to can-break-paper-only-1205")
+
+Restricts which blocks the item is allowed to break in Adventure mode.
+
+**Minecraft Wiki:**[can_break](https://minecraft.wiki/w/Data_component_format#can_break)
+
+| Key | Type | Description |
+| --- | --- | --- |
+| `blocks` | List | Block types (or tags) the item may break (e.g. `minecraft:stone`) |
+
+`components:  can-break:    blocks:      - minecraft:stone      - minecraft:dirt`
+
+* * *
+
+## can-place-on Paper only 1.20.5+[​](http://docs.groupez.dev/zmenu/configurations/items/components#can-place-on-paper-only-1205 "Direct link to can-place-on-paper-only-1205")
+
+Restricts which blocks the item is allowed to be placed on in Adventure mode.
+
+**Minecraft Wiki:**[can_place_on](https://minecraft.wiki/w/Data_component_format#can_place_on)
+
+| Key | Type | Description |
+| --- | --- | --- |
+| `blocks` | List | Block types (or tags) the item may be placed on (e.g. `minecraft:grass_block`) |
+
+`components:  can-place-on:    blocks:      - minecraft:grass_block      - minecraft:stone`
 
 * * *
 
@@ -4094,7 +4264,7 @@ Adds enchantments to the item. Supports custom enchantments if they were registe
 
 * * *
 
-### custom_name Paper only[​](http://docs.groupez.dev/zmenu/configurations/items/components#custom_name-paper-only "Direct link to custom_name-paper-only")
+### custom-name Paper only[​](http://docs.groupez.dev/zmenu/configurations/items/components#custom-name-paper-only "Direct link to custom-name-paper-only")
 
 Sets the custom name of the item.
 
@@ -4104,17 +4274,17 @@ Sets the custom name of the item.
 
 * * *
 
-### intangible_projectile Paper only[​](http://docs.groupez.dev/zmenu/configurations/items/components#intangible_projectile-paper-only "Direct link to intangible_projectile-paper-only")
+### intangible-projectile Paper only[​](http://docs.groupez.dev/zmenu/configurations/items/components#intangible-projectile-paper-only "Direct link to intangible-projectile-paper-only")
 
 Makes projectiles fired from this item intangible (pass through blocks).
 
 **Minecraft Wiki:**[intangible_projectile](https://minecraft.wiki/w/Data_component_format#intangible_projectile)
 
-`components:  intangible_projectile: true`
+`components:  intangible-projectile: true`
 
 * * *
 
-### map_decorations Paper only[​](http://docs.groupez.dev/zmenu/configurations/items/components#map_decorations-paper-only "Direct link to map_decorations-paper-only")
+### map-decorations Paper only[​](http://docs.groupez.dev/zmenu/configurations/items/components#map-decorations-paper-only "Direct link to map-decorations-paper-only")
 
 Adds map decorations to filled maps.
 
@@ -4127,27 +4297,27 @@ Adds map decorations to filled maps.
 | `z` | Integer | Z coordinate on the map |
 | `rotation` | Integer | Rotation |
 
-`components:  map_decorations:    - type: red_marker      x: 100      z: -50      rotation: 0    - type: blue_marker      x: -30      z: 75      rotation: 4`
+`components:  map-decorations:    - type: red_marker      x: 100      z: -50      rotation: 0    - type: blue_marker      x: -30      z: 75      rotation: 4`
 
 * * *
 
-### note_block_sound Paper only[​](http://docs.groupez.dev/zmenu/configurations/items/components#note_block_sound-paper-only "Direct link to note_block_sound-paper-only")
+### note-block-sound Paper only[​](http://docs.groupez.dev/zmenu/configurations/items/components#note-block-sound-paper-only "Direct link to note-block-sound-paper-only")
 
 Sets the sound played when a note block item is placed.
 
 **Minecraft Wiki:**[note_block_sound](https://minecraft.wiki/w/Data_component_format#note_block_sound)
 
-`components:  note_block_sound: "minecraft:block.note_block.bell"`
+`components:  note-block-sound: "minecraft:block.note_block.bell"`
 
 * * *
 
-### pot_decorations Paper only[​](http://docs.groupez.dev/zmenu/configurations/items/components#pot_decorations-paper-only "Direct link to pot_decorations-paper-only")
+### pot-decorations Paper only[​](http://docs.groupez.dev/zmenu/configurations/items/components#pot-decorations-paper-only "Direct link to pot-decorations-paper-only")
 
 Adds decorations to decorated pots. Requires the item to be a pottery shard or brick. Each decoration is represented by a string ID corresponding to a specific pattern or design.
 
 **Minecraft Wiki:**[pot_decorations](https://minecraft.wiki/w/Data_component_format#pot_decorations)
 
-`components:  pot_decorations:    - "skull_pottery_sherd"    - "heart_pottery_sherd"    - "blade_pottery_sherd"    - "brick"`
+`components:  pot-decorations:    - "skull_pottery_sherd"    - "heart_pottery_sherd"    - "blade_pottery_sherd"    - "brick"`
 
 * * *
 
@@ -4726,7 +4896,7 @@ Item left after using (like bowls from stew). Use zMenu item syntax here.
 
 * * *
 
-### death_protection Paper only 1.21.2+[​](http://docs.groupez.dev/zmenu/configurations/items/components#death_protection-paper-only-1212 "Direct link to death_protection-paper-only-1212")
+### death-protection Paper only 1.21.2+[​](http://docs.groupez.dev/zmenu/configurations/items/components#death-protection-paper-only-1212 "Direct link to death-protection-paper-only-1212")
 
 Configures death protection for items (similar to a Totem of Undying).
 
@@ -4736,7 +4906,7 @@ Configures death protection for items (similar to a Totem of Undying).
 | --- | --- | --- |
 | `death_effects` | List | List of effects to apply when death is prevented |
 
-`components:  death_protection:    death_effects:      - type: APPLY_EFFECTS        probability: 1.0        effects:          - id: regeneration            amplified: true            duration: 900          - id: fire_resistance            duration: 800          - id: absorption            amplified: true            duration: 100      - type: PLAY_SOUND        sound: item.totem.use      - type: TELEPORT_RANDOMLY        diameter: 16.0      - type: CLEAR_ALL_EFFECTS      - type: REMOVE_EFFECTS        effects:          - poison          - wither`
+`components:  death-protection:    death_effects:      - type: APPLY_EFFECTS        probability: 1.0        effects:          - id: regeneration            amplified: true            duration: 900          - id: fire_resistance            duration: 800          - id: absorption            amplified: true            duration: 100      - type: PLAY_SOUND        sound: item.totem.use      - type: TELEPORT_RANDOMLY        diameter: 16.0      - type: CLEAR_ALL_EFFECTS      - type: REMOVE_EFFECTS        effects:          - poison          - wither`
 
 **Effect Types:**
 
@@ -4773,23 +4943,23 @@ Configures weapon damage properties.
 
 * * *
 
-### provides_banner_patterns Paper only 1.21.5+[​](http://docs.groupez.dev/zmenu/configurations/items/components#provides_banner_patterns-paper-only-1215 "Direct link to provides_banner_patterns-paper-only-1215")
+### provides-banner-patterns Paper only 1.21.5+[​](http://docs.groupez.dev/zmenu/configurations/items/components#provides-banner-patterns-paper-only-1215 "Direct link to provides-banner-patterns-paper-only-1215")
 
 Configures banner pattern providing behavior for items.
 
 **Minecraft Wiki:**[provides_banner_patterns](https://minecraft.wiki/w/Data_component_format#provides_banner_patterns)
 
-`components:  provides_banner_patterns: "minecraft:flower_banner_pattern"`
+`components:  provides-banner-patterns: "minecraft:flower_banner_pattern"`
 
 * * *
 
-### provides_trim_material Paper only 1.21.5+[​](http://docs.groupez.dev/zmenu/configurations/items/components#provides_trim_material-paper-only-1215 "Direct link to provides_trim_material-paper-only-1215")
+### provides-trim-material Paper only 1.21.5+[​](http://docs.groupez.dev/zmenu/configurations/items/components#provides-trim-material-paper-only-1215 "Direct link to provides-trim-material-paper-only-1215")
 
 Configures trim material providing behavior for items.
 
 **Minecraft Wiki:**[provides_trim_material](https://minecraft.wiki/w/Data_component_format#provides_trim_material)
 
-`components:  provides_trim_material: "minecraft:gold"`
+`components:  provides-trim-material: "minecraft:gold"`
 
 * * *
 
@@ -4994,23 +5164,33 @@ Configures shulker color for shulker.
 
 * * *
 
-### tropical_fish/base_color[​](http://docs.groupez.dev/zmenu/configurations/items/components#tropical_fishbase_color "Direct link to tropical_fish/base_color")
+### tropical-fish/base-color[​](http://docs.groupez.dev/zmenu/configurations/items/components#tropical-fishbase-color "Direct link to tropical-fish/base-color")
 
 Configures tropical fish base color.
 
-`components:  tropical_fish/base_color: "ORANGE"`
+`components:  tropical-fish/base-color: "ORANGE"`
 
 **Available Colors:** can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/DyeColor.html)
 
 * * *
 
-### tropical_fish/pattern_color[​](http://docs.groupez.dev/zmenu/configurations/items/components#tropical_fishpattern_color "Direct link to tropical_fish/pattern_color")
+### tropical-fish/pattern-color[​](http://docs.groupez.dev/zmenu/configurations/items/components#tropical-fishpattern-color "Direct link to tropical-fish/pattern-color")
 
 Configures tropical fish pattern color.
 
-`components:  tropical_fish/pattern_color: "BLUE"`
+`components:  tropical-fish/pattern-color: "BLUE"`
 
 **Available Colors:** can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/DyeColor.html)
+
+* * *
+
+### tropical-fish/pattern 1.20.5+[​](http://docs.groupez.dev/zmenu/configurations/items/components#tropical-fishpattern-1205 "Direct link to tropical-fishpattern-1205")
+
+Configures the tropical fish pattern.
+
+`components:  tropical-fish/pattern: "SUNSTREAK"`
+
+**Available Patterns:** can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/TropicalFish.Pattern.html)
 
 * * *
 
@@ -5041,6 +5221,16 @@ Configures wolf collar color for wolf.
 `components:  wolf/collar: "BLUE"`
 
 **Available Colors:** can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/DyeColor.html)
+
+* * *
+
+### wolf/sound-variant 1.20.5+[​](http://docs.groupez.dev/zmenu/configurations/items/components#wolfsound-variant-1205 "Direct link to wolfsound-variant-1205")
+
+Configures the wolf sound variant.
+
+`components:  wolf/sound-variant: "classic"`
+
+**Available Sound Variants:** can be found [here](https://jd.papermc.io/paper/1.21.11/org/bukkit/entity/Wolf.SoundVariant.html).
 
 * * *
 
@@ -5081,6 +5271,8 @@ Here's a complete example of a custom legendary sword using components:
 *   [blocks-attacks 1.21.5+](http://docs.groupez.dev/zmenu/configurations/items/components#blocks-attacks-1215)
 *   [break-sound 1.21.5+](http://docs.groupez.dev/zmenu/configurations/items/components#break-sound-1215)
 *   [bundle-contents](http://docs.groupez.dev/zmenu/configurations/items/components#bundle-contents)
+*   [can-break Paper only 1.20.5+](http://docs.groupez.dev/zmenu/configurations/items/components#can-break-paper-only-1205)
+*   [can-place-on Paper only 1.20.5+](http://docs.groupez.dev/zmenu/configurations/items/components#can-place-on-paper-only-1205)
 *   [charged-projectiles](http://docs.groupez.dev/zmenu/configurations/items/components#charged-projectiles)
 *   [consumable 1.21.2+](http://docs.groupez.dev/zmenu/configurations/items/components#consumable-1212)
 *   [container](http://docs.groupez.dev/zmenu/configurations/items/components#container)
@@ -5094,11 +5286,11 @@ Here's a complete example of a custom legendary sword using components:
 *   [enchantable 1.21.2+](http://docs.groupez.dev/zmenu/configurations/items/components#enchantable-1212)
 *   [enchantment-glint-override](http://docs.groupez.dev/zmenu/configurations/items/components#enchantment-glint-override)
 *   [enchantments](http://docs.groupez.dev/zmenu/configurations/items/components#enchantments)
-    *   [custom_name Paper only](http://docs.groupez.dev/zmenu/configurations/items/components#custom_name-paper-only)
-    *   [intangible_projectile Paper only](http://docs.groupez.dev/zmenu/configurations/items/components#intangible_projectile-paper-only)
-    *   [map_decorations Paper only](http://docs.groupez.dev/zmenu/configurations/items/components#map_decorations-paper-only)
-    *   [note_block_sound Paper only](http://docs.groupez.dev/zmenu/configurations/items/components#note_block_sound-paper-only)
-    *   [pot_decorations Paper only](http://docs.groupez.dev/zmenu/configurations/items/components#pot_decorations-paper-only)
+    *   [custom-name Paper only](http://docs.groupez.dev/zmenu/configurations/items/components#custom-name-paper-only)
+    *   [intangible-projectile Paper only](http://docs.groupez.dev/zmenu/configurations/items/components#intangible-projectile-paper-only)
+    *   [map-decorations Paper only](http://docs.groupez.dev/zmenu/configurations/items/components#map-decorations-paper-only)
+    *   [note-block-sound Paper only](http://docs.groupez.dev/zmenu/configurations/items/components#note-block-sound-paper-only)
+    *   [pot-decorations Paper only](http://docs.groupez.dev/zmenu/configurations/items/components#pot-decorations-paper-only)
 
 *   [equippable 1.21.2+](http://docs.groupez.dev/zmenu/configurations/items/components#equippable-1212)
 *   [firework-explosion](http://docs.groupez.dev/zmenu/configurations/items/components#firework-explosion)
@@ -5138,12 +5330,12 @@ Here's a complete example of a custom legendary sword using components:
 *   [use-cooldown 1.21.2+](http://docs.groupez.dev/zmenu/configurations/items/components#use-cooldown-1212)
 *   [use-effects 1.21.11+](http://docs.groupez.dev/zmenu/configurations/items/components#use-effects-12111)
 *   [use-remainder 1.21.2+](http://docs.groupez.dev/zmenu/configurations/items/components#use-remainder-1212)
-    *   [death_protection Paper only 1.21.2+](http://docs.groupez.dev/zmenu/configurations/items/components#death_protection-paper-only-1212)
+    *   [death-protection Paper only 1.21.2+](http://docs.groupez.dev/zmenu/configurations/items/components#death-protection-paper-only-1212)
     *   [repairable Paper only 1.21.2+](http://docs.groupez.dev/zmenu/configurations/items/components#repairable-paper-only-1212)
 
 *   [weapon 1.21.5+](http://docs.groupez.dev/zmenu/configurations/items/components#weapon-1215)
-    *   [provides_banner_patterns Paper only 1.21.5+](http://docs.groupez.dev/zmenu/configurations/items/components#provides_banner_patterns-paper-only-1215)
-    *   [provides_trim_material Paper only 1.21.5+](http://docs.groupez.dev/zmenu/configurations/items/components#provides_trim_material-paper-only-1215)
+    *   [provides-banner-patterns Paper only 1.21.5+](http://docs.groupez.dev/zmenu/configurations/items/components#provides-banner-patterns-paper-only-1215)
+    *   [provides-trim-material Paper only 1.21.5+](http://docs.groupez.dev/zmenu/configurations/items/components#provides-trim-material-paper-only-1215)
 
 *   [writable-book-content](http://docs.groupez.dev/zmenu/configurations/items/components#writable-book-content)
 *   [written-book-content](http://docs.groupez.dev/zmenu/configurations/items/components#written-book-content)
@@ -5164,17 +5356,19 @@ Here's a complete example of a custom legendary sword using components:
     *   [salmon/size 1.21.5+](http://docs.groupez.dev/zmenu/configurations/items/components#salmonsize-1215)
     *   [sheep/color](http://docs.groupez.dev/zmenu/configurations/items/components#sheepcolor)
     *   [shulker/color](http://docs.groupez.dev/zmenu/configurations/items/components#shulkercolor)
-    *   [tropical_fish/base_color](http://docs.groupez.dev/zmenu/configurations/items/components#tropical_fishbase_color)
-    *   [tropical_fish/pattern_color](http://docs.groupez.dev/zmenu/configurations/items/components#tropical_fishpattern_color)
+    *   [tropical-fish/base-color](http://docs.groupez.dev/zmenu/configurations/items/components#tropical-fishbase-color)
+    *   [tropical-fish/pattern-color](http://docs.groupez.dev/zmenu/configurations/items/components#tropical-fishpattern-color)
+    *   [tropical-fish/pattern 1.20.5+](http://docs.groupez.dev/zmenu/configurations/items/components#tropical-fishpattern-1205)
     *   [villager/variant](http://docs.groupez.dev/zmenu/configurations/items/components#villagervariant)
     *   [wolf/variant 1.20.5+](http://docs.groupez.dev/zmenu/configurations/items/components#wolfvariant-1205)
     *   [wolf/collar 1.20.5+](http://docs.groupez.dev/zmenu/configurations/items/components#wolfcollar-1205)
+    *   [wolf/sound-variant 1.20.5+](http://docs.groupez.dev/zmenu/configurations/items/components#wolfsound-variant-1205)
 
 *   [Complete Example](http://docs.groupez.dev/zmenu/configurations/items/components#complete-example)
 *   [Version Compatibility](http://docs.groupez.dev/zmenu/configurations/items/components#version-compatibility)
 *   [Next Steps](http://docs.groupez.dev/zmenu/configurations/items/components#next-steps)
 
-![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991426-4AQAVN6K-7OD9)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991426-4AQAVN6K-7OD9&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991426-4AQAVN6K-7OD9%26auid%3DAU1D-0100-001783991426-4AQAVN6K-7OD9&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991426-4AQAVN6K-7OD9&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991426-4AQAVN6K-7OD9&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991426-4AQAVN6K-7OD9&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991426-4AQAVN6K-7OD9&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991426-4AQAVN6K-7OD9%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTQyNi00QVFBVk42Sy03T0Q5&id=AU1D-0100-001783991426-4AQAVN6K-7OD9&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991426-4AQAVN6K-7OD9)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991426-4AQAVN6K-7OD9&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991426-4AQAVN6K-7OD9%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
+![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001784077662-MG74T40S-PKMS)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001784077662-MG74T40S-PKMS&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001784077662-MG74T40S-PKMS%26auid%3DAU1D-0100-001784077662-MG74T40S-PKMS&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001784077662-MG74T40S-PKMS&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001784077662-MG74T40S-PKMS&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001784077662-MG74T40S-PKMS&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001784077662-MG74T40S-PKMS&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001784077662-MG74T40S-PKMS%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4NDA3NzY2Mi1NRzc0VDQwUy1QS01T&id=AU1D-0100-001784077662-MG74T40S-PKMS&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001784077662-MG74T40S-PKMS)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001784077662-MG74T40S-PKMS&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001784077662-MG74T40S-PKMS%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
 
 ================================================================================
 Page 16/43
@@ -5184,6 +5378,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/items/ite
 Title: Item Configuration | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/items/item
+
+Published Time: Thu, 16 Apr 2026 14:02:40 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -5919,7 +6115,7 @@ For Oraxen items:
 *   [Best Practices](http://docs.groupez.dev/zmenu/configurations/items/item#best-practices)
 *   [Next Steps](http://docs.groupez.dev/zmenu/configurations/items/item#next-steps)
 
-![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991436-QQFINLJZ-9UI3)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991436-QQFINLJZ-9UI3&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991436-QQFINLJZ-9UI3%26auid%3DAU1D-0100-001783991436-QQFINLJZ-9UI3&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991436-QQFINLJZ-9UI3&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991436-QQFINLJZ-9UI3&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991436-QQFINLJZ-9UI3&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991436-QQFINLJZ-9UI3&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991436-QQFINLJZ-9UI3%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTQzNi1RUUZJTkxKWi05VUkz&id=AU1D-0100-001783991436-QQFINLJZ-9UI3&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991436-QQFINLJZ-9UI3)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991436-QQFINLJZ-9UI3&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991436-QQFINLJZ-9UI3%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
+![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001784077669-FQXND06H-N0NK)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001784077669-FQXND06H-N0NK&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001784077669-FQXND06H-N0NK%26auid%3DAU1D-0100-001784077669-FQXND06H-N0NK&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001784077669-FQXND06H-N0NK&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001784077669-FQXND06H-N0NK&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001784077669-FQXND06H-N0NK&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001784077669-FQXND06H-N0NK&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001784077669-FQXND06H-N0NK%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4NDA3NzY2OS1GUVhORDA2SC1OME5L&id=AU1D-0100-001784077669-FQXND06H-N0NK&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001784077669-FQXND06H-N0NK)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001784077669-FQXND06H-N0NK&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001784077669-FQXND06H-N0NK%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
 
 ================================================================================
 Page 17/43
@@ -6049,7 +6245,7 @@ Yes! zMenu+ is fully compatible with your existing zMenu configurations. It only
     *   [Is there a refund policy?](http://docs.groupez.dev/zmenu/zmenu-plus#is-there-a-refund-policy)
     *   [Will my inventories work with zMenu+?](http://docs.groupez.dev/zmenu/zmenu-plus#will-my-inventories-work-with-zmenu)
 
-![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991440-Z9JPNODQ-HKAZ)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991440-Z9JPNODQ-HKAZ&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991440-Z9JPNODQ-HKAZ%26auid%3DAU1D-0100-001783991440-Z9JPNODQ-HKAZ&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991440-Z9JPNODQ-HKAZ&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991440-Z9JPNODQ-HKAZ&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991440-Z9JPNODQ-HKAZ&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991440-Z9JPNODQ-HKAZ&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991440-Z9JPNODQ-HKAZ%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTQ0MC1aOUpQTk9EUS1IS0Fa&id=AU1D-0100-001783991440-Z9JPNODQ-HKAZ&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991440-Z9JPNODQ-HKAZ)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991440-Z9JPNODQ-HKAZ&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991440-Z9JPNODQ-HKAZ%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
+![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001784077676-VTAQC2NQ-9YDU)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001784077676-VTAQC2NQ-9YDU&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001784077676-VTAQC2NQ-9YDU%26auid%3DAU1D-0100-001784077676-VTAQC2NQ-9YDU&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001784077676-VTAQC2NQ-9YDU&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001784077676-VTAQC2NQ-9YDU&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001784077676-VTAQC2NQ-9YDU&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001784077676-VTAQC2NQ-9YDU&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001784077676-VTAQC2NQ-9YDU%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4NDA3NzY3Ni1WVEFRQzJOUS05WURV&id=AU1D-0100-001784077676-VTAQC2NQ-9YDU&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001784077676-VTAQC2NQ-9YDU)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001784077676-VTAQC2NQ-9YDU&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001784077676-VTAQC2NQ-9YDU%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
 
 ================================================================================
 Page 18/43
@@ -6060,7 +6256,7 @@ Title: Commands & Permissions | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/commands-permissions
 
-Published Time: Tue, 16 Jun 2026 18:59:40 GMT
+Published Time: Mon, 13 Apr 2026 10:17:03 GMT
 
 Markdown Content:
 This page lists all available commands and permissions in zMenu.
@@ -6259,6 +6455,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/placehold
 Title: Placeholders | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/placeholders
+
+Published Time: Tue, 14 Jul 2026 21:26:08 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -6522,8 +6720,6 @@ If placeholders aren't working:
 *   [Debugging Placeholders](http://docs.groupez.dev/zmenu/configurations/placeholders#debugging-placeholders)
 *   [Quick Reference Table](http://docs.groupez.dev/zmenu/configurations/placeholders#quick-reference-table)
 *   [Next Steps](http://docs.groupez.dev/zmenu/configurations/placeholders#next-steps)
-
-![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991453-P5ZSEVU1-QEF7)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991453-P5ZSEVU1-QEF7&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991453-P5ZSEVU1-QEF7%26auid%3DAU1D-0100-001783991453-P5ZSEVU1-QEF7&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991453-P5ZSEVU1-QEF7&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991453-P5ZSEVU1-QEF7&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991453-P5ZSEVU1-QEF7&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991453-P5ZSEVU1-QEF7&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991453-P5ZSEVU1-QEF7%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTQ1My1QNVpTRVZVMS1RRUY3&id=AU1D-0100-001783991453-P5ZSEVU1-QEF7&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991453-P5ZSEVU1-QEF7)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991453-P5ZSEVU1-QEF7&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991453-P5ZSEVU1-QEF7%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
 
 ================================================================================
 Page 20/43
@@ -7010,7 +7206,7 @@ Use `NEXT` and `PREVIOUS` button types for navigation. See [Button Types](https:
 *   [Best Practices](http://docs.groupez.dev/zmenu/configurations/inventories/inventory#best-practices)
 *   [Next Steps](http://docs.groupez.dev/zmenu/configurations/inventories/inventory#next-steps)
 
-![Image 2](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991461-N75KFEXJ-0TLL)![Image 3](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991461-N75KFEXJ-0TLL&adnxs_id=$UID&gdpr=0)![Image 4](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991461-N75KFEXJ-0TLL%26auid%3DAU1D-0100-001783991461-N75KFEXJ-0TLL&gdpr=0)![Image 5](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991461-N75KFEXJ-0TLL&gdpr=0)![Image 6](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991461-N75KFEXJ-0TLL&gdpr=0)![Image 7](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991461-N75KFEXJ-0TLL&gdpr=0)![Image 8](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991461-N75KFEXJ-0TLL&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991461-N75KFEXJ-0TLL%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 9](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTQ2MS1ONzVLRkVYSi0wVExM&id=AU1D-0100-001783991461-N75KFEXJ-0TLL&gdpr=0)![Image 10](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991461-N75KFEXJ-0TLL)![Image 11](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991461-N75KFEXJ-0TLL&uid=[UID]&gdpr=0)![Image 12](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991461-N75KFEXJ-0TLL%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
+![Image 2](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001784077694-R85JF85N-EJ9E)![Image 3](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001784077694-R85JF85N-EJ9E&adnxs_id=$UID&gdpr=0)![Image 4](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001784077694-R85JF85N-EJ9E%26auid%3DAU1D-0100-001784077694-R85JF85N-EJ9E&gdpr=0)![Image 5](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001784077694-R85JF85N-EJ9E&gdpr=0)![Image 6](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001784077694-R85JF85N-EJ9E&gdpr=0)![Image 7](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001784077694-R85JF85N-EJ9E&gdpr=0)![Image 8](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001784077694-R85JF85N-EJ9E&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001784077694-R85JF85N-EJ9E%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 9](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4NDA3NzY5NC1SODVKRjg1Ti1FSjlF&id=AU1D-0100-001784077694-R85JF85N-EJ9E&gdpr=0)![Image 10](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001784077694-R85JF85N-EJ9E)![Image 11](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001784077694-R85JF85N-EJ9E&uid=[UID]&gdpr=0)![Image 12](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001784077694-R85JF85N-EJ9E%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
 
 ================================================================================
 Page 21/43
@@ -7020,6 +7216,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/config-ym
 Title: Config.yml | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/config-yml
+
+Published Time: Wed, 27 Aug 2025 22:17:04 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -7331,7 +7529,7 @@ Database configuration changes require a server restart to take effect.
 
 *   [Next Steps](http://docs.groupez.dev/zmenu/configurations/config-yml#next-steps)
 
-![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991467-RBVRLF2T-SG4L)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991467-RBVRLF2T-SG4L&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991467-RBVRLF2T-SG4L%26auid%3DAU1D-0100-001783991467-RBVRLF2T-SG4L&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991467-RBVRLF2T-SG4L&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991467-RBVRLF2T-SG4L&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991467-RBVRLF2T-SG4L&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991467-RBVRLF2T-SG4L&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991467-RBVRLF2T-SG4L%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTQ2Ny1SQlZSTEYyVC1TRzRM&id=AU1D-0100-001783991467-RBVRLF2T-SG4L&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991467-RBVRLF2T-SG4L)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991467-RBVRLF2T-SG4L&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991467-RBVRLF2T-SG4L%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
+![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001784077700-MFL0DR28-UWEM)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001784077700-MFL0DR28-UWEM&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001784077700-MFL0DR28-UWEM%26auid%3DAU1D-0100-001784077700-MFL0DR28-UWEM&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001784077700-MFL0DR28-UWEM&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001784077700-MFL0DR28-UWEM&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001784077700-MFL0DR28-UWEM&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001784077700-MFL0DR28-UWEM&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001784077700-MFL0DR28-UWEM%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4NDA3NzcwMC1NRkwwRFIyOC1VV0VN&id=AU1D-0100-001784077700-MFL0DR28-UWEM&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001784077700-MFL0DR28-UWEM)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001784077700-MFL0DR28-UWEM&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001784077700-MFL0DR28-UWEM%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
 
 ================================================================================
 Page 22/43
@@ -7341,6 +7539,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/supported-plugins
 Title: Supported Plugins | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/supported-plugins
+
+Published Time: Wed, 27 Aug 2025 22:17:04 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -7706,7 +7906,7 @@ To verify which plugins zMenu detected, check the console output when the server
 
 *   [Plugin Detection](http://docs.groupez.dev/zmenu/supported-plugins#plugin-detection)
 
-![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991474-GGJO7TBS-VDEO)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991474-GGJO7TBS-VDEO&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991474-GGJO7TBS-VDEO%26auid%3DAU1D-0100-001783991474-GGJO7TBS-VDEO&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991474-GGJO7TBS-VDEO&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991474-GGJO7TBS-VDEO&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991474-GGJO7TBS-VDEO&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991474-GGJO7TBS-VDEO&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991474-GGJO7TBS-VDEO%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTQ3NC1HR0pPN1RCUy1WREVP&id=AU1D-0100-001783991474-GGJO7TBS-VDEO&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991474-GGJO7TBS-VDEO)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991474-GGJO7TBS-VDEO&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991474-GGJO7TBS-VDEO%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
+![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001784077707-QT3123SY-W8XW)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001784077707-QT3123SY-W8XW&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001784077707-QT3123SY-W8XW%26auid%3DAU1D-0100-001784077707-QT3123SY-W8XW&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001784077707-QT3123SY-W8XW&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001784077707-QT3123SY-W8XW&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001784077707-QT3123SY-W8XW&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001784077707-QT3123SY-W8XW&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001784077707-QT3123SY-W8XW%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4NDA3NzcwNy1RVDMxMjNTWS1XOFhX&id=AU1D-0100-001784077707-QT3123SY-W8XW&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001784077707-QT3123SY-W8XW)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001784077707-QT3123SY-W8XW&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001784077707-QT3123SY-W8XW%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
 
 ================================================================================
 Page 23/43
@@ -7716,8 +7916,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/custom-co
 Title: Custom Commands | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/custom-commands
-
-Published Time: Tue, 16 Jun 2026 18:59:40 GMT
 
 Markdown Content:
 zMenu allows you to create custom commands that open your inventories. Instead of using `/zm open shop`, players can simply type `/shop`.
@@ -7998,7 +8196,7 @@ The `DYNAMIC_PAGINATION` button type allows you to display dynamically generated
 *   [Placeholders](http://docs.groupez.dev/zmenu/configurations/buttons/types/dynamic-pagination#placeholders)
 *   [Next Steps](http://docs.groupez.dev/zmenu/configurations/buttons/types/dynamic-pagination#next-steps)
 
-![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991485-F5UWRNZ4-9A71)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991485-F5UWRNZ4-9A71&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991485-F5UWRNZ4-9A71%26auid%3DAU1D-0100-001783991485-F5UWRNZ4-9A71&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991485-F5UWRNZ4-9A71&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991485-F5UWRNZ4-9A71&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991485-F5UWRNZ4-9A71&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991485-F5UWRNZ4-9A71&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991485-F5UWRNZ4-9A71%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTQ4NS1GNVVXUk5aNC05QTcx&id=AU1D-0100-001783991485-F5UWRNZ4-9A71&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991485-F5UWRNZ4-9A71)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991485-F5UWRNZ4-9A71&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991485-F5UWRNZ4-9A71%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
+![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001784077724-Y2I8TAKX-I7CM)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001784077724-Y2I8TAKX-I7CM&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001784077724-Y2I8TAKX-I7CM%26auid%3DAU1D-0100-001784077724-Y2I8TAKX-I7CM&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001784077724-Y2I8TAKX-I7CM&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001784077724-Y2I8TAKX-I7CM&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001784077724-Y2I8TAKX-I7CM&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001784077724-Y2I8TAKX-I7CM&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001784077724-Y2I8TAKX-I7CM%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4NDA3NzcyNC1ZMkk4VEFLWC1JN0NN&id=AU1D-0100-001784077724-Y2I8TAKX-I7CM&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001784077724-Y2I8TAKX-I7CM)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001784077724-Y2I8TAKX-I7CM&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001784077724-Y2I8TAKX-I7CM%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
 
 ================================================================================
 Page 25/43
@@ -8141,7 +8339,7 @@ Or reload everything:
 *   [Best Practices](http://docs.groupez.dev/zmenu/configurations/global-placeholders#best-practices)
 *   [Next Steps](http://docs.groupez.dev/zmenu/configurations/global-placeholders#next-steps)
 
-![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991494-XW6L5XSB-MPMW)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991494-XW6L5XSB-MPMW&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991494-XW6L5XSB-MPMW%26auid%3DAU1D-0100-001783991494-XW6L5XSB-MPMW&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991494-XW6L5XSB-MPMW&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991494-XW6L5XSB-MPMW&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991494-XW6L5XSB-MPMW&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991494-XW6L5XSB-MPMW&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991494-XW6L5XSB-MPMW%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTQ5NC1YVzZMNVhTQi1NUE1X&id=AU1D-0100-001783991494-XW6L5XSB-MPMW&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991494-XW6L5XSB-MPMW)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991494-XW6L5XSB-MPMW&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991494-XW6L5XSB-MPMW%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
+![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001784077728-25L9VXDN-TY0I)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001784077728-25L9VXDN-TY0I&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001784077728-25L9VXDN-TY0I%26auid%3DAU1D-0100-001784077728-25L9VXDN-TY0I&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001784077728-25L9VXDN-TY0I&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001784077728-25L9VXDN-TY0I&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001784077728-25L9VXDN-TY0I&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001784077728-25L9VXDN-TY0I&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001784077728-25L9VXDN-TY0I%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4NDA3NzcyOC0yNUw5VlhETi1UWTBJ&id=AU1D-0100-001784077728-25L9VXDN-TY0I&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001784077728-25L9VXDN-TY0I)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001784077728-25L9VXDN-TY0I&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001784077728-25L9VXDN-TY0I%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
 
 ================================================================================
 Page 26/43
@@ -8151,6 +8349,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/t
 Title: SWITCH Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/switch
+
+Published Time: Wed, 27 Aug 2025 22:17:04 GMT
 
 Markdown Content:
 [Skip to main content](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#__docusaurus_skipToContent_fallback)
@@ -8300,9 +8500,11 @@ The default state (when the placeholder value doesn't match any key in the `butt
 *   [Related Features](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#related-features)
 *   [Next Steps](http://docs.groupez.dev/zmenu/configurations/buttons/types/switch#next-steps)
 
-Copyright © 2026[GroupeZ](https://groupez.dev/)|Build[#bedcc67](https://github.com/GroupeZ-dev/Documentations/commit/bedcc67f2ca96a54360bc2bf3e496846885459e8)|Jun 16, 2026
+Copyright © 2026[GroupeZ](https://groupez.dev/)|Build[#e5b94d1](https://github.com/GroupeZ-dev/Documentations/commit/e5b94d1f2b404ef6ca24540a56f2b9a9eee4a5c0)|Jul 14, 2026
 
-![Image 2](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991502-7JKSGZOU-M1KP)![Image 3](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991502-7JKSGZOU-M1KP&adnxs_id=$UID&gdpr=0)![Image 4](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991502-7JKSGZOU-M1KP%26auid%3DAU1D-0100-001783991502-7JKSGZOU-M1KP&gdpr=0)![Image 5](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991502-7JKSGZOU-M1KP&gdpr=0)![Image 6](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991502-7JKSGZOU-M1KP&gdpr=0)![Image 7](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991502-7JKSGZOU-M1KP&gdpr=0)![Image 8](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991502-7JKSGZOU-M1KP&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991502-7JKSGZOU-M1KP%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 9](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTUwMi03SktTR1pPVS1NMUtQ&id=AU1D-0100-001783991502-7JKSGZOU-M1KP&gdpr=0)![Image 10](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991502-7JKSGZOU-M1KP)![Image 11](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991502-7JKSGZOU-M1KP&uid=[UID]&gdpr=0)![Image 12](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991502-7JKSGZOU-M1KP%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
+![Image 2](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001784077735-VSDBG72P-DL4E)![Image 3](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001784077735-VSDBG72P-DL4E&adnxs_id=$UID&gdpr=0)![Image 4](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001784077735-VSDBG72P-DL4E%26auid%3DAU1D-0100-001784077735-VSDBG72P-DL4E&gdpr=0)![Image 5](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001784077735-VSDBG72P-DL4E&gdpr=0)![Image 6](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001784077735-VSDBG72P-DL4E&gdpr=0)![Image 7](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001784077735-VSDBG72P-DL4E&gdpr=0)![Image 8](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001784077735-VSDBG72P-DL4E&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001784077735-VSDBG72P-DL4E%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 9](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4NDA3NzczNS1WU0RCRzcyUC1ETDRF&id=AU1D-0100-001784077735-VSDBG72P-DL4E&gdpr=0)![Image 10](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001784077735-VSDBG72P-DL4E)![Image 11](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001784077735-VSDBG72P-DL4E&uid=[UID]&gdpr=0)![Image 12](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001784077735-VSDBG72P-DL4E%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
+
+![Image 13](https://aax-eu.amazon-adsystem.com/s/dcm?pid=cda341cb-196c-4da8-897b-752ce4bb588d&id=f19d7fb3-69df-45ff-6854-91c5777ef0b3&env=mWeb&eventType=map&id_mid_4=f19d7fb3-69df-45ff-6854-91c5777ef0b3&reqId=ae3bb7d5-b51a-474e-6728-b0429f47b74e&zdid=2124)![Image 14](https://zm.rqtrk.eu/mw?zpartnerid=1353&env=mWeb&env=mWeb&eventType=map&id_mid_4=f19d7fb3-69df-45ff-6854-91c5777ef0b3&reqId=ae3bb7d5-b51a-474e-6728-b0429f47b74e&zdid=2124)![Image 15](https://s.cpx.to/sync?dsp=ZTP&dsp_uid=f19d7fb3-69df-45ff-6854-91c5777ef0b3)
 
 ================================================================================
 Page 27/43
@@ -8313,7 +8515,7 @@ Title: Item Rules | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/item-rules
 
-Published Time: Wed, 27 Aug 2025 22:17:04 GMT
+Published Time: Tue, 14 Jul 2026 19:47:04 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -8485,7 +8687,7 @@ Use `and` / `or` to combine several rules.
 *   [Combining rules](http://docs.groupez.dev/zmenu/configurations/item-rules#combining-rules)
 *   [See also](http://docs.groupez.dev/zmenu/configurations/item-rules#see-also)
 
-![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991508-EDP5B1O1-5X8T)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991508-EDP5B1O1-5X8T&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991508-EDP5B1O1-5X8T%26auid%3DAU1D-0100-001783991508-EDP5B1O1-5X8T&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991508-EDP5B1O1-5X8T&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991508-EDP5B1O1-5X8T&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991508-EDP5B1O1-5X8T&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991508-EDP5B1O1-5X8T&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991508-EDP5B1O1-5X8T%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTUwOC1FRFA1QjFPMS01WDhU&id=AU1D-0100-001783991508-EDP5B1O1-5X8T&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991508-EDP5B1O1-5X8T)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991508-EDP5B1O1-5X8T&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991508-EDP5B1O1-5X8T%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
+![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001784077742-OLXMPX2S-8W1R)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001784077742-OLXMPX2S-8W1R&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001784077742-OLXMPX2S-8W1R%26auid%3DAU1D-0100-001784077742-OLXMPX2S-8W1R&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001784077742-OLXMPX2S-8W1R&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001784077742-OLXMPX2S-8W1R&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001784077742-OLXMPX2S-8W1R&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001784077742-OLXMPX2S-8W1R&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001784077742-OLXMPX2S-8W1R%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4NDA3Nzc0Mi1PTFhNUFgyUy04VzFS&id=AU1D-0100-001784077742-OLXMPX2S-8W1R&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001784077742-OLXMPX2S-8W1R)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001784077742-OLXMPX2S-8W1R&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001784077742-OLXMPX2S-8W1R%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
 
 ================================================================================
 Page 28/43
@@ -8495,6 +8697,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/t
 Title: BACK Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/back
+
+Published Time: Thu, 16 Apr 2026 14:02:40 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -8611,7 +8815,7 @@ The `BACK` button type is shorthand for this.
 *   [Related Button Types](http://docs.groupez.dev/zmenu/configurations/buttons/types/back#related-button-types)
 *   [Next Steps](http://docs.groupez.dev/zmenu/configurations/buttons/types/back#next-steps)
 
-![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991518-L6C19MT5-PLEM)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991518-L6C19MT5-PLEM&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991518-L6C19MT5-PLEM%26auid%3DAU1D-0100-001783991518-L6C19MT5-PLEM&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991518-L6C19MT5-PLEM&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991518-L6C19MT5-PLEM&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991518-L6C19MT5-PLEM&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991518-L6C19MT5-PLEM&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991518-L6C19MT5-PLEM%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTUxOC1MNkMxOU1UNS1QTEVN&id=AU1D-0100-001783991518-L6C19MT5-PLEM&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991518-L6C19MT5-PLEM)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991518-L6C19MT5-PLEM&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991518-L6C19MT5-PLEM%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
+![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001784077751-1TYNQ85F-F48J)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001784077751-1TYNQ85F-F48J&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001784077751-1TYNQ85F-F48J%26auid%3DAU1D-0100-001784077751-1TYNQ85F-F48J&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001784077751-1TYNQ85F-F48J&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001784077751-1TYNQ85F-F48J&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001784077751-1TYNQ85F-F48J&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001784077751-1TYNQ85F-F48J&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001784077751-1TYNQ85F-F48J%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4NDA3Nzc1MS0xVFlOUTg1Ri1GNDhK&id=AU1D-0100-001784077751-1TYNQ85F-F48J&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001784077751-1TYNQ85F-F48J)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001784077751-1TYNQ85F-F48J&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001784077751-1TYNQ85F-F48J%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
 
 ================================================================================
 Page 29/43
@@ -8622,7 +8826,7 @@ Title: INVENTORY Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/inventory
 
-Published Time: Mon, 13 Apr 2026 10:17:03 GMT
+Published Time: Tue, 14 Jul 2026 21:26:09 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -8739,8 +8943,6 @@ The history is automatically managed - you don't need to configure anything spec
 *   [Best Practices](http://docs.groupez.dev/zmenu/configurations/buttons/types/inventory#best-practices)
 *   [Next Steps](http://docs.groupez.dev/zmenu/configurations/buttons/types/inventory#next-steps)
 
-![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991525-YAPZYQ79-8VMV)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991525-YAPZYQ79-8VMV&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991525-YAPZYQ79-8VMV%26auid%3DAU1D-0100-001783991525-YAPZYQ79-8VMV&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991525-YAPZYQ79-8VMV&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991525-YAPZYQ79-8VMV&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991525-YAPZYQ79-8VMV&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991525-YAPZYQ79-8VMV&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991525-YAPZYQ79-8VMV%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTUyNS1ZQVBaWVE3OS04Vk1W&id=AU1D-0100-001783991525-YAPZYQ79-8VMV&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991525-YAPZYQ79-8VMV)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991525-YAPZYQ79-8VMV&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991525-YAPZYQ79-8VMV%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
-
 ================================================================================
 Page 30/43
 URL: https://docs.groupez.dev/zmenu/configurations/buttons/types/next
@@ -8749,8 +8951,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/t
 Title: NEXT Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/next
-
-Published Time: Mon, 13 Apr 2026 10:17:03 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -8855,7 +9055,7 @@ The `NEXT` button only appears/works when there are more pages available.
 *   [Related Button Types](http://docs.groupez.dev/zmenu/configurations/buttons/types/next#related-button-types)
 *   [Next Steps](http://docs.groupez.dev/zmenu/configurations/buttons/types/next#next-steps)
 
-![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991534-I7X8QY1W-ZBR3)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991534-I7X8QY1W-ZBR3&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991534-I7X8QY1W-ZBR3%26auid%3DAU1D-0100-001783991534-I7X8QY1W-ZBR3&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991534-I7X8QY1W-ZBR3&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991534-I7X8QY1W-ZBR3&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991534-I7X8QY1W-ZBR3&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991534-I7X8QY1W-ZBR3&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991534-I7X8QY1W-ZBR3%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTUzNC1JN1g4UVkxVy1aQlIz&id=AU1D-0100-001783991534-I7X8QY1W-ZBR3&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991534-I7X8QY1W-ZBR3)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991534-I7X8QY1W-ZBR3&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991534-I7X8QY1W-ZBR3%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
+![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001784077760-LJ7U1JY6-A3DS)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001784077760-LJ7U1JY6-A3DS&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001784077760-LJ7U1JY6-A3DS%26auid%3DAU1D-0100-001784077760-LJ7U1JY6-A3DS&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001784077760-LJ7U1JY6-A3DS&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001784077760-LJ7U1JY6-A3DS&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001784077760-LJ7U1JY6-A3DS&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001784077760-LJ7U1JY6-A3DS&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001784077760-LJ7U1JY6-A3DS%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4NDA3Nzc2MC1MSjdVMUpZNi1BM0RT&id=AU1D-0100-001784077760-LJ7U1JY6-A3DS&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001784077760-LJ7U1JY6-A3DS)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001784077760-LJ7U1JY6-A3DS&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001784077760-LJ7U1JY6-A3DS%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
 
 ================================================================================
 Page 31/43
@@ -8990,7 +9190,7 @@ For API support:
 *   [Next Steps](http://docs.groupez.dev/zmenu/development/api-introduction#next-steps)
 *   [Support](http://docs.groupez.dev/zmenu/development/api-introduction#support)
 
-![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991540-YNM69SGN-VXRS)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991540-YNM69SGN-VXRS&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991540-YNM69SGN-VXRS%26auid%3DAU1D-0100-001783991540-YNM69SGN-VXRS&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991540-YNM69SGN-VXRS&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991540-YNM69SGN-VXRS&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991540-YNM69SGN-VXRS&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991540-YNM69SGN-VXRS&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991540-YNM69SGN-VXRS%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTU0MC1ZTk02OVNHTi1WWFJT&id=AU1D-0100-001783991540-YNM69SGN-VXRS&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991540-YNM69SGN-VXRS)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991540-YNM69SGN-VXRS&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991540-YNM69SGN-VXRS%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
+![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001784077767-60QHLYMR-3S8F)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001784077767-60QHLYMR-3S8F&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001784077767-60QHLYMR-3S8F%26auid%3DAU1D-0100-001784077767-60QHLYMR-3S8F&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001784077767-60QHLYMR-3S8F&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001784077767-60QHLYMR-3S8F&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001784077767-60QHLYMR-3S8F&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001784077767-60QHLYMR-3S8F&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001784077767-60QHLYMR-3S8F%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4NDA3Nzc2Ny02MFFITFlNUi0zUzhG&id=AU1D-0100-001784077767-60QHLYMR-3S8F&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001784077767-60QHLYMR-3S8F)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001784077767-60QHLYMR-3S8F&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001784077767-60QHLYMR-3S8F%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
 
 ================================================================================
 Page 32/43
@@ -9050,7 +9250,7 @@ next: type: NEXT slot: 50 is-permanent: true item: material: ARROW name: "&a&lNe
 *   [Example](http://docs.groupez.dev/zmenu/configurations/buttons/types/pagination#example)
     *   [Basic Pagination](http://docs.groupez.dev/zmenu/configurations/buttons/types/pagination#basic-pagination)
 
-![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991547-3I11QPFM-S345)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991547-3I11QPFM-S345&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991547-3I11QPFM-S345%26auid%3DAU1D-0100-001783991547-3I11QPFM-S345&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991547-3I11QPFM-S345&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991547-3I11QPFM-S345&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991547-3I11QPFM-S345&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991547-3I11QPFM-S345&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991547-3I11QPFM-S345%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTU0Ny0zSTExUVBGTS1TMzQ1&id=AU1D-0100-001783991547-3I11QPFM-S345&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991547-3I11QPFM-S345)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991547-3I11QPFM-S345&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991547-3I11QPFM-S345%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
+![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001784077773-B318LIB0-DSEL)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001784077773-B318LIB0-DSEL&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001784077773-B318LIB0-DSEL%26auid%3DAU1D-0100-001784077773-B318LIB0-DSEL&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001784077773-B318LIB0-DSEL&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001784077773-B318LIB0-DSEL&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001784077773-B318LIB0-DSEL&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001784077773-B318LIB0-DSEL&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001784077773-B318LIB0-DSEL%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4NDA3Nzc3My1CMzE4TElCMC1EU0VM&id=AU1D-0100-001784077773-B318LIB0-DSEL&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001784077773-B318LIB0-DSEL)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001784077773-B318LIB0-DSEL&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001784077773-B318LIB0-DSEL%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
 
 ================================================================================
 Page 33/43
@@ -9060,8 +9260,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/t
 Title: MAIN_MENU Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/mainmenu
-
-Published Time: Mon, 13 Apr 2026 10:17:03 GMT
 
 Markdown Content:
 The `MAIN_MENU` button type opens the inventory configured as the main menu in `config.yml`.
@@ -9246,7 +9444,7 @@ Use `HOME` buttons when:
 *   [Related Button Types](http://docs.groupez.dev/zmenu/configurations/buttons/types/home#related-button-types)
 *   [Next Steps](http://docs.groupez.dev/zmenu/configurations/buttons/types/home#next-steps)
 
-![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991559-E0K7TNFC-YB87)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991559-E0K7TNFC-YB87&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991559-E0K7TNFC-YB87%26auid%3DAU1D-0100-001783991559-E0K7TNFC-YB87&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991559-E0K7TNFC-YB87&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991559-E0K7TNFC-YB87&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991559-E0K7TNFC-YB87&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991559-E0K7TNFC-YB87&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991559-E0K7TNFC-YB87%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTU1OS1FMEs3VE5GQy1ZQjg3&id=AU1D-0100-001783991559-E0K7TNFC-YB87&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991559-E0K7TNFC-YB87)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991559-E0K7TNFC-YB87&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991559-E0K7TNFC-YB87%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
+![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001784077786-8W3KO5JS-K2VS)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001784077786-8W3KO5JS-K2VS&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001784077786-8W3KO5JS-K2VS%26auid%3DAU1D-0100-001784077786-8W3KO5JS-K2VS&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001784077786-8W3KO5JS-K2VS&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001784077786-8W3KO5JS-K2VS&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001784077786-8W3KO5JS-K2VS&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001784077786-8W3KO5JS-K2VS&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001784077786-8W3KO5JS-K2VS%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4NDA3Nzc4Ni04VzNLTzVKUy1LMlZT&id=AU1D-0100-001784077786-8W3KO5JS-K2VS&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001784077786-8W3KO5JS-K2VS)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001784077786-8W3KO5JS-K2VS&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001784077786-8W3KO5JS-K2VS%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
 
 ================================================================================
 Page 35/43
@@ -9256,6 +9454,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/configurations/buttons/t
 Title: PREVIOUS Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/configurations/buttons/types/previous
+
+Published Time: Tue, 14 Jul 2026 19:47:04 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -9333,7 +9533,7 @@ The `PREVIOUS` button type navigates to the previous page in a paginated invento
 *   [Related Button Types](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#related-button-types)
 *   [Next Steps](http://docs.groupez.dev/zmenu/configurations/buttons/types/previous#next-steps)
 
-![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991565-M9FINZC6-GMYU)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991565-M9FINZC6-GMYU&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991565-M9FINZC6-GMYU%26auid%3DAU1D-0100-001783991565-M9FINZC6-GMYU&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991565-M9FINZC6-GMYU&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991565-M9FINZC6-GMYU&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991565-M9FINZC6-GMYU&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991565-M9FINZC6-GMYU&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991565-M9FINZC6-GMYU%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTU2NS1NOUZJTlpDNi1HTVlV&id=AU1D-0100-001783991565-M9FINZC6-GMYU&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991565-M9FINZC6-GMYU)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991565-M9FINZC6-GMYU&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991565-M9FINZC6-GMYU%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
+![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001784077791-NTYAXOHJ-99CS)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001784077791-NTYAXOHJ-99CS&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001784077791-NTYAXOHJ-99CS%26auid%3DAU1D-0100-001784077791-NTYAXOHJ-99CS&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001784077791-NTYAXOHJ-99CS&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001784077791-NTYAXOHJ-99CS&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001784077791-NTYAXOHJ-99CS&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001784077791-NTYAXOHJ-99CS&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001784077791-NTYAXOHJ-99CS%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4NDA3Nzc5MS1OVFlBWE9ISi05OUNT&id=AU1D-0100-001784077791-NTYAXOHJ-99CS&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001784077791-NTYAXOHJ-99CS)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001784077791-NTYAXOHJ-99CS&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001784077791-NTYAXOHJ-99CS%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
 
 ================================================================================
 Page 36/43
@@ -9451,6 +9651,8 @@ Hide page buttons that don't exist:
 *   [Related Button Types](http://docs.groupez.dev/zmenu/configurations/buttons/types/jump#related-button-types)
 *   [Next Steps](http://docs.groupez.dev/zmenu/configurations/buttons/types/jump#next-steps)
 
+![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001784077800-829JBLDD-PXW7)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001784077800-829JBLDD-PXW7&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001784077800-829JBLDD-PXW7%26auid%3DAU1D-0100-001784077800-829JBLDD-PXW7&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001784077800-829JBLDD-PXW7&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001784077800-829JBLDD-PXW7&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001784077800-829JBLDD-PXW7&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001784077800-829JBLDD-PXW7&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001784077800-829JBLDD-PXW7%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4NDA3NzgwMC04MjlKQkxERC1QWFc3&id=AU1D-0100-001784077800-829JBLDD-PXW7&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001784077800-829JBLDD-PXW7)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001784077800-829JBLDD-PXW7&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001784077800-829JBLDD-PXW7%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
+
 ================================================================================
 Page 37/43
 URL: https://docs.groupez.dev/zmenu/development/api-actions
@@ -9459,6 +9661,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-actions
 Title: Custom Actions | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-actions
+
+Published Time: Tue, 14 Jul 2026 21:26:10 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -9584,8 +9788,6 @@ To support placeholders in your action:
 *   [Best Practices](http://docs.groupez.dev/zmenu/development/api-actions#best-practices)
 *   [Next Steps](http://docs.groupez.dev/zmenu/development/api-actions#next-steps)
 
-![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991579-MVZ6D763-074L)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991579-MVZ6D763-074L&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991579-MVZ6D763-074L%26auid%3DAU1D-0100-001783991579-MVZ6D763-074L&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991579-MVZ6D763-074L&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991579-MVZ6D763-074L&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991579-MVZ6D763-074L&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991579-MVZ6D763-074L&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991579-MVZ6D763-074L%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTU3OS1NVlo2RDc2My0wNzRM&id=AU1D-0100-001783991579-MVZ6D763-074L&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991579-MVZ6D763-074L)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991579-MVZ6D763-074L&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991579-MVZ6D763-074L%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
-
 ================================================================================
 Page 38/43
 URL: https://docs.groupez.dev/zmenu/development/api-buttons
@@ -9594,8 +9796,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-buttons
 Title: Custom Buttons | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-buttons
-
-Published Time: Tue, 16 Jun 2026 18:59:41 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -9712,6 +9912,8 @@ Override the item display based on player state:
 *   [Best Practices](http://docs.groupez.dev/zmenu/development/api-buttons#best-practices)
 *   [Next Steps](http://docs.groupez.dev/zmenu/development/api-buttons#next-steps)
 
+![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001784077815-W3OGZSU7-406A)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001784077815-W3OGZSU7-406A&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001784077815-W3OGZSU7-406A%26auid%3DAU1D-0100-001784077815-W3OGZSU7-406A&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001784077815-W3OGZSU7-406A&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001784077815-W3OGZSU7-406A&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001784077815-W3OGZSU7-406A&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001784077815-W3OGZSU7-406A&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001784077815-W3OGZSU7-406A%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4NDA3NzgxNS1XM09HWlNVNy00MDZB&id=AU1D-0100-001784077815-W3OGZSU7-406A&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001784077815-W3OGZSU7-406A)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001784077815-W3OGZSU7-406A&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001784077815-W3OGZSU7-406A%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
+
 ================================================================================
 Page 39/43
 URL: https://docs.groupez.dev/zmenu/development/api-events
@@ -9720,8 +9922,6 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-events
 Title: Events | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-events
-
-Published Time: Mon, 13 Apr 2026 10:17:03 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -9871,7 +10071,7 @@ Use event priorities to control when your listener runs:
 *   [Best Practices](http://docs.groupez.dev/zmenu/development/api-events#best-practices)
 *   [Next Steps](http://docs.groupez.dev/zmenu/development/api-events#next-steps)
 
-![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991595-NTUVK4C6-HJRG)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991595-NTUVK4C6-HJRG&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991595-NTUVK4C6-HJRG%26auid%3DAU1D-0100-001783991595-NTUVK4C6-HJRG&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991595-NTUVK4C6-HJRG&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991595-NTUVK4C6-HJRG&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991595-NTUVK4C6-HJRG&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991595-NTUVK4C6-HJRG&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991595-NTUVK4C6-HJRG%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTU5NS1OVFVWSzRDNi1ISlJH&id=AU1D-0100-001783991595-NTUVK4C6-HJRG&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991595-NTUVK4C6-HJRG)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991595-NTUVK4C6-HJRG&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991595-NTUVK4C6-HJRG%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
+![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001784077822-HE31ORVA-N1ES)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001784077822-HE31ORVA-N1ES&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001784077822-HE31ORVA-N1ES%26auid%3DAU1D-0100-001784077822-HE31ORVA-N1ES&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001784077822-HE31ORVA-N1ES&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001784077822-HE31ORVA-N1ES&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001784077822-HE31ORVA-N1ES&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001784077822-HE31ORVA-N1ES&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001784077822-HE31ORVA-N1ES%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4NDA3NzgyMi1IRTMxT1JWQS1OMUVT&id=AU1D-0100-001784077822-HE31ORVA-N1ES&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001784077822-HE31ORVA-N1ES)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001784077822-HE31ORVA-N1ES&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001784077822-HE31ORVA-N1ES%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
 
 ================================================================================
 Page 40/43
@@ -9882,7 +10082,7 @@ Title: Inventory API | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-inventory
 
-Published Time: Tue, 16 Jun 2026 18:59:41 GMT
+Published Time: Tue, 14 Jul 2026 21:26:11 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -10055,6 +10255,8 @@ Title: Player Data API | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-player-data
 
+Published Time: Tue, 14 Jul 2026 21:26:12 GMT
+
 Markdown Content:
 *   [](https://docs.groupez.dev/)
 *   Development
@@ -10198,8 +10400,6 @@ The data you set is automatically available as placeholders:
 *   [Key Naming Conventions](http://docs.groupez.dev/zmenu/development/api-player-data#key-naming-conventions)
 *   [Next Steps](http://docs.groupez.dev/zmenu/development/api-player-data#next-steps)
 
-![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991606-51MCQ917-2QF8)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991606-51MCQ917-2QF8&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991606-51MCQ917-2QF8%26auid%3DAU1D-0100-001783991606-51MCQ917-2QF8&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991606-51MCQ917-2QF8&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991606-51MCQ917-2QF8&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991606-51MCQ917-2QF8&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991606-51MCQ917-2QF8&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991606-51MCQ917-2QF8%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTYwNi01MU1DUTkxNy0yUUY4&id=AU1D-0100-001783991606-51MCQ917-2QF8&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991606-51MCQ917-2QF8)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991606-51MCQ917-2QF8&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991606-51MCQ917-2QF8%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
-
 ================================================================================
 Page 42/43
 URL: https://docs.groupez.dev/zmenu/development/api-menu-item-stack
@@ -10208,6 +10408,8 @@ Source: https://r.jina.ai/http://docs.groupez.dev/zmenu/development/api-menu-ite
 Title: MenuItemStack | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-menu-item-stack
+
+Published Time: Mon, 13 Apr 2026 10:17:03 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -10357,7 +10559,7 @@ Properties available in YAML configuration:
 *   [Best Practices](http://docs.groupez.dev/zmenu/development/api-menu-item-stack#best-practices)
 *   [Next Steps](http://docs.groupez.dev/zmenu/development/api-menu-item-stack#next-steps)
 
-![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991613-VS8G410E-T3WY)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991613-VS8G410E-T3WY&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991613-VS8G410E-T3WY%26auid%3DAU1D-0100-001783991613-VS8G410E-T3WY&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991613-VS8G410E-T3WY&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991613-VS8G410E-T3WY&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991613-VS8G410E-T3WY&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991613-VS8G410E-T3WY&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991613-VS8G410E-T3WY%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTYxMy1WUzhHNDEwRS1UM1dZ&id=AU1D-0100-001783991613-VS8G410E-T3WY&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991613-VS8G410E-T3WY)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991613-VS8G410E-T3WY&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991613-VS8G410E-T3WY%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
+![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001784077836-L5Q3BIZS-5F04)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001784077836-L5Q3BIZS-5F04&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001784077836-L5Q3BIZS-5F04%26auid%3DAU1D-0100-001784077836-L5Q3BIZS-5F04&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001784077836-L5Q3BIZS-5F04&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001784077836-L5Q3BIZS-5F04&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001784077836-L5Q3BIZS-5F04&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001784077836-L5Q3BIZS-5F04&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001784077836-L5Q3BIZS-5F04%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4NDA3NzgzNi1MNVEzQklaUy01RjA0&id=AU1D-0100-001784077836-L5Q3BIZS-5F04&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001784077836-L5Q3BIZS-5F04)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001784077836-L5Q3BIZS-5F04&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001784077836-L5Q3BIZS-5F04%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
 
 ================================================================================
 Page 43/43
@@ -10368,7 +10570,7 @@ Title: Paginate Button | GroupeZ Docs
 
 URL Source: http://docs.groupez.dev/zmenu/development/api-paginate-button
 
-Published Time: Mon, 13 Apr 2026 10:17:03 GMT
+Published Time: Tue, 14 Jul 2026 19:47:04 GMT
 
 Markdown Content:
 *   [](https://docs.groupez.dev/)
@@ -10489,4 +10691,4 @@ Display a fallback item when no items exist:
 *   [Best Practices](http://docs.groupez.dev/zmenu/development/api-paginate-button#best-practices)
 *   [Next Steps](http://docs.groupez.dev/zmenu/development/api-paginate-button#next-steps)
 
-![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001783991620-EE88SA8F-S4DA)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001783991620-EE88SA8F-S4DA&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001783991620-EE88SA8F-S4DA%26auid%3DAU1D-0100-001783991620-EE88SA8F-S4DA&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001783991620-EE88SA8F-S4DA&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001783991620-EE88SA8F-S4DA&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001783991620-EE88SA8F-S4DA&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001783991620-EE88SA8F-S4DA&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001783991620-EE88SA8F-S4DA%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4Mzk5MTYyMC1FRTg4U0E4Ri1TNERB&id=AU1D-0100-001783991620-EE88SA8F-S4DA&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001783991620-EE88SA8F-S4DA)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001783991620-EE88SA8F-S4DA&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001783991620-EE88SA8F-S4DA%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
+![Image 1](https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001784077847-YHA3X0OS-PONI)![Image 2](https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001784077847-YHA3X0OS-PONI&adnxs_id=$UID&gdpr=0)![Image 3](https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001784077847-YHA3X0OS-PONI%26auid%3DAU1D-0100-001784077847-YHA3X0OS-PONI&gdpr=0)![Image 4](https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001784077847-YHA3X0OS-PONI&gdpr=0)![Image 5](https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001784077847-YHA3X0OS-PONI&gdpr=0)![Image 6](https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001784077847-YHA3X0OS-PONI&gdpr=0)![Image 7](https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001784077847-YHA3X0OS-PONI&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001784077847-YHA3X0OS-PONI%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&gdpr=0)![Image 8](https://cm.g.doubleclick.net/pixel?google_cm&google_nid=audigent_dmp&google_hm=QVUxRC0wMTAwLTAwMTc4NDA3Nzg0Ny1ZSEEzWDBPUy1QT05J&id=AU1D-0100-001784077847-YHA3X0OS-PONI&gdpr=0)![Image 9](https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001784077847-YHA3X0OS-PONI)![Image 10](https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001784077847-YHA3X0OS-PONI&uid=[UID]&gdpr=0)![Image 11](https://ad.360yield.com/ux?&publisher_dmp_id=15&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001784077847-YHA3X0OS-PONI%26impr_uid%3D%7BPUB_USER_ID%7D&gdpr=0)
